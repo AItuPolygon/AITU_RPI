@@ -1,0 +1,151 @@
+
+tasks:
+  astana_lrt:
+    addr: 0x11
+    elements:
+      building1:
+        class: discrete
+        register: 0x10
+        description: Основное здание
+      streetlights1:
+        class: discrete
+        register: 0x11
+        description: Освещение улиц
+      tl1:
+        class: tl
+        register: 0x31
+        description: Светофор - 1
+
+  hospital:
+    addr: 0x14
+    elements:
+      building1:
+        class: discrete
+        register: 0x10
+        description: Основное здание
+      fire_alarm:
+        class: discrete
+        register: 0x11
+        description: Пожарка
+      fire:
+        class: discrete
+        register: 0x12
+        description: Пожар
+      fire_truck:
+        class: discrete
+        register: 0x13
+        description: Пожарная машина
+      barrier:
+        class: discrete
+        register: 0x14
+        description: Шлагбаум
+      siren:
+        class: discrete
+        register: 0x15
+        description: Включение сирены
+
+  business_center:
+    addr: 0x15
+    elements:
+      # No specific elements provided in the text, assuming placeholder
+      building1:
+        class: discrete
+        register: 0x10
+        description: Основное здание
+
+  government_complex:
+    addr: 0x16
+    elements:
+      building1:
+        class: discrete
+        register: 0x10
+        description: Основное здание 1
+      building2:
+        class: discrete
+        register: 0x11
+        description: Основное здание 2
+      building3:
+        class: discrete
+        register: 0x12
+        description: Доп здание 1
+      building4:
+        class: discrete
+        register: 0x13
+        description: Доп здание 2
+
+  water_pump:
+    addr: 0x12
+    elements:
+      pump1:
+        class: rangeGood
+        register: 0x20
+        description: Водокачка 1
+      pump2:
+        class: range
+        register: 0x21
+        description: Водокачка 2
+      pump3:
+        class: range
+        register: 0x22
+        description: Водокачка 3
+      building1:
+        class: discrete
+        register: 0x10
+        description: Основное здание
+      transfer_base:
+        class: discrete
+        register: 0x11
+        description: Перекачивающая база
+
+  sports_complex:
+    addr: 0x13
+    elements:
+      stadium_lights:
+        class: discrete
+        register: 0x10
+        description: Освещение стадиона
+      tl1:
+        class: tl
+        register: 0x31
+        description: Светофор - 1
+
+classes:
+  tl:
+    mode:
+      type: enum
+      required: true
+      values:
+        off:     0x00
+        auto:    0x01
+        service: 0x02
+        manual:  0x03
+    sn:
+      type: enum
+      required: false
+      values:
+        r: 0x80
+        y: 0x40
+        g: 0x20
+    ew:
+      type: enum
+      required: false
+      values:
+        r: 0x10
+        y: 0x08
+        g: 0x04
+
+  discrete:
+    value:
+      type: enum
+      required: true
+      values:
+        off: 0
+        on: 1
+        blink: 2
+
+  range:
+    value:
+      type: int
+      required: true
+      min: 0
+      max: 100

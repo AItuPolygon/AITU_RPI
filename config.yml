@@ -1,0 +1,16 @@
+app:
+  port: 8442
+  shutdown_timeout: 10s
+
+virtual:
+  addr: 192.168.140.38
+  port: 8070
+
+cert:
+  directory_path: cert
+  root_ca_path: cert/rootCA.crt
+  server:
+    public_key: cert/server.crt
+    private_key: cert/server.key
+tasks: ./tasks.yaml
+modbus: /dev/ttyS0

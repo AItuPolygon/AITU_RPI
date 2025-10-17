@@ -1,0 +1,561 @@
+openapi: 3.0.0
+info:
+  title: Generated API
+  version: 1.0.0
+paths:
+  /api/astana_lrt/building1:
+    get:
+      summary: Get information from /api/astana_lrt/building1
+      description: Основное здание
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema: &id001
+                $ref: '#/components/schemas/discrete'
+    post:
+      summary: Post data to /api/astana_lrt/building1
+      description: Основное здание
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: *id001
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema: *id001
+  /api/astana_lrt/streetlights1:
+    get:
+      summary: Get information from /api/astana_lrt/streetlights1
+      description: Освещение улиц
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema: &id002
+                $ref: '#/components/schemas/discrete'
+    post:
+      summary: Post data to /api/astana_lrt/streetlights1
+      description: Освещение улиц
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: *id002
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema: *id002
+  /api/astana_lrt/tl1:
+    get:
+      summary: Get information from /api/astana_lrt/tl1
+      description: Светофор - 1
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema: &id003
+                $ref: '#/components/schemas/tl'
+    post:
+      summary: Post data to /api/astana_lrt/tl1
+      description: Светофор - 1
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: *id003
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema: *id003
+  /api/hospital/building1:
+    get:
+      summary: Get information from /api/hospital/building1
+      description: Основное здание
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema: &id004
+                $ref: '#/components/schemas/discrete'
+    post:
+      summary: Post data to /api/hospital/building1
+      description: Основное здание
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: *id004
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema: *id004
+  /api/hospital/fire_alarm:
+    get:
+      summary: Get information from /api/hospital/fire_alarm
+      description: Пожарка
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema: &id005
+                $ref: '#/components/schemas/discrete'
+    post:
+      summary: Post data to /api/hospital/fire_alarm
+      description: Пожарка
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: *id005
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema: *id005
+  /api/hospital/fire:
+    get:
+      summary: Get information from /api/hospital/fire
+      description: Пожар
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema: &id006
+                $ref: '#/components/schemas/discrete'
+    post:
+      summary: Post data to /api/hospital/fire
+      description: Пожар
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: *id006
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema: *id006
+  /api/hospital/fire_truck:
+    get:
+      summary: Get information from /api/hospital/fire_truck
+      description: Пожарная машина
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema: &id007
+                $ref: '#/components/schemas/discrete'
+    post:
+      summary: Post data to /api/hospital/fire_truck
+      description: Пожарная машина
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: *id007
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema: *id007
+  /api/hospital/barrier:
+    get:
+      summary: Get information from /api/hospital/barrier
+      description: Шлагбаум
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema: &id008
+                $ref: '#/components/schemas/discrete'
+    post:
+      summary: Post data to /api/hospital/barrier
+      description: Шлагбаум
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: *id008
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema: *id008
+  /api/hospital/siren:
+    get:
+      summary: Get information from /api/hospital/siren
+      description: Включение сирены
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema: &id009
+                $ref: '#/components/schemas/discrete'
+    post:
+      summary: Post data to /api/hospital/siren
+      description: Включение сирены
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: *id009
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema: *id009
+  /api/business_center/building1:
+    get:
+      summary: Get information from /api/business_center/building1
+      description: Основное здание
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema: &id010
+                $ref: '#/components/schemas/discrete'
+    post:
+      summary: Post data to /api/business_center/building1
+      description: Основное здание
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: *id010
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema: *id010
+  /api/government_complex/building1:
+    get:
+      summary: Get information from /api/government_complex/building1
+      description: Основное здание 1
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema: &id011
+                $ref: '#/components/schemas/discrete'
+    post:
+      summary: Post data to /api/government_complex/building1
+      description: Основное здание 1
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: *id011
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema: *id011
+  /api/government_complex/building2:
+    get:
+      summary: Get information from /api/government_complex/building2
+      description: Основное здание 2
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema: &id012
+                $ref: '#/components/schemas/discrete'
+    post:
+      summary: Post data to /api/government_complex/building2
+      description: Основное здание 2
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: *id012
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema: *id012
+  /api/government_complex/building3:
+    get:
+      summary: Get information from /api/government_complex/building3
+      description: Доп здание 1
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema: &id013
+                $ref: '#/components/schemas/discrete'
+    post:
+      summary: Post data to /api/government_complex/building3
+      description: Доп здание 1
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: *id013
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema: *id013
+  /api/government_complex/building4:
+    get:
+      summary: Get information from /api/government_complex/building4
+      description: Доп здание 2
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema: &id014
+                $ref: '#/components/schemas/discrete'
+    post:
+      summary: Post data to /api/government_complex/building4
+      description: Доп здание 2
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: *id014
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema: *id014
+  /api/water_pump/pump2:
+    get:
+      summary: Get information from /api/water_pump/pump2
+      description: Водокачка 2
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema: &id015
+                $ref: '#/components/schemas/range'
+    post:
+      summary: Post data to /api/water_pump/pump2
+      description: Водокачка 2
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: *id015
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema: *id015
+  /api/water_pump/pump3:
+    get:
+      summary: Get information from /api/water_pump/pump3
+      description: Водокачка 3
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema: &id016
+                $ref: '#/components/schemas/range'
+    post:
+      summary: Post data to /api/water_pump/pump3
+      description: Водокачка 3
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: *id016
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema: *id016
+  /api/water_pump/building1:
+    get:
+      summary: Get information from /api/water_pump/building1
+      description: Основное здание
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema: &id017
+                $ref: '#/components/schemas/discrete'
+    post:
+      summary: Post data to /api/water_pump/building1
+      description: Основное здание
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: *id017
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema: *id017
+  /api/water_pump/transfer_base:
+    get:
+      summary: Get information from /api/water_pump/transfer_base
+      description: Перекачивающая база
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema: &id018
+                $ref: '#/components/schemas/discrete'
+    post:
+      summary: Post data to /api/water_pump/transfer_base
+      description: Перекачивающая база
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: *id018
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema: *id018
+  /api/sports_complex/stadium_lights:
+    get:
+      summary: Get information from /api/sports_complex/stadium_lights
+      description: Освещение стадиона
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema: &id019
+                $ref: '#/components/schemas/discrete'
+    post:
+      summary: Post data to /api/sports_complex/stadium_lights
+      description: Освещение стадиона
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: *id019
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema: *id019
+  /api/sports_complex/tl1:
+    get:
+      summary: Get information from /api/sports_complex/tl1
+      description: Светофор - 1
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema: &id020
+                $ref: '#/components/schemas/tl'
+    post:
+      summary: Post data to /api/sports_complex/tl1
+      description: Светофор - 1
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: *id020
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema: *id020
+components:
+  schemas:
+    tl:
+      type: object
+      properties:
+        mode:
+          type: string
+          enum:
+          - 'off'
+          - auto
+          - service
+          - manual
+          x-oapi-codegen-extra-tags:
+            binding: required,oneof=off,auto,service,manual
+        sn:
+          type: string
+          enum:
+          - r
+          - y
+          - g
+          x-oapi-codegen-extra-tags:
+            binding: required,oneof=r,y,g
+        ew:
+          type: string
+          enum:
+          - r
+          - y
+          - g
+          x-oapi-codegen-extra-tags:
+            binding: required,oneof=r,y,g
+      required:
+      - mode
+    discrete:
+      type: object
+      properties:
+        value:
+          type: string
+          enum:
+          - 'off'
+          - 'on'
+          - blink
+          x-oapi-codegen-extra-tags:
+            binding: required,oneof=off,on,blink
+      required:
+      - value
+    range:
+      type: object
+      properties:
+        value:
+          type: integer
+          minimum: 0
+          maximum: 100
+          x-oapi-codegen-extra-tags:
+            binding: required,gte=0,lte=100
+      required:
+      - value
