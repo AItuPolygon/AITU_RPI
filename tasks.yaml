@@ -1,4 +1,3 @@
-
 tasks:
   astana_lrt:
     addr: 0x11
@@ -15,6 +14,26 @@ tasks:
         class: tl
         register: 0x31
         description: Светофор - 1
+      tl0:
+        class: tl
+        register: 0x30
+        description: Светофор - 1
+      rgb_r:
+        class: discrete
+        register: 0x00
+        description: Вкл/Выкл красного цвета подсветки
+      rgb_g:
+        class: discrete
+        register: 0x01
+        description: Вкл/Выкл зеленного цвета подсветки
+      rgb_b:
+        class: discrete
+        register: 0x02
+        description: Вкл/Выкл синего цвета подсветки
+      rgb_alert:
+        class: discrete
+        register: 0x80
+        description: Вкл/выкл режима тревоги на подсветке
 
   hospital:
     addr: 0x14
@@ -27,14 +46,6 @@ tasks:
         class: discrete
         register: 0x11
         description: Пожарка
-      fire:
-        class: discrete
-        register: 0x12
-        description: Пожар
-      fire_truck:
-        class: discrete
-        register: 0x13
-        description: Пожарная машина
       barrier:
         class: discrete
         register: 0x14
@@ -43,15 +54,46 @@ tasks:
         class: discrete
         register: 0x15
         description: Включение сирены
+      rgb_r:
+        class: discrete
+        register: 0x00
+        description: Вкл/Выкл красного цвета подсветки
+      rgb_g:
+        class: discrete
+        register: 0x01
+        description: Вкл/Выкл зеленного цвета подсветки
+      rgb_b:
+        class: discrete
+        register: 0x02
+        description: Вкл/Выкл синего цвета подсветки
+      rgb_alert:
+        class: discrete
+        register: 0x80
+        description: Вкл/выкл режима тревоги на подсветке
 
   business_center:
     addr: 0x15
     elements:
-      # No specific elements provided in the text, assuming placeholder
       building1:
         class: discrete
         register: 0x10
         description: Основное здание
+      rgb_r:
+        class: discrete
+        register: 0x00
+        description: Вкл/Выкл красного цвета подсветки
+      rgb_g:
+        class: discrete
+        register: 0x01
+        description: Вкл/Выкл зеленного цвета подсветки
+      rgb_b:
+        class: discrete
+        register: 0x02
+        description: Вкл/Выкл синего цвета подсветки
+      rgb_alert:
+        class: discrete
+        register: 0x80
+        description: Вкл/выкл режима тревоги на подсветке
 
   government_complex:
     addr: 0x16
@@ -72,6 +114,38 @@ tasks:
         class: discrete
         register: 0x13
         description: Доп здание 2
+      building5:
+        class: discrete
+        register: 0x14
+        description: Доп здание 3
+      building6:
+        class: discrete
+        register: 0x15
+        description: Доп здание 4
+      building7:
+        class: discrete
+        register: 0x16
+        description: Доп здание 5
+      building8:
+        class: discrete
+        register: 0x17
+        description: Доп здание 6
+      rgb_r:
+        class: discrete
+        register: 0x00
+        description: Вкл/Выкл красного цвета подсветки
+      rgb_g:
+        class: discrete
+        register: 0x01
+        description: Вкл/Выкл зеленного цвета подсветки
+      rgb_b:
+        class: discrete
+        register: 0x02
+        description: Вкл/Выкл синего цвета подсветки
+      rgb_alert:
+        class: discrete
+        register: 0x80
+        description: Вкл/выкл режима тревоги на подсветке
 
   water_pump:
     addr: 0x12
@@ -92,22 +166,58 @@ tasks:
         class: discrete
         register: 0x10
         description: Основное здание
-      transfer_base:
+      rgb_r:
         class: discrete
-        register: 0x11
-        description: Перекачивающая база
+        register: 0x00
+        description: Вкл/Выкл красного цвета подсветки
+      rgb_g:
+        class: discrete
+        register: 0x01
+        description: Вкл/Выкл зеленного цвета подсветки
+      rgb_b:
+        class: discrete
+        register: 0x02
+        description: Вкл/Выкл синего цвета подсветки
+      rgb_alert:
+        class: discrete
+        register: 0x80
+        description: Вкл/выкл режима тревоги на подсветке
 
   sports_complex:
     addr: 0x13
     elements:
       stadium_lights:
         class: discrete
-        register: 0x10
+        register: 0x11
         description: Освещение стадиона
+      streetlights1:
+        class: discrete
+        register: 0x12
+        description: Освещение улиц
       tl1:
         class: tl
         register: 0x31
         description: Светофор - 1
+      tl0:
+        class: tl
+        register: 0x30
+        description: Светофор - 1
+      rgb_r:
+        class: discrete
+        register: 0x00
+        description: Вкл/Выкл красного цвета подсветки
+      rgb_g:
+        class: discrete
+        register: 0x01
+        description: Вкл/Выкл зеленного цвета подсветки
+      rgb_b:
+        class: discrete
+        register: 0x02
+        description: Вкл/Выкл синего цвета подсветки
+      rgb_alert:
+        class: discrete
+        register: 0x80
+        description: Вкл/выкл режима тревоги на подсветке
 
 classes:
   tl:

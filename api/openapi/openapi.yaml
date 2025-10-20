@@ -78,20 +78,20 @@ paths:
           content:
             application/json:
               schema: *id003
-  /api/hospital/building1:
+  /api/astana_lrt/tl0:
     get:
-      summary: Get information from /api/hospital/building1
-      description: Основное здание
+      summary: Get information from /api/astana_lrt/tl0
+      description: Светофор - 1
       responses:
         '200':
           description: Successful response
           content:
             application/json:
               schema: &id004
-                $ref: '#/components/schemas/discrete'
+                $ref: '#/components/schemas/tl'
     post:
-      summary: Post data to /api/hospital/building1
-      description: Основное здание
+      summary: Post data to /api/astana_lrt/tl0
+      description: Светофор - 1
       requestBody:
         required: true
         content:
@@ -103,10 +103,10 @@ paths:
           content:
             application/json:
               schema: *id004
-  /api/hospital/fire_alarm:
+  /api/astana_lrt/rgb_r:
     get:
-      summary: Get information from /api/hospital/fire_alarm
-      description: Пожарка
+      summary: Get information from /api/astana_lrt/rgb_r
+      description: Вкл/Выкл красного цвета подсветки
       responses:
         '200':
           description: Successful response
@@ -115,8 +115,8 @@ paths:
               schema: &id005
                 $ref: '#/components/schemas/discrete'
     post:
-      summary: Post data to /api/hospital/fire_alarm
-      description: Пожарка
+      summary: Post data to /api/astana_lrt/rgb_r
+      description: Вкл/Выкл красного цвета подсветки
       requestBody:
         required: true
         content:
@@ -128,10 +128,10 @@ paths:
           content:
             application/json:
               schema: *id005
-  /api/hospital/fire:
+  /api/astana_lrt/rgb_g:
     get:
-      summary: Get information from /api/hospital/fire
-      description: Пожар
+      summary: Get information from /api/astana_lrt/rgb_g
+      description: Вкл/Выкл зеленного цвета подсветки
       responses:
         '200':
           description: Successful response
@@ -140,8 +140,8 @@ paths:
               schema: &id006
                 $ref: '#/components/schemas/discrete'
     post:
-      summary: Post data to /api/hospital/fire
-      description: Пожар
+      summary: Post data to /api/astana_lrt/rgb_g
+      description: Вкл/Выкл зеленного цвета подсветки
       requestBody:
         required: true
         content:
@@ -153,10 +153,10 @@ paths:
           content:
             application/json:
               schema: *id006
-  /api/hospital/fire_truck:
+  /api/astana_lrt/rgb_b:
     get:
-      summary: Get information from /api/hospital/fire_truck
-      description: Пожарная машина
+      summary: Get information from /api/astana_lrt/rgb_b
+      description: Вкл/Выкл синего цвета подсветки
       responses:
         '200':
           description: Successful response
@@ -165,8 +165,8 @@ paths:
               schema: &id007
                 $ref: '#/components/schemas/discrete'
     post:
-      summary: Post data to /api/hospital/fire_truck
-      description: Пожарная машина
+      summary: Post data to /api/astana_lrt/rgb_b
+      description: Вкл/Выкл синего цвета подсветки
       requestBody:
         required: true
         content:
@@ -178,10 +178,10 @@ paths:
           content:
             application/json:
               schema: *id007
-  /api/hospital/barrier:
+  /api/astana_lrt/rgb_alert:
     get:
-      summary: Get information from /api/hospital/barrier
-      description: Шлагбаум
+      summary: Get information from /api/astana_lrt/rgb_alert
+      description: Вкл/выкл режима тревоги на подсветке
       responses:
         '200':
           description: Successful response
@@ -190,8 +190,8 @@ paths:
               schema: &id008
                 $ref: '#/components/schemas/discrete'
     post:
-      summary: Post data to /api/hospital/barrier
-      description: Шлагбаум
+      summary: Post data to /api/astana_lrt/rgb_alert
+      description: Вкл/выкл режима тревоги на подсветке
       requestBody:
         required: true
         content:
@@ -203,10 +203,10 @@ paths:
           content:
             application/json:
               schema: *id008
-  /api/hospital/siren:
+  /api/hospital/building1:
     get:
-      summary: Get information from /api/hospital/siren
-      description: Включение сирены
+      summary: Get information from /api/hospital/building1
+      description: Основное здание
       responses:
         '200':
           description: Successful response
@@ -215,8 +215,8 @@ paths:
               schema: &id009
                 $ref: '#/components/schemas/discrete'
     post:
-      summary: Post data to /api/hospital/siren
-      description: Включение сирены
+      summary: Post data to /api/hospital/building1
+      description: Основное здание
       requestBody:
         required: true
         content:
@@ -228,10 +228,10 @@ paths:
           content:
             application/json:
               schema: *id009
-  /api/business_center/building1:
+  /api/hospital/fire_alarm:
     get:
-      summary: Get information from /api/business_center/building1
-      description: Основное здание
+      summary: Get information from /api/hospital/fire_alarm
+      description: Пожарка
       responses:
         '200':
           description: Successful response
@@ -240,8 +240,8 @@ paths:
               schema: &id010
                 $ref: '#/components/schemas/discrete'
     post:
-      summary: Post data to /api/business_center/building1
-      description: Основное здание
+      summary: Post data to /api/hospital/fire_alarm
+      description: Пожарка
       requestBody:
         required: true
         content:
@@ -253,10 +253,10 @@ paths:
           content:
             application/json:
               schema: *id010
-  /api/government_complex/building1:
+  /api/hospital/barrier:
     get:
-      summary: Get information from /api/government_complex/building1
-      description: Основное здание 1
+      summary: Get information from /api/hospital/barrier
+      description: Шлагбаум
       responses:
         '200':
           description: Successful response
@@ -265,8 +265,8 @@ paths:
               schema: &id011
                 $ref: '#/components/schemas/discrete'
     post:
-      summary: Post data to /api/government_complex/building1
-      description: Основное здание 1
+      summary: Post data to /api/hospital/barrier
+      description: Шлагбаум
       requestBody:
         required: true
         content:
@@ -278,10 +278,10 @@ paths:
           content:
             application/json:
               schema: *id011
-  /api/government_complex/building2:
+  /api/hospital/siren:
     get:
-      summary: Get information from /api/government_complex/building2
-      description: Основное здание 2
+      summary: Get information from /api/hospital/siren
+      description: Включение сирены
       responses:
         '200':
           description: Successful response
@@ -290,8 +290,8 @@ paths:
               schema: &id012
                 $ref: '#/components/schemas/discrete'
     post:
-      summary: Post data to /api/government_complex/building2
-      description: Основное здание 2
+      summary: Post data to /api/hospital/siren
+      description: Включение сирены
       requestBody:
         required: true
         content:
@@ -303,10 +303,10 @@ paths:
           content:
             application/json:
               schema: *id012
-  /api/government_complex/building3:
+  /api/hospital/rgb_r:
     get:
-      summary: Get information from /api/government_complex/building3
-      description: Доп здание 1
+      summary: Get information from /api/hospital/rgb_r
+      description: Вкл/Выкл красного цвета подсветки
       responses:
         '200':
           description: Successful response
@@ -315,8 +315,8 @@ paths:
               schema: &id013
                 $ref: '#/components/schemas/discrete'
     post:
-      summary: Post data to /api/government_complex/building3
-      description: Доп здание 1
+      summary: Post data to /api/hospital/rgb_r
+      description: Вкл/Выкл красного цвета подсветки
       requestBody:
         required: true
         content:
@@ -328,10 +328,10 @@ paths:
           content:
             application/json:
               schema: *id013
-  /api/government_complex/building4:
+  /api/hospital/rgb_g:
     get:
-      summary: Get information from /api/government_complex/building4
-      description: Доп здание 2
+      summary: Get information from /api/hospital/rgb_g
+      description: Вкл/Выкл зеленного цвета подсветки
       responses:
         '200':
           description: Successful response
@@ -340,8 +340,8 @@ paths:
               schema: &id014
                 $ref: '#/components/schemas/discrete'
     post:
-      summary: Post data to /api/government_complex/building4
-      description: Доп здание 2
+      summary: Post data to /api/hospital/rgb_g
+      description: Вкл/Выкл зеленного цвета подсветки
       requestBody:
         required: true
         content:
@@ -353,20 +353,20 @@ paths:
           content:
             application/json:
               schema: *id014
-  /api/water_pump/pump2:
+  /api/hospital/rgb_b:
     get:
-      summary: Get information from /api/water_pump/pump2
-      description: Водокачка 2
+      summary: Get information from /api/hospital/rgb_b
+      description: Вкл/Выкл синего цвета подсветки
       responses:
         '200':
           description: Successful response
           content:
             application/json:
               schema: &id015
-                $ref: '#/components/schemas/range'
+                $ref: '#/components/schemas/discrete'
     post:
-      summary: Post data to /api/water_pump/pump2
-      description: Водокачка 2
+      summary: Post data to /api/hospital/rgb_b
+      description: Вкл/Выкл синего цвета подсветки
       requestBody:
         required: true
         content:
@@ -378,20 +378,20 @@ paths:
           content:
             application/json:
               schema: *id015
-  /api/water_pump/pump3:
+  /api/hospital/rgb_alert:
     get:
-      summary: Get information from /api/water_pump/pump3
-      description: Водокачка 3
+      summary: Get information from /api/hospital/rgb_alert
+      description: Вкл/выкл режима тревоги на подсветке
       responses:
         '200':
           description: Successful response
           content:
             application/json:
               schema: &id016
-                $ref: '#/components/schemas/range'
+                $ref: '#/components/schemas/discrete'
     post:
-      summary: Post data to /api/water_pump/pump3
-      description: Водокачка 3
+      summary: Post data to /api/hospital/rgb_alert
+      description: Вкл/выкл режима тревоги на подсветке
       requestBody:
         required: true
         content:
@@ -403,9 +403,9 @@ paths:
           content:
             application/json:
               schema: *id016
-  /api/water_pump/building1:
+  /api/business_center/building1:
     get:
-      summary: Get information from /api/water_pump/building1
+      summary: Get information from /api/business_center/building1
       description: Основное здание
       responses:
         '200':
@@ -415,7 +415,7 @@ paths:
               schema: &id017
                 $ref: '#/components/schemas/discrete'
     post:
-      summary: Post data to /api/water_pump/building1
+      summary: Post data to /api/business_center/building1
       description: Основное здание
       requestBody:
         required: true
@@ -428,10 +428,10 @@ paths:
           content:
             application/json:
               schema: *id017
-  /api/water_pump/transfer_base:
+  /api/business_center/rgb_r:
     get:
-      summary: Get information from /api/water_pump/transfer_base
-      description: Перекачивающая база
+      summary: Get information from /api/business_center/rgb_r
+      description: Вкл/Выкл красного цвета подсветки
       responses:
         '200':
           description: Successful response
@@ -440,8 +440,8 @@ paths:
               schema: &id018
                 $ref: '#/components/schemas/discrete'
     post:
-      summary: Post data to /api/water_pump/transfer_base
-      description: Перекачивающая база
+      summary: Post data to /api/business_center/rgb_r
+      description: Вкл/Выкл красного цвета подсветки
       requestBody:
         required: true
         content:
@@ -453,10 +453,10 @@ paths:
           content:
             application/json:
               schema: *id018
-  /api/sports_complex/stadium_lights:
+  /api/business_center/rgb_g:
     get:
-      summary: Get information from /api/sports_complex/stadium_lights
-      description: Освещение стадиона
+      summary: Get information from /api/business_center/rgb_g
+      description: Вкл/Выкл зеленного цвета подсветки
       responses:
         '200':
           description: Successful response
@@ -465,8 +465,8 @@ paths:
               schema: &id019
                 $ref: '#/components/schemas/discrete'
     post:
-      summary: Post data to /api/sports_complex/stadium_lights
-      description: Освещение стадиона
+      summary: Post data to /api/business_center/rgb_g
+      description: Вкл/Выкл зеленного цвета подсветки
       requestBody:
         required: true
         content:
@@ -478,20 +478,20 @@ paths:
           content:
             application/json:
               schema: *id019
-  /api/sports_complex/tl1:
+  /api/business_center/rgb_b:
     get:
-      summary: Get information from /api/sports_complex/tl1
-      description: Светофор - 1
+      summary: Get information from /api/business_center/rgb_b
+      description: Вкл/Выкл синего цвета подсветки
       responses:
         '200':
           description: Successful response
           content:
             application/json:
               schema: &id020
-                $ref: '#/components/schemas/tl'
+                $ref: '#/components/schemas/discrete'
     post:
-      summary: Post data to /api/sports_complex/tl1
-      description: Светофор - 1
+      summary: Post data to /api/business_center/rgb_b
+      description: Вкл/Выкл синего цвета подсветки
       requestBody:
         required: true
         content:
@@ -503,6 +503,706 @@ paths:
           content:
             application/json:
               schema: *id020
+  /api/business_center/rgb_alert:
+    get:
+      summary: Get information from /api/business_center/rgb_alert
+      description: Вкл/выкл режима тревоги на подсветке
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema: &id021
+                $ref: '#/components/schemas/discrete'
+    post:
+      summary: Post data to /api/business_center/rgb_alert
+      description: Вкл/выкл режима тревоги на подсветке
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: *id021
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema: *id021
+  /api/government_complex/building1:
+    get:
+      summary: Get information from /api/government_complex/building1
+      description: Основное здание 1
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema: &id022
+                $ref: '#/components/schemas/discrete'
+    post:
+      summary: Post data to /api/government_complex/building1
+      description: Основное здание 1
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: *id022
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema: *id022
+  /api/government_complex/building2:
+    get:
+      summary: Get information from /api/government_complex/building2
+      description: Основное здание 2
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema: &id023
+                $ref: '#/components/schemas/discrete'
+    post:
+      summary: Post data to /api/government_complex/building2
+      description: Основное здание 2
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: *id023
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema: *id023
+  /api/government_complex/building3:
+    get:
+      summary: Get information from /api/government_complex/building3
+      description: Доп здание 1
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema: &id024
+                $ref: '#/components/schemas/discrete'
+    post:
+      summary: Post data to /api/government_complex/building3
+      description: Доп здание 1
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: *id024
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema: *id024
+  /api/government_complex/building4:
+    get:
+      summary: Get information from /api/government_complex/building4
+      description: Доп здание 2
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema: &id025
+                $ref: '#/components/schemas/discrete'
+    post:
+      summary: Post data to /api/government_complex/building4
+      description: Доп здание 2
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: *id025
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema: *id025
+  /api/government_complex/building5:
+    get:
+      summary: Get information from /api/government_complex/building5
+      description: Доп здание 3
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema: &id026
+                $ref: '#/components/schemas/discrete'
+    post:
+      summary: Post data to /api/government_complex/building5
+      description: Доп здание 3
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: *id026
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema: *id026
+  /api/government_complex/building6:
+    get:
+      summary: Get information from /api/government_complex/building6
+      description: Доп здание 4
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema: &id027
+                $ref: '#/components/schemas/discrete'
+    post:
+      summary: Post data to /api/government_complex/building6
+      description: Доп здание 4
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: *id027
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema: *id027
+  /api/government_complex/building7:
+    get:
+      summary: Get information from /api/government_complex/building7
+      description: Доп здание 5
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema: &id028
+                $ref: '#/components/schemas/discrete'
+    post:
+      summary: Post data to /api/government_complex/building7
+      description: Доп здание 5
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: *id028
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema: *id028
+  /api/government_complex/building8:
+    get:
+      summary: Get information from /api/government_complex/building8
+      description: Доп здание 6
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema: &id029
+                $ref: '#/components/schemas/discrete'
+    post:
+      summary: Post data to /api/government_complex/building8
+      description: Доп здание 6
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: *id029
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema: *id029
+  /api/government_complex/rgb_r:
+    get:
+      summary: Get information from /api/government_complex/rgb_r
+      description: Вкл/Выкл красного цвета подсветки
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema: &id030
+                $ref: '#/components/schemas/discrete'
+    post:
+      summary: Post data to /api/government_complex/rgb_r
+      description: Вкл/Выкл красного цвета подсветки
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: *id030
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema: *id030
+  /api/government_complex/rgb_g:
+    get:
+      summary: Get information from /api/government_complex/rgb_g
+      description: Вкл/Выкл зеленного цвета подсветки
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema: &id031
+                $ref: '#/components/schemas/discrete'
+    post:
+      summary: Post data to /api/government_complex/rgb_g
+      description: Вкл/Выкл зеленного цвета подсветки
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: *id031
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema: *id031
+  /api/government_complex/rgb_b:
+    get:
+      summary: Get information from /api/government_complex/rgb_b
+      description: Вкл/Выкл синего цвета подсветки
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema: &id032
+                $ref: '#/components/schemas/discrete'
+    post:
+      summary: Post data to /api/government_complex/rgb_b
+      description: Вкл/Выкл синего цвета подсветки
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: *id032
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema: *id032
+  /api/government_complex/rgb_alert:
+    get:
+      summary: Get information from /api/government_complex/rgb_alert
+      description: Вкл/выкл режима тревоги на подсветке
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema: &id033
+                $ref: '#/components/schemas/discrete'
+    post:
+      summary: Post data to /api/government_complex/rgb_alert
+      description: Вкл/выкл режима тревоги на подсветке
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: *id033
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema: *id033
+  /api/water_pump/pump2:
+    get:
+      summary: Get information from /api/water_pump/pump2
+      description: Водокачка 2
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema: &id034
+                $ref: '#/components/schemas/range'
+    post:
+      summary: Post data to /api/water_pump/pump2
+      description: Водокачка 2
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: *id034
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema: *id034
+  /api/water_pump/pump3:
+    get:
+      summary: Get information from /api/water_pump/pump3
+      description: Водокачка 3
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema: &id035
+                $ref: '#/components/schemas/range'
+    post:
+      summary: Post data to /api/water_pump/pump3
+      description: Водокачка 3
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: *id035
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema: *id035
+  /api/water_pump/building1:
+    get:
+      summary: Get information from /api/water_pump/building1
+      description: Основное здание
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema: &id036
+                $ref: '#/components/schemas/discrete'
+    post:
+      summary: Post data to /api/water_pump/building1
+      description: Основное здание
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: *id036
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema: *id036
+  /api/water_pump/rgb_r:
+    get:
+      summary: Get information from /api/water_pump/rgb_r
+      description: Вкл/Выкл красного цвета подсветки
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema: &id037
+                $ref: '#/components/schemas/discrete'
+    post:
+      summary: Post data to /api/water_pump/rgb_r
+      description: Вкл/Выкл красного цвета подсветки
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: *id037
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema: *id037
+  /api/water_pump/rgb_g:
+    get:
+      summary: Get information from /api/water_pump/rgb_g
+      description: Вкл/Выкл зеленного цвета подсветки
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema: &id038
+                $ref: '#/components/schemas/discrete'
+    post:
+      summary: Post data to /api/water_pump/rgb_g
+      description: Вкл/Выкл зеленного цвета подсветки
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: *id038
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema: *id038
+  /api/water_pump/rgb_b:
+    get:
+      summary: Get information from /api/water_pump/rgb_b
+      description: Вкл/Выкл синего цвета подсветки
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema: &id039
+                $ref: '#/components/schemas/discrete'
+    post:
+      summary: Post data to /api/water_pump/rgb_b
+      description: Вкл/Выкл синего цвета подсветки
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: *id039
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema: *id039
+  /api/water_pump/rgb_alert:
+    get:
+      summary: Get information from /api/water_pump/rgb_alert
+      description: Вкл/выкл режима тревоги на подсветке
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema: &id040
+                $ref: '#/components/schemas/discrete'
+    post:
+      summary: Post data to /api/water_pump/rgb_alert
+      description: Вкл/выкл режима тревоги на подсветке
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: *id040
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema: *id040
+  /api/sports_complex/stadium_lights:
+    get:
+      summary: Get information from /api/sports_complex/stadium_lights
+      description: Освещение стадиона
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema: &id041
+                $ref: '#/components/schemas/discrete'
+    post:
+      summary: Post data to /api/sports_complex/stadium_lights
+      description: Освещение стадиона
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: *id041
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema: *id041
+  /api/sports_complex/streetlights1:
+    get:
+      summary: Get information from /api/sports_complex/streetlights1
+      description: Освещение улиц
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema: &id042
+                $ref: '#/components/schemas/discrete'
+    post:
+      summary: Post data to /api/sports_complex/streetlights1
+      description: Освещение улиц
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: *id042
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema: *id042
+  /api/sports_complex/tl1:
+    get:
+      summary: Get information from /api/sports_complex/tl1
+      description: Светофор - 1
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema: &id043
+                $ref: '#/components/schemas/tl'
+    post:
+      summary: Post data to /api/sports_complex/tl1
+      description: Светофор - 1
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: *id043
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema: *id043
+  /api/sports_complex/tl0:
+    get:
+      summary: Get information from /api/sports_complex/tl0
+      description: Светофор - 1
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema: &id044
+                $ref: '#/components/schemas/tl'
+    post:
+      summary: Post data to /api/sports_complex/tl0
+      description: Светофор - 1
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: *id044
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema: *id044
+  /api/sports_complex/rgb_r:
+    get:
+      summary: Get information from /api/sports_complex/rgb_r
+      description: Вкл/Выкл красного цвета подсветки
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema: &id045
+                $ref: '#/components/schemas/discrete'
+    post:
+      summary: Post data to /api/sports_complex/rgb_r
+      description: Вкл/Выкл красного цвета подсветки
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: *id045
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema: *id045
+  /api/sports_complex/rgb_g:
+    get:
+      summary: Get information from /api/sports_complex/rgb_g
+      description: Вкл/Выкл зеленного цвета подсветки
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema: &id046
+                $ref: '#/components/schemas/discrete'
+    post:
+      summary: Post data to /api/sports_complex/rgb_g
+      description: Вкл/Выкл зеленного цвета подсветки
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: *id046
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema: *id046
+  /api/sports_complex/rgb_b:
+    get:
+      summary: Get information from /api/sports_complex/rgb_b
+      description: Вкл/Выкл синего цвета подсветки
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema: &id047
+                $ref: '#/components/schemas/discrete'
+    post:
+      summary: Post data to /api/sports_complex/rgb_b
+      description: Вкл/Выкл синего цвета подсветки
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: *id047
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema: *id047
+  /api/sports_complex/rgb_alert:
+    get:
+      summary: Get information from /api/sports_complex/rgb_alert
+      description: Вкл/выкл режима тревоги на подсветке
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema: &id048
+                $ref: '#/components/schemas/discrete'
+    post:
+      summary: Post data to /api/sports_complex/rgb_alert
+      description: Вкл/выкл режима тревоги на подсветке
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: *id048
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema: *id048
 components:
   schemas:
     tl:

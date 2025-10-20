@@ -30,6 +30,54 @@ func (s *Server) PostApiAstanaLrtBuilding1(ctx context.Context, request PostApiA
     return PostApiAstanaLrtBuilding1200JSONResponse{}, nil
 }
 
+// PostApiAstanaLrtRgbAlert operation middleware
+
+// (POST )
+func (s *Server) PostApiAstanaLrtRgbAlert(ctx context.Context, request PostApiAstanaLrtRgbAlertRequestObject) (PostApiAstanaLrtRgbAlertResponseObject, error) {
+    s.app.processCommand(
+        ctx.Value(TaskKey).(string),
+        ctx.Value(ElementKey).(string),
+        *request.Body,
+    )
+    return PostApiAstanaLrtRgbAlert200JSONResponse{}, nil
+}
+
+// PostApiAstanaLrtRgbB operation middleware
+
+// (POST )
+func (s *Server) PostApiAstanaLrtRgbB(ctx context.Context, request PostApiAstanaLrtRgbBRequestObject) (PostApiAstanaLrtRgbBResponseObject, error) {
+    s.app.processCommand(
+        ctx.Value(TaskKey).(string),
+        ctx.Value(ElementKey).(string),
+        *request.Body,
+    )
+    return PostApiAstanaLrtRgbB200JSONResponse{}, nil
+}
+
+// PostApiAstanaLrtRgbG operation middleware
+
+// (POST )
+func (s *Server) PostApiAstanaLrtRgbG(ctx context.Context, request PostApiAstanaLrtRgbGRequestObject) (PostApiAstanaLrtRgbGResponseObject, error) {
+    s.app.processCommand(
+        ctx.Value(TaskKey).(string),
+        ctx.Value(ElementKey).(string),
+        *request.Body,
+    )
+    return PostApiAstanaLrtRgbG200JSONResponse{}, nil
+}
+
+// PostApiAstanaLrtRgbR operation middleware
+
+// (POST )
+func (s *Server) PostApiAstanaLrtRgbR(ctx context.Context, request PostApiAstanaLrtRgbRRequestObject) (PostApiAstanaLrtRgbRResponseObject, error) {
+    s.app.processCommand(
+        ctx.Value(TaskKey).(string),
+        ctx.Value(ElementKey).(string),
+        *request.Body,
+    )
+    return PostApiAstanaLrtRgbR200JSONResponse{}, nil
+}
+
 // PostApiAstanaLrtStreetlights1 operation middleware
 
 // (POST )
@@ -40,6 +88,18 @@ func (s *Server) PostApiAstanaLrtStreetlights1(ctx context.Context, request Post
         *request.Body,
     )
     return PostApiAstanaLrtStreetlights1200JSONResponse{}, nil
+}
+
+// PostApiAstanaLrtTl0 operation middleware
+
+// (POST )
+func (s *Server) PostApiAstanaLrtTl0(ctx context.Context, request PostApiAstanaLrtTl0RequestObject) (PostApiAstanaLrtTl0ResponseObject, error) {
+    s.app.processCommand(
+        ctx.Value(TaskKey).(string),
+        ctx.Value(ElementKey).(string),
+        *request.Body,
+    )
+    return PostApiAstanaLrtTl0200JSONResponse{}, nil
 }
 
 // PostApiAstanaLrtTl1 operation middleware
@@ -64,6 +124,54 @@ func (s *Server) PostApiBusinessCenterBuilding1(ctx context.Context, request Pos
         *request.Body,
     )
     return PostApiBusinessCenterBuilding1200JSONResponse{}, nil
+}
+
+// PostApiBusinessCenterRgbAlert operation middleware
+
+// (POST )
+func (s *Server) PostApiBusinessCenterRgbAlert(ctx context.Context, request PostApiBusinessCenterRgbAlertRequestObject) (PostApiBusinessCenterRgbAlertResponseObject, error) {
+    s.app.processCommand(
+        ctx.Value(TaskKey).(string),
+        ctx.Value(ElementKey).(string),
+        *request.Body,
+    )
+    return PostApiBusinessCenterRgbAlert200JSONResponse{}, nil
+}
+
+// PostApiBusinessCenterRgbB operation middleware
+
+// (POST )
+func (s *Server) PostApiBusinessCenterRgbB(ctx context.Context, request PostApiBusinessCenterRgbBRequestObject) (PostApiBusinessCenterRgbBResponseObject, error) {
+    s.app.processCommand(
+        ctx.Value(TaskKey).(string),
+        ctx.Value(ElementKey).(string),
+        *request.Body,
+    )
+    return PostApiBusinessCenterRgbB200JSONResponse{}, nil
+}
+
+// PostApiBusinessCenterRgbG operation middleware
+
+// (POST )
+func (s *Server) PostApiBusinessCenterRgbG(ctx context.Context, request PostApiBusinessCenterRgbGRequestObject) (PostApiBusinessCenterRgbGResponseObject, error) {
+    s.app.processCommand(
+        ctx.Value(TaskKey).(string),
+        ctx.Value(ElementKey).(string),
+        *request.Body,
+    )
+    return PostApiBusinessCenterRgbG200JSONResponse{}, nil
+}
+
+// PostApiBusinessCenterRgbR operation middleware
+
+// (POST )
+func (s *Server) PostApiBusinessCenterRgbR(ctx context.Context, request PostApiBusinessCenterRgbRRequestObject) (PostApiBusinessCenterRgbRResponseObject, error) {
+    s.app.processCommand(
+        ctx.Value(TaskKey).(string),
+        ctx.Value(ElementKey).(string),
+        *request.Body,
+    )
+    return PostApiBusinessCenterRgbR200JSONResponse{}, nil
 }
 
 // PostApiGovernmentComplexBuilding1 operation middleware
@@ -114,6 +222,102 @@ func (s *Server) PostApiGovernmentComplexBuilding4(ctx context.Context, request 
     return PostApiGovernmentComplexBuilding4200JSONResponse{}, nil
 }
 
+// PostApiGovernmentComplexBuilding5 operation middleware
+
+// (POST )
+func (s *Server) PostApiGovernmentComplexBuilding5(ctx context.Context, request PostApiGovernmentComplexBuilding5RequestObject) (PostApiGovernmentComplexBuilding5ResponseObject, error) {
+    s.app.processCommand(
+        ctx.Value(TaskKey).(string),
+        ctx.Value(ElementKey).(string),
+        *request.Body,
+    )
+    return PostApiGovernmentComplexBuilding5200JSONResponse{}, nil
+}
+
+// PostApiGovernmentComplexBuilding6 operation middleware
+
+// (POST )
+func (s *Server) PostApiGovernmentComplexBuilding6(ctx context.Context, request PostApiGovernmentComplexBuilding6RequestObject) (PostApiGovernmentComplexBuilding6ResponseObject, error) {
+    s.app.processCommand(
+        ctx.Value(TaskKey).(string),
+        ctx.Value(ElementKey).(string),
+        *request.Body,
+    )
+    return PostApiGovernmentComplexBuilding6200JSONResponse{}, nil
+}
+
+// PostApiGovernmentComplexBuilding7 operation middleware
+
+// (POST )
+func (s *Server) PostApiGovernmentComplexBuilding7(ctx context.Context, request PostApiGovernmentComplexBuilding7RequestObject) (PostApiGovernmentComplexBuilding7ResponseObject, error) {
+    s.app.processCommand(
+        ctx.Value(TaskKey).(string),
+        ctx.Value(ElementKey).(string),
+        *request.Body,
+    )
+    return PostApiGovernmentComplexBuilding7200JSONResponse{}, nil
+}
+
+// PostApiGovernmentComplexBuilding8 operation middleware
+
+// (POST )
+func (s *Server) PostApiGovernmentComplexBuilding8(ctx context.Context, request PostApiGovernmentComplexBuilding8RequestObject) (PostApiGovernmentComplexBuilding8ResponseObject, error) {
+    s.app.processCommand(
+        ctx.Value(TaskKey).(string),
+        ctx.Value(ElementKey).(string),
+        *request.Body,
+    )
+    return PostApiGovernmentComplexBuilding8200JSONResponse{}, nil
+}
+
+// PostApiGovernmentComplexRgbAlert operation middleware
+
+// (POST )
+func (s *Server) PostApiGovernmentComplexRgbAlert(ctx context.Context, request PostApiGovernmentComplexRgbAlertRequestObject) (PostApiGovernmentComplexRgbAlertResponseObject, error) {
+    s.app.processCommand(
+        ctx.Value(TaskKey).(string),
+        ctx.Value(ElementKey).(string),
+        *request.Body,
+    )
+    return PostApiGovernmentComplexRgbAlert200JSONResponse{}, nil
+}
+
+// PostApiGovernmentComplexRgbB operation middleware
+
+// (POST )
+func (s *Server) PostApiGovernmentComplexRgbB(ctx context.Context, request PostApiGovernmentComplexRgbBRequestObject) (PostApiGovernmentComplexRgbBResponseObject, error) {
+    s.app.processCommand(
+        ctx.Value(TaskKey).(string),
+        ctx.Value(ElementKey).(string),
+        *request.Body,
+    )
+    return PostApiGovernmentComplexRgbB200JSONResponse{}, nil
+}
+
+// PostApiGovernmentComplexRgbG operation middleware
+
+// (POST )
+func (s *Server) PostApiGovernmentComplexRgbG(ctx context.Context, request PostApiGovernmentComplexRgbGRequestObject) (PostApiGovernmentComplexRgbGResponseObject, error) {
+    s.app.processCommand(
+        ctx.Value(TaskKey).(string),
+        ctx.Value(ElementKey).(string),
+        *request.Body,
+    )
+    return PostApiGovernmentComplexRgbG200JSONResponse{}, nil
+}
+
+// PostApiGovernmentComplexRgbR operation middleware
+
+// (POST )
+func (s *Server) PostApiGovernmentComplexRgbR(ctx context.Context, request PostApiGovernmentComplexRgbRRequestObject) (PostApiGovernmentComplexRgbRResponseObject, error) {
+    s.app.processCommand(
+        ctx.Value(TaskKey).(string),
+        ctx.Value(ElementKey).(string),
+        *request.Body,
+    )
+    return PostApiGovernmentComplexRgbR200JSONResponse{}, nil
+}
+
 // PostApiHospitalBarrier operation middleware
 
 // (POST )
@@ -138,18 +342,6 @@ func (s *Server) PostApiHospitalBuilding1(ctx context.Context, request PostApiHo
     return PostApiHospitalBuilding1200JSONResponse{}, nil
 }
 
-// PostApiHospitalFire operation middleware
-
-// (POST )
-func (s *Server) PostApiHospitalFire(ctx context.Context, request PostApiHospitalFireRequestObject) (PostApiHospitalFireResponseObject, error) {
-    s.app.processCommand(
-        ctx.Value(TaskKey).(string),
-        ctx.Value(ElementKey).(string),
-        *request.Body,
-    )
-    return PostApiHospitalFire200JSONResponse{}, nil
-}
-
 // PostApiHospitalFireAlarm operation middleware
 
 // (POST )
@@ -162,16 +354,52 @@ func (s *Server) PostApiHospitalFireAlarm(ctx context.Context, request PostApiHo
     return PostApiHospitalFireAlarm200JSONResponse{}, nil
 }
 
-// PostApiHospitalFireTruck operation middleware
+// PostApiHospitalRgbAlert operation middleware
 
 // (POST )
-func (s *Server) PostApiHospitalFireTruck(ctx context.Context, request PostApiHospitalFireTruckRequestObject) (PostApiHospitalFireTruckResponseObject, error) {
+func (s *Server) PostApiHospitalRgbAlert(ctx context.Context, request PostApiHospitalRgbAlertRequestObject) (PostApiHospitalRgbAlertResponseObject, error) {
     s.app.processCommand(
         ctx.Value(TaskKey).(string),
         ctx.Value(ElementKey).(string),
         *request.Body,
     )
-    return PostApiHospitalFireTruck200JSONResponse{}, nil
+    return PostApiHospitalRgbAlert200JSONResponse{}, nil
+}
+
+// PostApiHospitalRgbB operation middleware
+
+// (POST )
+func (s *Server) PostApiHospitalRgbB(ctx context.Context, request PostApiHospitalRgbBRequestObject) (PostApiHospitalRgbBResponseObject, error) {
+    s.app.processCommand(
+        ctx.Value(TaskKey).(string),
+        ctx.Value(ElementKey).(string),
+        *request.Body,
+    )
+    return PostApiHospitalRgbB200JSONResponse{}, nil
+}
+
+// PostApiHospitalRgbG operation middleware
+
+// (POST )
+func (s *Server) PostApiHospitalRgbG(ctx context.Context, request PostApiHospitalRgbGRequestObject) (PostApiHospitalRgbGResponseObject, error) {
+    s.app.processCommand(
+        ctx.Value(TaskKey).(string),
+        ctx.Value(ElementKey).(string),
+        *request.Body,
+    )
+    return PostApiHospitalRgbG200JSONResponse{}, nil
+}
+
+// PostApiHospitalRgbR operation middleware
+
+// (POST )
+func (s *Server) PostApiHospitalRgbR(ctx context.Context, request PostApiHospitalRgbRRequestObject) (PostApiHospitalRgbRResponseObject, error) {
+    s.app.processCommand(
+        ctx.Value(TaskKey).(string),
+        ctx.Value(ElementKey).(string),
+        *request.Body,
+    )
+    return PostApiHospitalRgbR200JSONResponse{}, nil
 }
 
 // PostApiHospitalSiren operation middleware
@@ -186,6 +414,54 @@ func (s *Server) PostApiHospitalSiren(ctx context.Context, request PostApiHospit
     return PostApiHospitalSiren200JSONResponse{}, nil
 }
 
+// PostApiSportsComplexRgbAlert operation middleware
+
+// (POST )
+func (s *Server) PostApiSportsComplexRgbAlert(ctx context.Context, request PostApiSportsComplexRgbAlertRequestObject) (PostApiSportsComplexRgbAlertResponseObject, error) {
+    s.app.processCommand(
+        ctx.Value(TaskKey).(string),
+        ctx.Value(ElementKey).(string),
+        *request.Body,
+    )
+    return PostApiSportsComplexRgbAlert200JSONResponse{}, nil
+}
+
+// PostApiSportsComplexRgbB operation middleware
+
+// (POST )
+func (s *Server) PostApiSportsComplexRgbB(ctx context.Context, request PostApiSportsComplexRgbBRequestObject) (PostApiSportsComplexRgbBResponseObject, error) {
+    s.app.processCommand(
+        ctx.Value(TaskKey).(string),
+        ctx.Value(ElementKey).(string),
+        *request.Body,
+    )
+    return PostApiSportsComplexRgbB200JSONResponse{}, nil
+}
+
+// PostApiSportsComplexRgbG operation middleware
+
+// (POST )
+func (s *Server) PostApiSportsComplexRgbG(ctx context.Context, request PostApiSportsComplexRgbGRequestObject) (PostApiSportsComplexRgbGResponseObject, error) {
+    s.app.processCommand(
+        ctx.Value(TaskKey).(string),
+        ctx.Value(ElementKey).(string),
+        *request.Body,
+    )
+    return PostApiSportsComplexRgbG200JSONResponse{}, nil
+}
+
+// PostApiSportsComplexRgbR operation middleware
+
+// (POST )
+func (s *Server) PostApiSportsComplexRgbR(ctx context.Context, request PostApiSportsComplexRgbRRequestObject) (PostApiSportsComplexRgbRResponseObject, error) {
+    s.app.processCommand(
+        ctx.Value(TaskKey).(string),
+        ctx.Value(ElementKey).(string),
+        *request.Body,
+    )
+    return PostApiSportsComplexRgbR200JSONResponse{}, nil
+}
+
 // PostApiSportsComplexStadiumLights operation middleware
 
 // (POST )
@@ -196,6 +472,30 @@ func (s *Server) PostApiSportsComplexStadiumLights(ctx context.Context, request 
         *request.Body,
     )
     return PostApiSportsComplexStadiumLights200JSONResponse{}, nil
+}
+
+// PostApiSportsComplexStreetlights1 operation middleware
+
+// (POST )
+func (s *Server) PostApiSportsComplexStreetlights1(ctx context.Context, request PostApiSportsComplexStreetlights1RequestObject) (PostApiSportsComplexStreetlights1ResponseObject, error) {
+    s.app.processCommand(
+        ctx.Value(TaskKey).(string),
+        ctx.Value(ElementKey).(string),
+        *request.Body,
+    )
+    return PostApiSportsComplexStreetlights1200JSONResponse{}, nil
+}
+
+// PostApiSportsComplexTl0 operation middleware
+
+// (POST )
+func (s *Server) PostApiSportsComplexTl0(ctx context.Context, request PostApiSportsComplexTl0RequestObject) (PostApiSportsComplexTl0ResponseObject, error) {
+    s.app.processCommand(
+        ctx.Value(TaskKey).(string),
+        ctx.Value(ElementKey).(string),
+        *request.Body,
+    )
+    return PostApiSportsComplexTl0200JSONResponse{}, nil
 }
 
 // PostApiSportsComplexTl1 operation middleware
@@ -246,16 +546,52 @@ func (s *Server) PostApiWaterPumpPump3(ctx context.Context, request PostApiWater
     return PostApiWaterPumpPump3200JSONResponse{}, nil
 }
 
-// PostApiWaterPumpTransferBase operation middleware
+// PostApiWaterPumpRgbAlert operation middleware
 
 // (POST )
-func (s *Server) PostApiWaterPumpTransferBase(ctx context.Context, request PostApiWaterPumpTransferBaseRequestObject) (PostApiWaterPumpTransferBaseResponseObject, error) {
+func (s *Server) PostApiWaterPumpRgbAlert(ctx context.Context, request PostApiWaterPumpRgbAlertRequestObject) (PostApiWaterPumpRgbAlertResponseObject, error) {
     s.app.processCommand(
         ctx.Value(TaskKey).(string),
         ctx.Value(ElementKey).(string),
         *request.Body,
     )
-    return PostApiWaterPumpTransferBase200JSONResponse{}, nil
+    return PostApiWaterPumpRgbAlert200JSONResponse{}, nil
+}
+
+// PostApiWaterPumpRgbB operation middleware
+
+// (POST )
+func (s *Server) PostApiWaterPumpRgbB(ctx context.Context, request PostApiWaterPumpRgbBRequestObject) (PostApiWaterPumpRgbBResponseObject, error) {
+    s.app.processCommand(
+        ctx.Value(TaskKey).(string),
+        ctx.Value(ElementKey).(string),
+        *request.Body,
+    )
+    return PostApiWaterPumpRgbB200JSONResponse{}, nil
+}
+
+// PostApiWaterPumpRgbG operation middleware
+
+// (POST )
+func (s *Server) PostApiWaterPumpRgbG(ctx context.Context, request PostApiWaterPumpRgbGRequestObject) (PostApiWaterPumpRgbGResponseObject, error) {
+    s.app.processCommand(
+        ctx.Value(TaskKey).(string),
+        ctx.Value(ElementKey).(string),
+        *request.Body,
+    )
+    return PostApiWaterPumpRgbG200JSONResponse{}, nil
+}
+
+// PostApiWaterPumpRgbR operation middleware
+
+// (POST )
+func (s *Server) PostApiWaterPumpRgbR(ctx context.Context, request PostApiWaterPumpRgbRRequestObject) (PostApiWaterPumpRgbRResponseObject, error) {
+    s.app.processCommand(
+        ctx.Value(TaskKey).(string),
+        ctx.Value(ElementKey).(string),
+        *request.Body,
+    )
+    return PostApiWaterPumpRgbR200JSONResponse{}, nil
 }
 
 
@@ -273,11 +609,76 @@ func (s *Server) GetApiAstanaLrtBuilding1(ctx context.Context, request GetApiAst
     return result, nil
 }
 
+// GetApiAstanaLrtRgbAlert operation middleware
+
+// (GET )
+func (s *Server) GetApiAstanaLrtRgbAlert(ctx context.Context, request GetApiAstanaLrtRgbAlertRequestObject) (GetApiAstanaLrtRgbAlertResponseObject, error) {
+    result := &GetApiAstanaLrtRgbAlert200JSONResponse{}
+    s.app.processInfo(
+        ctx.Value(TaskKey).(string),
+        ctx.Value(ElementKey).(string),
+        result,
+    )
+    return result, nil
+}
+
+// GetApiAstanaLrtRgbB operation middleware
+
+// (GET )
+func (s *Server) GetApiAstanaLrtRgbB(ctx context.Context, request GetApiAstanaLrtRgbBRequestObject) (GetApiAstanaLrtRgbBResponseObject, error) {
+    result := &GetApiAstanaLrtRgbB200JSONResponse{}
+    s.app.processInfo(
+        ctx.Value(TaskKey).(string),
+        ctx.Value(ElementKey).(string),
+        result,
+    )
+    return result, nil
+}
+
+// GetApiAstanaLrtRgbG operation middleware
+
+// (GET )
+func (s *Server) GetApiAstanaLrtRgbG(ctx context.Context, request GetApiAstanaLrtRgbGRequestObject) (GetApiAstanaLrtRgbGResponseObject, error) {
+    result := &GetApiAstanaLrtRgbG200JSONResponse{}
+    s.app.processInfo(
+        ctx.Value(TaskKey).(string),
+        ctx.Value(ElementKey).(string),
+        result,
+    )
+    return result, nil
+}
+
+// GetApiAstanaLrtRgbR operation middleware
+
+// (GET )
+func (s *Server) GetApiAstanaLrtRgbR(ctx context.Context, request GetApiAstanaLrtRgbRRequestObject) (GetApiAstanaLrtRgbRResponseObject, error) {
+    result := &GetApiAstanaLrtRgbR200JSONResponse{}
+    s.app.processInfo(
+        ctx.Value(TaskKey).(string),
+        ctx.Value(ElementKey).(string),
+        result,
+    )
+    return result, nil
+}
+
 // GetApiAstanaLrtStreetlights1 operation middleware
 
 // (GET )
 func (s *Server) GetApiAstanaLrtStreetlights1(ctx context.Context, request GetApiAstanaLrtStreetlights1RequestObject) (GetApiAstanaLrtStreetlights1ResponseObject, error) {
     result := &GetApiAstanaLrtStreetlights1200JSONResponse{}
+    s.app.processInfo(
+        ctx.Value(TaskKey).(string),
+        ctx.Value(ElementKey).(string),
+        result,
+    )
+    return result, nil
+}
+
+// GetApiAstanaLrtTl0 operation middleware
+
+// (GET )
+func (s *Server) GetApiAstanaLrtTl0(ctx context.Context, request GetApiAstanaLrtTl0RequestObject) (GetApiAstanaLrtTl0ResponseObject, error) {
+    result := &GetApiAstanaLrtTl0200JSONResponse{}
     s.app.processInfo(
         ctx.Value(TaskKey).(string),
         ctx.Value(ElementKey).(string),
@@ -304,6 +705,58 @@ func (s *Server) GetApiAstanaLrtTl1(ctx context.Context, request GetApiAstanaLrt
 // (GET )
 func (s *Server) GetApiBusinessCenterBuilding1(ctx context.Context, request GetApiBusinessCenterBuilding1RequestObject) (GetApiBusinessCenterBuilding1ResponseObject, error) {
     result := &GetApiBusinessCenterBuilding1200JSONResponse{}
+    s.app.processInfo(
+        ctx.Value(TaskKey).(string),
+        ctx.Value(ElementKey).(string),
+        result,
+    )
+    return result, nil
+}
+
+// GetApiBusinessCenterRgbAlert operation middleware
+
+// (GET )
+func (s *Server) GetApiBusinessCenterRgbAlert(ctx context.Context, request GetApiBusinessCenterRgbAlertRequestObject) (GetApiBusinessCenterRgbAlertResponseObject, error) {
+    result := &GetApiBusinessCenterRgbAlert200JSONResponse{}
+    s.app.processInfo(
+        ctx.Value(TaskKey).(string),
+        ctx.Value(ElementKey).(string),
+        result,
+    )
+    return result, nil
+}
+
+// GetApiBusinessCenterRgbB operation middleware
+
+// (GET )
+func (s *Server) GetApiBusinessCenterRgbB(ctx context.Context, request GetApiBusinessCenterRgbBRequestObject) (GetApiBusinessCenterRgbBResponseObject, error) {
+    result := &GetApiBusinessCenterRgbB200JSONResponse{}
+    s.app.processInfo(
+        ctx.Value(TaskKey).(string),
+        ctx.Value(ElementKey).(string),
+        result,
+    )
+    return result, nil
+}
+
+// GetApiBusinessCenterRgbG operation middleware
+
+// (GET )
+func (s *Server) GetApiBusinessCenterRgbG(ctx context.Context, request GetApiBusinessCenterRgbGRequestObject) (GetApiBusinessCenterRgbGResponseObject, error) {
+    result := &GetApiBusinessCenterRgbG200JSONResponse{}
+    s.app.processInfo(
+        ctx.Value(TaskKey).(string),
+        ctx.Value(ElementKey).(string),
+        result,
+    )
+    return result, nil
+}
+
+// GetApiBusinessCenterRgbR operation middleware
+
+// (GET )
+func (s *Server) GetApiBusinessCenterRgbR(ctx context.Context, request GetApiBusinessCenterRgbRRequestObject) (GetApiBusinessCenterRgbRResponseObject, error) {
+    result := &GetApiBusinessCenterRgbR200JSONResponse{}
     s.app.processInfo(
         ctx.Value(TaskKey).(string),
         ctx.Value(ElementKey).(string),
@@ -364,6 +817,110 @@ func (s *Server) GetApiGovernmentComplexBuilding4(ctx context.Context, request G
     return result, nil
 }
 
+// GetApiGovernmentComplexBuilding5 operation middleware
+
+// (GET )
+func (s *Server) GetApiGovernmentComplexBuilding5(ctx context.Context, request GetApiGovernmentComplexBuilding5RequestObject) (GetApiGovernmentComplexBuilding5ResponseObject, error) {
+    result := &GetApiGovernmentComplexBuilding5200JSONResponse{}
+    s.app.processInfo(
+        ctx.Value(TaskKey).(string),
+        ctx.Value(ElementKey).(string),
+        result,
+    )
+    return result, nil
+}
+
+// GetApiGovernmentComplexBuilding6 operation middleware
+
+// (GET )
+func (s *Server) GetApiGovernmentComplexBuilding6(ctx context.Context, request GetApiGovernmentComplexBuilding6RequestObject) (GetApiGovernmentComplexBuilding6ResponseObject, error) {
+    result := &GetApiGovernmentComplexBuilding6200JSONResponse{}
+    s.app.processInfo(
+        ctx.Value(TaskKey).(string),
+        ctx.Value(ElementKey).(string),
+        result,
+    )
+    return result, nil
+}
+
+// GetApiGovernmentComplexBuilding7 operation middleware
+
+// (GET )
+func (s *Server) GetApiGovernmentComplexBuilding7(ctx context.Context, request GetApiGovernmentComplexBuilding7RequestObject) (GetApiGovernmentComplexBuilding7ResponseObject, error) {
+    result := &GetApiGovernmentComplexBuilding7200JSONResponse{}
+    s.app.processInfo(
+        ctx.Value(TaskKey).(string),
+        ctx.Value(ElementKey).(string),
+        result,
+    )
+    return result, nil
+}
+
+// GetApiGovernmentComplexBuilding8 operation middleware
+
+// (GET )
+func (s *Server) GetApiGovernmentComplexBuilding8(ctx context.Context, request GetApiGovernmentComplexBuilding8RequestObject) (GetApiGovernmentComplexBuilding8ResponseObject, error) {
+    result := &GetApiGovernmentComplexBuilding8200JSONResponse{}
+    s.app.processInfo(
+        ctx.Value(TaskKey).(string),
+        ctx.Value(ElementKey).(string),
+        result,
+    )
+    return result, nil
+}
+
+// GetApiGovernmentComplexRgbAlert operation middleware
+
+// (GET )
+func (s *Server) GetApiGovernmentComplexRgbAlert(ctx context.Context, request GetApiGovernmentComplexRgbAlertRequestObject) (GetApiGovernmentComplexRgbAlertResponseObject, error) {
+    result := &GetApiGovernmentComplexRgbAlert200JSONResponse{}
+    s.app.processInfo(
+        ctx.Value(TaskKey).(string),
+        ctx.Value(ElementKey).(string),
+        result,
+    )
+    return result, nil
+}
+
+// GetApiGovernmentComplexRgbB operation middleware
+
+// (GET )
+func (s *Server) GetApiGovernmentComplexRgbB(ctx context.Context, request GetApiGovernmentComplexRgbBRequestObject) (GetApiGovernmentComplexRgbBResponseObject, error) {
+    result := &GetApiGovernmentComplexRgbB200JSONResponse{}
+    s.app.processInfo(
+        ctx.Value(TaskKey).(string),
+        ctx.Value(ElementKey).(string),
+        result,
+    )
+    return result, nil
+}
+
+// GetApiGovernmentComplexRgbG operation middleware
+
+// (GET )
+func (s *Server) GetApiGovernmentComplexRgbG(ctx context.Context, request GetApiGovernmentComplexRgbGRequestObject) (GetApiGovernmentComplexRgbGResponseObject, error) {
+    result := &GetApiGovernmentComplexRgbG200JSONResponse{}
+    s.app.processInfo(
+        ctx.Value(TaskKey).(string),
+        ctx.Value(ElementKey).(string),
+        result,
+    )
+    return result, nil
+}
+
+// GetApiGovernmentComplexRgbR operation middleware
+
+// (GET )
+func (s *Server) GetApiGovernmentComplexRgbR(ctx context.Context, request GetApiGovernmentComplexRgbRRequestObject) (GetApiGovernmentComplexRgbRResponseObject, error) {
+    result := &GetApiGovernmentComplexRgbR200JSONResponse{}
+    s.app.processInfo(
+        ctx.Value(TaskKey).(string),
+        ctx.Value(ElementKey).(string),
+        result,
+    )
+    return result, nil
+}
+
 // GetApiHospitalBarrier operation middleware
 
 // (GET )
@@ -390,19 +947,6 @@ func (s *Server) GetApiHospitalBuilding1(ctx context.Context, request GetApiHosp
     return result, nil
 }
 
-// GetApiHospitalFire operation middleware
-
-// (GET )
-func (s *Server) GetApiHospitalFire(ctx context.Context, request GetApiHospitalFireRequestObject) (GetApiHospitalFireResponseObject, error) {
-    result := &GetApiHospitalFire200JSONResponse{}
-    s.app.processInfo(
-        ctx.Value(TaskKey).(string),
-        ctx.Value(ElementKey).(string),
-        result,
-    )
-    return result, nil
-}
-
 // GetApiHospitalFireAlarm operation middleware
 
 // (GET )
@@ -416,11 +960,50 @@ func (s *Server) GetApiHospitalFireAlarm(ctx context.Context, request GetApiHosp
     return result, nil
 }
 
-// GetApiHospitalFireTruck operation middleware
+// GetApiHospitalRgbAlert operation middleware
 
 // (GET )
-func (s *Server) GetApiHospitalFireTruck(ctx context.Context, request GetApiHospitalFireTruckRequestObject) (GetApiHospitalFireTruckResponseObject, error) {
-    result := &GetApiHospitalFireTruck200JSONResponse{}
+func (s *Server) GetApiHospitalRgbAlert(ctx context.Context, request GetApiHospitalRgbAlertRequestObject) (GetApiHospitalRgbAlertResponseObject, error) {
+    result := &GetApiHospitalRgbAlert200JSONResponse{}
+    s.app.processInfo(
+        ctx.Value(TaskKey).(string),
+        ctx.Value(ElementKey).(string),
+        result,
+    )
+    return result, nil
+}
+
+// GetApiHospitalRgbB operation middleware
+
+// (GET )
+func (s *Server) GetApiHospitalRgbB(ctx context.Context, request GetApiHospitalRgbBRequestObject) (GetApiHospitalRgbBResponseObject, error) {
+    result := &GetApiHospitalRgbB200JSONResponse{}
+    s.app.processInfo(
+        ctx.Value(TaskKey).(string),
+        ctx.Value(ElementKey).(string),
+        result,
+    )
+    return result, nil
+}
+
+// GetApiHospitalRgbG operation middleware
+
+// (GET )
+func (s *Server) GetApiHospitalRgbG(ctx context.Context, request GetApiHospitalRgbGRequestObject) (GetApiHospitalRgbGResponseObject, error) {
+    result := &GetApiHospitalRgbG200JSONResponse{}
+    s.app.processInfo(
+        ctx.Value(TaskKey).(string),
+        ctx.Value(ElementKey).(string),
+        result,
+    )
+    return result, nil
+}
+
+// GetApiHospitalRgbR operation middleware
+
+// (GET )
+func (s *Server) GetApiHospitalRgbR(ctx context.Context, request GetApiHospitalRgbRRequestObject) (GetApiHospitalRgbRResponseObject, error) {
+    result := &GetApiHospitalRgbR200JSONResponse{}
     s.app.processInfo(
         ctx.Value(TaskKey).(string),
         ctx.Value(ElementKey).(string),
@@ -442,11 +1025,89 @@ func (s *Server) GetApiHospitalSiren(ctx context.Context, request GetApiHospital
     return result, nil
 }
 
+// GetApiSportsComplexRgbAlert operation middleware
+
+// (GET )
+func (s *Server) GetApiSportsComplexRgbAlert(ctx context.Context, request GetApiSportsComplexRgbAlertRequestObject) (GetApiSportsComplexRgbAlertResponseObject, error) {
+    result := &GetApiSportsComplexRgbAlert200JSONResponse{}
+    s.app.processInfo(
+        ctx.Value(TaskKey).(string),
+        ctx.Value(ElementKey).(string),
+        result,
+    )
+    return result, nil
+}
+
+// GetApiSportsComplexRgbB operation middleware
+
+// (GET )
+func (s *Server) GetApiSportsComplexRgbB(ctx context.Context, request GetApiSportsComplexRgbBRequestObject) (GetApiSportsComplexRgbBResponseObject, error) {
+    result := &GetApiSportsComplexRgbB200JSONResponse{}
+    s.app.processInfo(
+        ctx.Value(TaskKey).(string),
+        ctx.Value(ElementKey).(string),
+        result,
+    )
+    return result, nil
+}
+
+// GetApiSportsComplexRgbG operation middleware
+
+// (GET )
+func (s *Server) GetApiSportsComplexRgbG(ctx context.Context, request GetApiSportsComplexRgbGRequestObject) (GetApiSportsComplexRgbGResponseObject, error) {
+    result := &GetApiSportsComplexRgbG200JSONResponse{}
+    s.app.processInfo(
+        ctx.Value(TaskKey).(string),
+        ctx.Value(ElementKey).(string),
+        result,
+    )
+    return result, nil
+}
+
+// GetApiSportsComplexRgbR operation middleware
+
+// (GET )
+func (s *Server) GetApiSportsComplexRgbR(ctx context.Context, request GetApiSportsComplexRgbRRequestObject) (GetApiSportsComplexRgbRResponseObject, error) {
+    result := &GetApiSportsComplexRgbR200JSONResponse{}
+    s.app.processInfo(
+        ctx.Value(TaskKey).(string),
+        ctx.Value(ElementKey).(string),
+        result,
+    )
+    return result, nil
+}
+
 // GetApiSportsComplexStadiumLights operation middleware
 
 // (GET )
 func (s *Server) GetApiSportsComplexStadiumLights(ctx context.Context, request GetApiSportsComplexStadiumLightsRequestObject) (GetApiSportsComplexStadiumLightsResponseObject, error) {
     result := &GetApiSportsComplexStadiumLights200JSONResponse{}
+    s.app.processInfo(
+        ctx.Value(TaskKey).(string),
+        ctx.Value(ElementKey).(string),
+        result,
+    )
+    return result, nil
+}
+
+// GetApiSportsComplexStreetlights1 operation middleware
+
+// (GET )
+func (s *Server) GetApiSportsComplexStreetlights1(ctx context.Context, request GetApiSportsComplexStreetlights1RequestObject) (GetApiSportsComplexStreetlights1ResponseObject, error) {
+    result := &GetApiSportsComplexStreetlights1200JSONResponse{}
+    s.app.processInfo(
+        ctx.Value(TaskKey).(string),
+        ctx.Value(ElementKey).(string),
+        result,
+    )
+    return result, nil
+}
+
+// GetApiSportsComplexTl0 operation middleware
+
+// (GET )
+func (s *Server) GetApiSportsComplexTl0(ctx context.Context, request GetApiSportsComplexTl0RequestObject) (GetApiSportsComplexTl0ResponseObject, error) {
+    result := &GetApiSportsComplexTl0200JSONResponse{}
     s.app.processInfo(
         ctx.Value(TaskKey).(string),
         ctx.Value(ElementKey).(string),
@@ -507,11 +1168,50 @@ func (s *Server) GetApiWaterPumpPump3(ctx context.Context, request GetApiWaterPu
     return result, nil
 }
 
-// GetApiWaterPumpTransferBase operation middleware
+// GetApiWaterPumpRgbAlert operation middleware
 
 // (GET )
-func (s *Server) GetApiWaterPumpTransferBase(ctx context.Context, request GetApiWaterPumpTransferBaseRequestObject) (GetApiWaterPumpTransferBaseResponseObject, error) {
-    result := &GetApiWaterPumpTransferBase200JSONResponse{}
+func (s *Server) GetApiWaterPumpRgbAlert(ctx context.Context, request GetApiWaterPumpRgbAlertRequestObject) (GetApiWaterPumpRgbAlertResponseObject, error) {
+    result := &GetApiWaterPumpRgbAlert200JSONResponse{}
+    s.app.processInfo(
+        ctx.Value(TaskKey).(string),
+        ctx.Value(ElementKey).(string),
+        result,
+    )
+    return result, nil
+}
+
+// GetApiWaterPumpRgbB operation middleware
+
+// (GET )
+func (s *Server) GetApiWaterPumpRgbB(ctx context.Context, request GetApiWaterPumpRgbBRequestObject) (GetApiWaterPumpRgbBResponseObject, error) {
+    result := &GetApiWaterPumpRgbB200JSONResponse{}
+    s.app.processInfo(
+        ctx.Value(TaskKey).(string),
+        ctx.Value(ElementKey).(string),
+        result,
+    )
+    return result, nil
+}
+
+// GetApiWaterPumpRgbG operation middleware
+
+// (GET )
+func (s *Server) GetApiWaterPumpRgbG(ctx context.Context, request GetApiWaterPumpRgbGRequestObject) (GetApiWaterPumpRgbGResponseObject, error) {
+    result := &GetApiWaterPumpRgbG200JSONResponse{}
+    s.app.processInfo(
+        ctx.Value(TaskKey).(string),
+        ctx.Value(ElementKey).(string),
+        result,
+    )
+    return result, nil
+}
+
+// GetApiWaterPumpRgbR operation middleware
+
+// (GET )
+func (s *Server) GetApiWaterPumpRgbR(ctx context.Context, request GetApiWaterPumpRgbRRequestObject) (GetApiWaterPumpRgbRResponseObject, error) {
+    result := &GetApiWaterPumpRgbR200JSONResponse{}
     s.app.processInfo(
         ctx.Value(TaskKey).(string),
         ctx.Value(ElementKey).(string),

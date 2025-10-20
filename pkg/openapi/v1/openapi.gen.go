@@ -81,14 +81,41 @@ type TlSn string
 // PostApiAstanaLrtBuilding1JSONRequestBody defines body for PostApiAstanaLrtBuilding1 for application/json ContentType.
 type PostApiAstanaLrtBuilding1JSONRequestBody = Discrete
 
+// PostApiAstanaLrtRgbAlertJSONRequestBody defines body for PostApiAstanaLrtRgbAlert for application/json ContentType.
+type PostApiAstanaLrtRgbAlertJSONRequestBody = Discrete
+
+// PostApiAstanaLrtRgbBJSONRequestBody defines body for PostApiAstanaLrtRgbB for application/json ContentType.
+type PostApiAstanaLrtRgbBJSONRequestBody = Discrete
+
+// PostApiAstanaLrtRgbGJSONRequestBody defines body for PostApiAstanaLrtRgbG for application/json ContentType.
+type PostApiAstanaLrtRgbGJSONRequestBody = Discrete
+
+// PostApiAstanaLrtRgbRJSONRequestBody defines body for PostApiAstanaLrtRgbR for application/json ContentType.
+type PostApiAstanaLrtRgbRJSONRequestBody = Discrete
+
 // PostApiAstanaLrtStreetlights1JSONRequestBody defines body for PostApiAstanaLrtStreetlights1 for application/json ContentType.
 type PostApiAstanaLrtStreetlights1JSONRequestBody = Discrete
+
+// PostApiAstanaLrtTl0JSONRequestBody defines body for PostApiAstanaLrtTl0 for application/json ContentType.
+type PostApiAstanaLrtTl0JSONRequestBody = Tl
 
 // PostApiAstanaLrtTl1JSONRequestBody defines body for PostApiAstanaLrtTl1 for application/json ContentType.
 type PostApiAstanaLrtTl1JSONRequestBody = Tl
 
 // PostApiBusinessCenterBuilding1JSONRequestBody defines body for PostApiBusinessCenterBuilding1 for application/json ContentType.
 type PostApiBusinessCenterBuilding1JSONRequestBody = Discrete
+
+// PostApiBusinessCenterRgbAlertJSONRequestBody defines body for PostApiBusinessCenterRgbAlert for application/json ContentType.
+type PostApiBusinessCenterRgbAlertJSONRequestBody = Discrete
+
+// PostApiBusinessCenterRgbBJSONRequestBody defines body for PostApiBusinessCenterRgbB for application/json ContentType.
+type PostApiBusinessCenterRgbBJSONRequestBody = Discrete
+
+// PostApiBusinessCenterRgbGJSONRequestBody defines body for PostApiBusinessCenterRgbG for application/json ContentType.
+type PostApiBusinessCenterRgbGJSONRequestBody = Discrete
+
+// PostApiBusinessCenterRgbRJSONRequestBody defines body for PostApiBusinessCenterRgbR for application/json ContentType.
+type PostApiBusinessCenterRgbRJSONRequestBody = Discrete
 
 // PostApiGovernmentComplexBuilding1JSONRequestBody defines body for PostApiGovernmentComplexBuilding1 for application/json ContentType.
 type PostApiGovernmentComplexBuilding1JSONRequestBody = Discrete
@@ -102,26 +129,74 @@ type PostApiGovernmentComplexBuilding3JSONRequestBody = Discrete
 // PostApiGovernmentComplexBuilding4JSONRequestBody defines body for PostApiGovernmentComplexBuilding4 for application/json ContentType.
 type PostApiGovernmentComplexBuilding4JSONRequestBody = Discrete
 
+// PostApiGovernmentComplexBuilding5JSONRequestBody defines body for PostApiGovernmentComplexBuilding5 for application/json ContentType.
+type PostApiGovernmentComplexBuilding5JSONRequestBody = Discrete
+
+// PostApiGovernmentComplexBuilding6JSONRequestBody defines body for PostApiGovernmentComplexBuilding6 for application/json ContentType.
+type PostApiGovernmentComplexBuilding6JSONRequestBody = Discrete
+
+// PostApiGovernmentComplexBuilding7JSONRequestBody defines body for PostApiGovernmentComplexBuilding7 for application/json ContentType.
+type PostApiGovernmentComplexBuilding7JSONRequestBody = Discrete
+
+// PostApiGovernmentComplexBuilding8JSONRequestBody defines body for PostApiGovernmentComplexBuilding8 for application/json ContentType.
+type PostApiGovernmentComplexBuilding8JSONRequestBody = Discrete
+
+// PostApiGovernmentComplexRgbAlertJSONRequestBody defines body for PostApiGovernmentComplexRgbAlert for application/json ContentType.
+type PostApiGovernmentComplexRgbAlertJSONRequestBody = Discrete
+
+// PostApiGovernmentComplexRgbBJSONRequestBody defines body for PostApiGovernmentComplexRgbB for application/json ContentType.
+type PostApiGovernmentComplexRgbBJSONRequestBody = Discrete
+
+// PostApiGovernmentComplexRgbGJSONRequestBody defines body for PostApiGovernmentComplexRgbG for application/json ContentType.
+type PostApiGovernmentComplexRgbGJSONRequestBody = Discrete
+
+// PostApiGovernmentComplexRgbRJSONRequestBody defines body for PostApiGovernmentComplexRgbR for application/json ContentType.
+type PostApiGovernmentComplexRgbRJSONRequestBody = Discrete
+
 // PostApiHospitalBarrierJSONRequestBody defines body for PostApiHospitalBarrier for application/json ContentType.
 type PostApiHospitalBarrierJSONRequestBody = Discrete
 
 // PostApiHospitalBuilding1JSONRequestBody defines body for PostApiHospitalBuilding1 for application/json ContentType.
 type PostApiHospitalBuilding1JSONRequestBody = Discrete
 
-// PostApiHospitalFireJSONRequestBody defines body for PostApiHospitalFire for application/json ContentType.
-type PostApiHospitalFireJSONRequestBody = Discrete
-
 // PostApiHospitalFireAlarmJSONRequestBody defines body for PostApiHospitalFireAlarm for application/json ContentType.
 type PostApiHospitalFireAlarmJSONRequestBody = Discrete
 
-// PostApiHospitalFireTruckJSONRequestBody defines body for PostApiHospitalFireTruck for application/json ContentType.
-type PostApiHospitalFireTruckJSONRequestBody = Discrete
+// PostApiHospitalRgbAlertJSONRequestBody defines body for PostApiHospitalRgbAlert for application/json ContentType.
+type PostApiHospitalRgbAlertJSONRequestBody = Discrete
+
+// PostApiHospitalRgbBJSONRequestBody defines body for PostApiHospitalRgbB for application/json ContentType.
+type PostApiHospitalRgbBJSONRequestBody = Discrete
+
+// PostApiHospitalRgbGJSONRequestBody defines body for PostApiHospitalRgbG for application/json ContentType.
+type PostApiHospitalRgbGJSONRequestBody = Discrete
+
+// PostApiHospitalRgbRJSONRequestBody defines body for PostApiHospitalRgbR for application/json ContentType.
+type PostApiHospitalRgbRJSONRequestBody = Discrete
 
 // PostApiHospitalSirenJSONRequestBody defines body for PostApiHospitalSiren for application/json ContentType.
 type PostApiHospitalSirenJSONRequestBody = Discrete
 
+// PostApiSportsComplexRgbAlertJSONRequestBody defines body for PostApiSportsComplexRgbAlert for application/json ContentType.
+type PostApiSportsComplexRgbAlertJSONRequestBody = Discrete
+
+// PostApiSportsComplexRgbBJSONRequestBody defines body for PostApiSportsComplexRgbB for application/json ContentType.
+type PostApiSportsComplexRgbBJSONRequestBody = Discrete
+
+// PostApiSportsComplexRgbGJSONRequestBody defines body for PostApiSportsComplexRgbG for application/json ContentType.
+type PostApiSportsComplexRgbGJSONRequestBody = Discrete
+
+// PostApiSportsComplexRgbRJSONRequestBody defines body for PostApiSportsComplexRgbR for application/json ContentType.
+type PostApiSportsComplexRgbRJSONRequestBody = Discrete
+
 // PostApiSportsComplexStadiumLightsJSONRequestBody defines body for PostApiSportsComplexStadiumLights for application/json ContentType.
 type PostApiSportsComplexStadiumLightsJSONRequestBody = Discrete
+
+// PostApiSportsComplexStreetlights1JSONRequestBody defines body for PostApiSportsComplexStreetlights1 for application/json ContentType.
+type PostApiSportsComplexStreetlights1JSONRequestBody = Discrete
+
+// PostApiSportsComplexTl0JSONRequestBody defines body for PostApiSportsComplexTl0 for application/json ContentType.
+type PostApiSportsComplexTl0JSONRequestBody = Tl
 
 // PostApiSportsComplexTl1JSONRequestBody defines body for PostApiSportsComplexTl1 for application/json ContentType.
 type PostApiSportsComplexTl1JSONRequestBody = Tl
@@ -135,8 +210,17 @@ type PostApiWaterPumpPump2JSONRequestBody = Range
 // PostApiWaterPumpPump3JSONRequestBody defines body for PostApiWaterPumpPump3 for application/json ContentType.
 type PostApiWaterPumpPump3JSONRequestBody = Range
 
-// PostApiWaterPumpTransferBaseJSONRequestBody defines body for PostApiWaterPumpTransferBase for application/json ContentType.
-type PostApiWaterPumpTransferBaseJSONRequestBody = Discrete
+// PostApiWaterPumpRgbAlertJSONRequestBody defines body for PostApiWaterPumpRgbAlert for application/json ContentType.
+type PostApiWaterPumpRgbAlertJSONRequestBody = Discrete
+
+// PostApiWaterPumpRgbBJSONRequestBody defines body for PostApiWaterPumpRgbB for application/json ContentType.
+type PostApiWaterPumpRgbBJSONRequestBody = Discrete
+
+// PostApiWaterPumpRgbGJSONRequestBody defines body for PostApiWaterPumpRgbG for application/json ContentType.
+type PostApiWaterPumpRgbGJSONRequestBody = Discrete
+
+// PostApiWaterPumpRgbRJSONRequestBody defines body for PostApiWaterPumpRgbR for application/json ContentType.
+type PostApiWaterPumpRgbRJSONRequestBody = Discrete
 
 // ServerInterface represents all server handlers.
 type ServerInterface interface {
@@ -146,12 +230,42 @@ type ServerInterface interface {
 	// Post data to /api/astana_lrt/building1
 	// (POST /api/astana_lrt/building1)
 	PostApiAstanaLrtBuilding1(ctx echo.Context) error
+	// Get information from /api/astana_lrt/rgb_alert
+	// (GET /api/astana_lrt/rgb_alert)
+	GetApiAstanaLrtRgbAlert(ctx echo.Context) error
+	// Post data to /api/astana_lrt/rgb_alert
+	// (POST /api/astana_lrt/rgb_alert)
+	PostApiAstanaLrtRgbAlert(ctx echo.Context) error
+	// Get information from /api/astana_lrt/rgb_b
+	// (GET /api/astana_lrt/rgb_b)
+	GetApiAstanaLrtRgbB(ctx echo.Context) error
+	// Post data to /api/astana_lrt/rgb_b
+	// (POST /api/astana_lrt/rgb_b)
+	PostApiAstanaLrtRgbB(ctx echo.Context) error
+	// Get information from /api/astana_lrt/rgb_g
+	// (GET /api/astana_lrt/rgb_g)
+	GetApiAstanaLrtRgbG(ctx echo.Context) error
+	// Post data to /api/astana_lrt/rgb_g
+	// (POST /api/astana_lrt/rgb_g)
+	PostApiAstanaLrtRgbG(ctx echo.Context) error
+	// Get information from /api/astana_lrt/rgb_r
+	// (GET /api/astana_lrt/rgb_r)
+	GetApiAstanaLrtRgbR(ctx echo.Context) error
+	// Post data to /api/astana_lrt/rgb_r
+	// (POST /api/astana_lrt/rgb_r)
+	PostApiAstanaLrtRgbR(ctx echo.Context) error
 	// Get information from /api/astana_lrt/streetlights1
 	// (GET /api/astana_lrt/streetlights1)
 	GetApiAstanaLrtStreetlights1(ctx echo.Context) error
 	// Post data to /api/astana_lrt/streetlights1
 	// (POST /api/astana_lrt/streetlights1)
 	PostApiAstanaLrtStreetlights1(ctx echo.Context) error
+	// Get information from /api/astana_lrt/tl0
+	// (GET /api/astana_lrt/tl0)
+	GetApiAstanaLrtTl0(ctx echo.Context) error
+	// Post data to /api/astana_lrt/tl0
+	// (POST /api/astana_lrt/tl0)
+	PostApiAstanaLrtTl0(ctx echo.Context) error
 	// Get information from /api/astana_lrt/tl1
 	// (GET /api/astana_lrt/tl1)
 	GetApiAstanaLrtTl1(ctx echo.Context) error
@@ -164,6 +278,30 @@ type ServerInterface interface {
 	// Post data to /api/business_center/building1
 	// (POST /api/business_center/building1)
 	PostApiBusinessCenterBuilding1(ctx echo.Context) error
+	// Get information from /api/business_center/rgb_alert
+	// (GET /api/business_center/rgb_alert)
+	GetApiBusinessCenterRgbAlert(ctx echo.Context) error
+	// Post data to /api/business_center/rgb_alert
+	// (POST /api/business_center/rgb_alert)
+	PostApiBusinessCenterRgbAlert(ctx echo.Context) error
+	// Get information from /api/business_center/rgb_b
+	// (GET /api/business_center/rgb_b)
+	GetApiBusinessCenterRgbB(ctx echo.Context) error
+	// Post data to /api/business_center/rgb_b
+	// (POST /api/business_center/rgb_b)
+	PostApiBusinessCenterRgbB(ctx echo.Context) error
+	// Get information from /api/business_center/rgb_g
+	// (GET /api/business_center/rgb_g)
+	GetApiBusinessCenterRgbG(ctx echo.Context) error
+	// Post data to /api/business_center/rgb_g
+	// (POST /api/business_center/rgb_g)
+	PostApiBusinessCenterRgbG(ctx echo.Context) error
+	// Get information from /api/business_center/rgb_r
+	// (GET /api/business_center/rgb_r)
+	GetApiBusinessCenterRgbR(ctx echo.Context) error
+	// Post data to /api/business_center/rgb_r
+	// (POST /api/business_center/rgb_r)
+	PostApiBusinessCenterRgbR(ctx echo.Context) error
 	// Get information from /api/government_complex/building1
 	// (GET /api/government_complex/building1)
 	GetApiGovernmentComplexBuilding1(ctx echo.Context) error
@@ -188,6 +326,54 @@ type ServerInterface interface {
 	// Post data to /api/government_complex/building4
 	// (POST /api/government_complex/building4)
 	PostApiGovernmentComplexBuilding4(ctx echo.Context) error
+	// Get information from /api/government_complex/building5
+	// (GET /api/government_complex/building5)
+	GetApiGovernmentComplexBuilding5(ctx echo.Context) error
+	// Post data to /api/government_complex/building5
+	// (POST /api/government_complex/building5)
+	PostApiGovernmentComplexBuilding5(ctx echo.Context) error
+	// Get information from /api/government_complex/building6
+	// (GET /api/government_complex/building6)
+	GetApiGovernmentComplexBuilding6(ctx echo.Context) error
+	// Post data to /api/government_complex/building6
+	// (POST /api/government_complex/building6)
+	PostApiGovernmentComplexBuilding6(ctx echo.Context) error
+	// Get information from /api/government_complex/building7
+	// (GET /api/government_complex/building7)
+	GetApiGovernmentComplexBuilding7(ctx echo.Context) error
+	// Post data to /api/government_complex/building7
+	// (POST /api/government_complex/building7)
+	PostApiGovernmentComplexBuilding7(ctx echo.Context) error
+	// Get information from /api/government_complex/building8
+	// (GET /api/government_complex/building8)
+	GetApiGovernmentComplexBuilding8(ctx echo.Context) error
+	// Post data to /api/government_complex/building8
+	// (POST /api/government_complex/building8)
+	PostApiGovernmentComplexBuilding8(ctx echo.Context) error
+	// Get information from /api/government_complex/rgb_alert
+	// (GET /api/government_complex/rgb_alert)
+	GetApiGovernmentComplexRgbAlert(ctx echo.Context) error
+	// Post data to /api/government_complex/rgb_alert
+	// (POST /api/government_complex/rgb_alert)
+	PostApiGovernmentComplexRgbAlert(ctx echo.Context) error
+	// Get information from /api/government_complex/rgb_b
+	// (GET /api/government_complex/rgb_b)
+	GetApiGovernmentComplexRgbB(ctx echo.Context) error
+	// Post data to /api/government_complex/rgb_b
+	// (POST /api/government_complex/rgb_b)
+	PostApiGovernmentComplexRgbB(ctx echo.Context) error
+	// Get information from /api/government_complex/rgb_g
+	// (GET /api/government_complex/rgb_g)
+	GetApiGovernmentComplexRgbG(ctx echo.Context) error
+	// Post data to /api/government_complex/rgb_g
+	// (POST /api/government_complex/rgb_g)
+	PostApiGovernmentComplexRgbG(ctx echo.Context) error
+	// Get information from /api/government_complex/rgb_r
+	// (GET /api/government_complex/rgb_r)
+	GetApiGovernmentComplexRgbR(ctx echo.Context) error
+	// Post data to /api/government_complex/rgb_r
+	// (POST /api/government_complex/rgb_r)
+	PostApiGovernmentComplexRgbR(ctx echo.Context) error
 	// Get information from /api/hospital/barrier
 	// (GET /api/hospital/barrier)
 	GetApiHospitalBarrier(ctx echo.Context) error
@@ -200,36 +386,84 @@ type ServerInterface interface {
 	// Post data to /api/hospital/building1
 	// (POST /api/hospital/building1)
 	PostApiHospitalBuilding1(ctx echo.Context) error
-	// Get information from /api/hospital/fire
-	// (GET /api/hospital/fire)
-	GetApiHospitalFire(ctx echo.Context) error
-	// Post data to /api/hospital/fire
-	// (POST /api/hospital/fire)
-	PostApiHospitalFire(ctx echo.Context) error
 	// Get information from /api/hospital/fire_alarm
 	// (GET /api/hospital/fire_alarm)
 	GetApiHospitalFireAlarm(ctx echo.Context) error
 	// Post data to /api/hospital/fire_alarm
 	// (POST /api/hospital/fire_alarm)
 	PostApiHospitalFireAlarm(ctx echo.Context) error
-	// Get information from /api/hospital/fire_truck
-	// (GET /api/hospital/fire_truck)
-	GetApiHospitalFireTruck(ctx echo.Context) error
-	// Post data to /api/hospital/fire_truck
-	// (POST /api/hospital/fire_truck)
-	PostApiHospitalFireTruck(ctx echo.Context) error
+	// Get information from /api/hospital/rgb_alert
+	// (GET /api/hospital/rgb_alert)
+	GetApiHospitalRgbAlert(ctx echo.Context) error
+	// Post data to /api/hospital/rgb_alert
+	// (POST /api/hospital/rgb_alert)
+	PostApiHospitalRgbAlert(ctx echo.Context) error
+	// Get information from /api/hospital/rgb_b
+	// (GET /api/hospital/rgb_b)
+	GetApiHospitalRgbB(ctx echo.Context) error
+	// Post data to /api/hospital/rgb_b
+	// (POST /api/hospital/rgb_b)
+	PostApiHospitalRgbB(ctx echo.Context) error
+	// Get information from /api/hospital/rgb_g
+	// (GET /api/hospital/rgb_g)
+	GetApiHospitalRgbG(ctx echo.Context) error
+	// Post data to /api/hospital/rgb_g
+	// (POST /api/hospital/rgb_g)
+	PostApiHospitalRgbG(ctx echo.Context) error
+	// Get information from /api/hospital/rgb_r
+	// (GET /api/hospital/rgb_r)
+	GetApiHospitalRgbR(ctx echo.Context) error
+	// Post data to /api/hospital/rgb_r
+	// (POST /api/hospital/rgb_r)
+	PostApiHospitalRgbR(ctx echo.Context) error
 	// Get information from /api/hospital/siren
 	// (GET /api/hospital/siren)
 	GetApiHospitalSiren(ctx echo.Context) error
 	// Post data to /api/hospital/siren
 	// (POST /api/hospital/siren)
 	PostApiHospitalSiren(ctx echo.Context) error
+	// Get information from /api/sports_complex/rgb_alert
+	// (GET /api/sports_complex/rgb_alert)
+	GetApiSportsComplexRgbAlert(ctx echo.Context) error
+	// Post data to /api/sports_complex/rgb_alert
+	// (POST /api/sports_complex/rgb_alert)
+	PostApiSportsComplexRgbAlert(ctx echo.Context) error
+	// Get information from /api/sports_complex/rgb_b
+	// (GET /api/sports_complex/rgb_b)
+	GetApiSportsComplexRgbB(ctx echo.Context) error
+	// Post data to /api/sports_complex/rgb_b
+	// (POST /api/sports_complex/rgb_b)
+	PostApiSportsComplexRgbB(ctx echo.Context) error
+	// Get information from /api/sports_complex/rgb_g
+	// (GET /api/sports_complex/rgb_g)
+	GetApiSportsComplexRgbG(ctx echo.Context) error
+	// Post data to /api/sports_complex/rgb_g
+	// (POST /api/sports_complex/rgb_g)
+	PostApiSportsComplexRgbG(ctx echo.Context) error
+	// Get information from /api/sports_complex/rgb_r
+	// (GET /api/sports_complex/rgb_r)
+	GetApiSportsComplexRgbR(ctx echo.Context) error
+	// Post data to /api/sports_complex/rgb_r
+	// (POST /api/sports_complex/rgb_r)
+	PostApiSportsComplexRgbR(ctx echo.Context) error
 	// Get information from /api/sports_complex/stadium_lights
 	// (GET /api/sports_complex/stadium_lights)
 	GetApiSportsComplexStadiumLights(ctx echo.Context) error
 	// Post data to /api/sports_complex/stadium_lights
 	// (POST /api/sports_complex/stadium_lights)
 	PostApiSportsComplexStadiumLights(ctx echo.Context) error
+	// Get information from /api/sports_complex/streetlights1
+	// (GET /api/sports_complex/streetlights1)
+	GetApiSportsComplexStreetlights1(ctx echo.Context) error
+	// Post data to /api/sports_complex/streetlights1
+	// (POST /api/sports_complex/streetlights1)
+	PostApiSportsComplexStreetlights1(ctx echo.Context) error
+	// Get information from /api/sports_complex/tl0
+	// (GET /api/sports_complex/tl0)
+	GetApiSportsComplexTl0(ctx echo.Context) error
+	// Post data to /api/sports_complex/tl0
+	// (POST /api/sports_complex/tl0)
+	PostApiSportsComplexTl0(ctx echo.Context) error
 	// Get information from /api/sports_complex/tl1
 	// (GET /api/sports_complex/tl1)
 	GetApiSportsComplexTl1(ctx echo.Context) error
@@ -254,12 +488,30 @@ type ServerInterface interface {
 	// Post data to /api/water_pump/pump3
 	// (POST /api/water_pump/pump3)
 	PostApiWaterPumpPump3(ctx echo.Context) error
-	// Get information from /api/water_pump/transfer_base
-	// (GET /api/water_pump/transfer_base)
-	GetApiWaterPumpTransferBase(ctx echo.Context) error
-	// Post data to /api/water_pump/transfer_base
-	// (POST /api/water_pump/transfer_base)
-	PostApiWaterPumpTransferBase(ctx echo.Context) error
+	// Get information from /api/water_pump/rgb_alert
+	// (GET /api/water_pump/rgb_alert)
+	GetApiWaterPumpRgbAlert(ctx echo.Context) error
+	// Post data to /api/water_pump/rgb_alert
+	// (POST /api/water_pump/rgb_alert)
+	PostApiWaterPumpRgbAlert(ctx echo.Context) error
+	// Get information from /api/water_pump/rgb_b
+	// (GET /api/water_pump/rgb_b)
+	GetApiWaterPumpRgbB(ctx echo.Context) error
+	// Post data to /api/water_pump/rgb_b
+	// (POST /api/water_pump/rgb_b)
+	PostApiWaterPumpRgbB(ctx echo.Context) error
+	// Get information from /api/water_pump/rgb_g
+	// (GET /api/water_pump/rgb_g)
+	GetApiWaterPumpRgbG(ctx echo.Context) error
+	// Post data to /api/water_pump/rgb_g
+	// (POST /api/water_pump/rgb_g)
+	PostApiWaterPumpRgbG(ctx echo.Context) error
+	// Get information from /api/water_pump/rgb_r
+	// (GET /api/water_pump/rgb_r)
+	GetApiWaterPumpRgbR(ctx echo.Context) error
+	// Post data to /api/water_pump/rgb_r
+	// (POST /api/water_pump/rgb_r)
+	PostApiWaterPumpRgbR(ctx echo.Context) error
 }
 
 // ServerInterfaceWrapper converts echo contexts to parameters.
@@ -285,6 +537,78 @@ func (w *ServerInterfaceWrapper) PostApiAstanaLrtBuilding1(ctx echo.Context) err
 	return err
 }
 
+// GetApiAstanaLrtRgbAlert converts echo context to params.
+func (w *ServerInterfaceWrapper) GetApiAstanaLrtRgbAlert(ctx echo.Context) error {
+	var err error
+
+	// Invoke the callback with all the unmarshaled arguments
+	err = w.Handler.GetApiAstanaLrtRgbAlert(ctx)
+	return err
+}
+
+// PostApiAstanaLrtRgbAlert converts echo context to params.
+func (w *ServerInterfaceWrapper) PostApiAstanaLrtRgbAlert(ctx echo.Context) error {
+	var err error
+
+	// Invoke the callback with all the unmarshaled arguments
+	err = w.Handler.PostApiAstanaLrtRgbAlert(ctx)
+	return err
+}
+
+// GetApiAstanaLrtRgbB converts echo context to params.
+func (w *ServerInterfaceWrapper) GetApiAstanaLrtRgbB(ctx echo.Context) error {
+	var err error
+
+	// Invoke the callback with all the unmarshaled arguments
+	err = w.Handler.GetApiAstanaLrtRgbB(ctx)
+	return err
+}
+
+// PostApiAstanaLrtRgbB converts echo context to params.
+func (w *ServerInterfaceWrapper) PostApiAstanaLrtRgbB(ctx echo.Context) error {
+	var err error
+
+	// Invoke the callback with all the unmarshaled arguments
+	err = w.Handler.PostApiAstanaLrtRgbB(ctx)
+	return err
+}
+
+// GetApiAstanaLrtRgbG converts echo context to params.
+func (w *ServerInterfaceWrapper) GetApiAstanaLrtRgbG(ctx echo.Context) error {
+	var err error
+
+	// Invoke the callback with all the unmarshaled arguments
+	err = w.Handler.GetApiAstanaLrtRgbG(ctx)
+	return err
+}
+
+// PostApiAstanaLrtRgbG converts echo context to params.
+func (w *ServerInterfaceWrapper) PostApiAstanaLrtRgbG(ctx echo.Context) error {
+	var err error
+
+	// Invoke the callback with all the unmarshaled arguments
+	err = w.Handler.PostApiAstanaLrtRgbG(ctx)
+	return err
+}
+
+// GetApiAstanaLrtRgbR converts echo context to params.
+func (w *ServerInterfaceWrapper) GetApiAstanaLrtRgbR(ctx echo.Context) error {
+	var err error
+
+	// Invoke the callback with all the unmarshaled arguments
+	err = w.Handler.GetApiAstanaLrtRgbR(ctx)
+	return err
+}
+
+// PostApiAstanaLrtRgbR converts echo context to params.
+func (w *ServerInterfaceWrapper) PostApiAstanaLrtRgbR(ctx echo.Context) error {
+	var err error
+
+	// Invoke the callback with all the unmarshaled arguments
+	err = w.Handler.PostApiAstanaLrtRgbR(ctx)
+	return err
+}
+
 // GetApiAstanaLrtStreetlights1 converts echo context to params.
 func (w *ServerInterfaceWrapper) GetApiAstanaLrtStreetlights1(ctx echo.Context) error {
 	var err error
@@ -300,6 +624,24 @@ func (w *ServerInterfaceWrapper) PostApiAstanaLrtStreetlights1(ctx echo.Context)
 
 	// Invoke the callback with all the unmarshaled arguments
 	err = w.Handler.PostApiAstanaLrtStreetlights1(ctx)
+	return err
+}
+
+// GetApiAstanaLrtTl0 converts echo context to params.
+func (w *ServerInterfaceWrapper) GetApiAstanaLrtTl0(ctx echo.Context) error {
+	var err error
+
+	// Invoke the callback with all the unmarshaled arguments
+	err = w.Handler.GetApiAstanaLrtTl0(ctx)
+	return err
+}
+
+// PostApiAstanaLrtTl0 converts echo context to params.
+func (w *ServerInterfaceWrapper) PostApiAstanaLrtTl0(ctx echo.Context) error {
+	var err error
+
+	// Invoke the callback with all the unmarshaled arguments
+	err = w.Handler.PostApiAstanaLrtTl0(ctx)
 	return err
 }
 
@@ -336,6 +678,78 @@ func (w *ServerInterfaceWrapper) PostApiBusinessCenterBuilding1(ctx echo.Context
 
 	// Invoke the callback with all the unmarshaled arguments
 	err = w.Handler.PostApiBusinessCenterBuilding1(ctx)
+	return err
+}
+
+// GetApiBusinessCenterRgbAlert converts echo context to params.
+func (w *ServerInterfaceWrapper) GetApiBusinessCenterRgbAlert(ctx echo.Context) error {
+	var err error
+
+	// Invoke the callback with all the unmarshaled arguments
+	err = w.Handler.GetApiBusinessCenterRgbAlert(ctx)
+	return err
+}
+
+// PostApiBusinessCenterRgbAlert converts echo context to params.
+func (w *ServerInterfaceWrapper) PostApiBusinessCenterRgbAlert(ctx echo.Context) error {
+	var err error
+
+	// Invoke the callback with all the unmarshaled arguments
+	err = w.Handler.PostApiBusinessCenterRgbAlert(ctx)
+	return err
+}
+
+// GetApiBusinessCenterRgbB converts echo context to params.
+func (w *ServerInterfaceWrapper) GetApiBusinessCenterRgbB(ctx echo.Context) error {
+	var err error
+
+	// Invoke the callback with all the unmarshaled arguments
+	err = w.Handler.GetApiBusinessCenterRgbB(ctx)
+	return err
+}
+
+// PostApiBusinessCenterRgbB converts echo context to params.
+func (w *ServerInterfaceWrapper) PostApiBusinessCenterRgbB(ctx echo.Context) error {
+	var err error
+
+	// Invoke the callback with all the unmarshaled arguments
+	err = w.Handler.PostApiBusinessCenterRgbB(ctx)
+	return err
+}
+
+// GetApiBusinessCenterRgbG converts echo context to params.
+func (w *ServerInterfaceWrapper) GetApiBusinessCenterRgbG(ctx echo.Context) error {
+	var err error
+
+	// Invoke the callback with all the unmarshaled arguments
+	err = w.Handler.GetApiBusinessCenterRgbG(ctx)
+	return err
+}
+
+// PostApiBusinessCenterRgbG converts echo context to params.
+func (w *ServerInterfaceWrapper) PostApiBusinessCenterRgbG(ctx echo.Context) error {
+	var err error
+
+	// Invoke the callback with all the unmarshaled arguments
+	err = w.Handler.PostApiBusinessCenterRgbG(ctx)
+	return err
+}
+
+// GetApiBusinessCenterRgbR converts echo context to params.
+func (w *ServerInterfaceWrapper) GetApiBusinessCenterRgbR(ctx echo.Context) error {
+	var err error
+
+	// Invoke the callback with all the unmarshaled arguments
+	err = w.Handler.GetApiBusinessCenterRgbR(ctx)
+	return err
+}
+
+// PostApiBusinessCenterRgbR converts echo context to params.
+func (w *ServerInterfaceWrapper) PostApiBusinessCenterRgbR(ctx echo.Context) error {
+	var err error
+
+	// Invoke the callback with all the unmarshaled arguments
+	err = w.Handler.PostApiBusinessCenterRgbR(ctx)
 	return err
 }
 
@@ -411,6 +825,150 @@ func (w *ServerInterfaceWrapper) PostApiGovernmentComplexBuilding4(ctx echo.Cont
 	return err
 }
 
+// GetApiGovernmentComplexBuilding5 converts echo context to params.
+func (w *ServerInterfaceWrapper) GetApiGovernmentComplexBuilding5(ctx echo.Context) error {
+	var err error
+
+	// Invoke the callback with all the unmarshaled arguments
+	err = w.Handler.GetApiGovernmentComplexBuilding5(ctx)
+	return err
+}
+
+// PostApiGovernmentComplexBuilding5 converts echo context to params.
+func (w *ServerInterfaceWrapper) PostApiGovernmentComplexBuilding5(ctx echo.Context) error {
+	var err error
+
+	// Invoke the callback with all the unmarshaled arguments
+	err = w.Handler.PostApiGovernmentComplexBuilding5(ctx)
+	return err
+}
+
+// GetApiGovernmentComplexBuilding6 converts echo context to params.
+func (w *ServerInterfaceWrapper) GetApiGovernmentComplexBuilding6(ctx echo.Context) error {
+	var err error
+
+	// Invoke the callback with all the unmarshaled arguments
+	err = w.Handler.GetApiGovernmentComplexBuilding6(ctx)
+	return err
+}
+
+// PostApiGovernmentComplexBuilding6 converts echo context to params.
+func (w *ServerInterfaceWrapper) PostApiGovernmentComplexBuilding6(ctx echo.Context) error {
+	var err error
+
+	// Invoke the callback with all the unmarshaled arguments
+	err = w.Handler.PostApiGovernmentComplexBuilding6(ctx)
+	return err
+}
+
+// GetApiGovernmentComplexBuilding7 converts echo context to params.
+func (w *ServerInterfaceWrapper) GetApiGovernmentComplexBuilding7(ctx echo.Context) error {
+	var err error
+
+	// Invoke the callback with all the unmarshaled arguments
+	err = w.Handler.GetApiGovernmentComplexBuilding7(ctx)
+	return err
+}
+
+// PostApiGovernmentComplexBuilding7 converts echo context to params.
+func (w *ServerInterfaceWrapper) PostApiGovernmentComplexBuilding7(ctx echo.Context) error {
+	var err error
+
+	// Invoke the callback with all the unmarshaled arguments
+	err = w.Handler.PostApiGovernmentComplexBuilding7(ctx)
+	return err
+}
+
+// GetApiGovernmentComplexBuilding8 converts echo context to params.
+func (w *ServerInterfaceWrapper) GetApiGovernmentComplexBuilding8(ctx echo.Context) error {
+	var err error
+
+	// Invoke the callback with all the unmarshaled arguments
+	err = w.Handler.GetApiGovernmentComplexBuilding8(ctx)
+	return err
+}
+
+// PostApiGovernmentComplexBuilding8 converts echo context to params.
+func (w *ServerInterfaceWrapper) PostApiGovernmentComplexBuilding8(ctx echo.Context) error {
+	var err error
+
+	// Invoke the callback with all the unmarshaled arguments
+	err = w.Handler.PostApiGovernmentComplexBuilding8(ctx)
+	return err
+}
+
+// GetApiGovernmentComplexRgbAlert converts echo context to params.
+func (w *ServerInterfaceWrapper) GetApiGovernmentComplexRgbAlert(ctx echo.Context) error {
+	var err error
+
+	// Invoke the callback with all the unmarshaled arguments
+	err = w.Handler.GetApiGovernmentComplexRgbAlert(ctx)
+	return err
+}
+
+// PostApiGovernmentComplexRgbAlert converts echo context to params.
+func (w *ServerInterfaceWrapper) PostApiGovernmentComplexRgbAlert(ctx echo.Context) error {
+	var err error
+
+	// Invoke the callback with all the unmarshaled arguments
+	err = w.Handler.PostApiGovernmentComplexRgbAlert(ctx)
+	return err
+}
+
+// GetApiGovernmentComplexRgbB converts echo context to params.
+func (w *ServerInterfaceWrapper) GetApiGovernmentComplexRgbB(ctx echo.Context) error {
+	var err error
+
+	// Invoke the callback with all the unmarshaled arguments
+	err = w.Handler.GetApiGovernmentComplexRgbB(ctx)
+	return err
+}
+
+// PostApiGovernmentComplexRgbB converts echo context to params.
+func (w *ServerInterfaceWrapper) PostApiGovernmentComplexRgbB(ctx echo.Context) error {
+	var err error
+
+	// Invoke the callback with all the unmarshaled arguments
+	err = w.Handler.PostApiGovernmentComplexRgbB(ctx)
+	return err
+}
+
+// GetApiGovernmentComplexRgbG converts echo context to params.
+func (w *ServerInterfaceWrapper) GetApiGovernmentComplexRgbG(ctx echo.Context) error {
+	var err error
+
+	// Invoke the callback with all the unmarshaled arguments
+	err = w.Handler.GetApiGovernmentComplexRgbG(ctx)
+	return err
+}
+
+// PostApiGovernmentComplexRgbG converts echo context to params.
+func (w *ServerInterfaceWrapper) PostApiGovernmentComplexRgbG(ctx echo.Context) error {
+	var err error
+
+	// Invoke the callback with all the unmarshaled arguments
+	err = w.Handler.PostApiGovernmentComplexRgbG(ctx)
+	return err
+}
+
+// GetApiGovernmentComplexRgbR converts echo context to params.
+func (w *ServerInterfaceWrapper) GetApiGovernmentComplexRgbR(ctx echo.Context) error {
+	var err error
+
+	// Invoke the callback with all the unmarshaled arguments
+	err = w.Handler.GetApiGovernmentComplexRgbR(ctx)
+	return err
+}
+
+// PostApiGovernmentComplexRgbR converts echo context to params.
+func (w *ServerInterfaceWrapper) PostApiGovernmentComplexRgbR(ctx echo.Context) error {
+	var err error
+
+	// Invoke the callback with all the unmarshaled arguments
+	err = w.Handler.PostApiGovernmentComplexRgbR(ctx)
+	return err
+}
+
 // GetApiHospitalBarrier converts echo context to params.
 func (w *ServerInterfaceWrapper) GetApiHospitalBarrier(ctx echo.Context) error {
 	var err error
@@ -447,24 +1005,6 @@ func (w *ServerInterfaceWrapper) PostApiHospitalBuilding1(ctx echo.Context) erro
 	return err
 }
 
-// GetApiHospitalFire converts echo context to params.
-func (w *ServerInterfaceWrapper) GetApiHospitalFire(ctx echo.Context) error {
-	var err error
-
-	// Invoke the callback with all the unmarshaled arguments
-	err = w.Handler.GetApiHospitalFire(ctx)
-	return err
-}
-
-// PostApiHospitalFire converts echo context to params.
-func (w *ServerInterfaceWrapper) PostApiHospitalFire(ctx echo.Context) error {
-	var err error
-
-	// Invoke the callback with all the unmarshaled arguments
-	err = w.Handler.PostApiHospitalFire(ctx)
-	return err
-}
-
 // GetApiHospitalFireAlarm converts echo context to params.
 func (w *ServerInterfaceWrapper) GetApiHospitalFireAlarm(ctx echo.Context) error {
 	var err error
@@ -483,21 +1023,75 @@ func (w *ServerInterfaceWrapper) PostApiHospitalFireAlarm(ctx echo.Context) erro
 	return err
 }
 
-// GetApiHospitalFireTruck converts echo context to params.
-func (w *ServerInterfaceWrapper) GetApiHospitalFireTruck(ctx echo.Context) error {
+// GetApiHospitalRgbAlert converts echo context to params.
+func (w *ServerInterfaceWrapper) GetApiHospitalRgbAlert(ctx echo.Context) error {
 	var err error
 
 	// Invoke the callback with all the unmarshaled arguments
-	err = w.Handler.GetApiHospitalFireTruck(ctx)
+	err = w.Handler.GetApiHospitalRgbAlert(ctx)
 	return err
 }
 
-// PostApiHospitalFireTruck converts echo context to params.
-func (w *ServerInterfaceWrapper) PostApiHospitalFireTruck(ctx echo.Context) error {
+// PostApiHospitalRgbAlert converts echo context to params.
+func (w *ServerInterfaceWrapper) PostApiHospitalRgbAlert(ctx echo.Context) error {
 	var err error
 
 	// Invoke the callback with all the unmarshaled arguments
-	err = w.Handler.PostApiHospitalFireTruck(ctx)
+	err = w.Handler.PostApiHospitalRgbAlert(ctx)
+	return err
+}
+
+// GetApiHospitalRgbB converts echo context to params.
+func (w *ServerInterfaceWrapper) GetApiHospitalRgbB(ctx echo.Context) error {
+	var err error
+
+	// Invoke the callback with all the unmarshaled arguments
+	err = w.Handler.GetApiHospitalRgbB(ctx)
+	return err
+}
+
+// PostApiHospitalRgbB converts echo context to params.
+func (w *ServerInterfaceWrapper) PostApiHospitalRgbB(ctx echo.Context) error {
+	var err error
+
+	// Invoke the callback with all the unmarshaled arguments
+	err = w.Handler.PostApiHospitalRgbB(ctx)
+	return err
+}
+
+// GetApiHospitalRgbG converts echo context to params.
+func (w *ServerInterfaceWrapper) GetApiHospitalRgbG(ctx echo.Context) error {
+	var err error
+
+	// Invoke the callback with all the unmarshaled arguments
+	err = w.Handler.GetApiHospitalRgbG(ctx)
+	return err
+}
+
+// PostApiHospitalRgbG converts echo context to params.
+func (w *ServerInterfaceWrapper) PostApiHospitalRgbG(ctx echo.Context) error {
+	var err error
+
+	// Invoke the callback with all the unmarshaled arguments
+	err = w.Handler.PostApiHospitalRgbG(ctx)
+	return err
+}
+
+// GetApiHospitalRgbR converts echo context to params.
+func (w *ServerInterfaceWrapper) GetApiHospitalRgbR(ctx echo.Context) error {
+	var err error
+
+	// Invoke the callback with all the unmarshaled arguments
+	err = w.Handler.GetApiHospitalRgbR(ctx)
+	return err
+}
+
+// PostApiHospitalRgbR converts echo context to params.
+func (w *ServerInterfaceWrapper) PostApiHospitalRgbR(ctx echo.Context) error {
+	var err error
+
+	// Invoke the callback with all the unmarshaled arguments
+	err = w.Handler.PostApiHospitalRgbR(ctx)
 	return err
 }
 
@@ -519,6 +1113,78 @@ func (w *ServerInterfaceWrapper) PostApiHospitalSiren(ctx echo.Context) error {
 	return err
 }
 
+// GetApiSportsComplexRgbAlert converts echo context to params.
+func (w *ServerInterfaceWrapper) GetApiSportsComplexRgbAlert(ctx echo.Context) error {
+	var err error
+
+	// Invoke the callback with all the unmarshaled arguments
+	err = w.Handler.GetApiSportsComplexRgbAlert(ctx)
+	return err
+}
+
+// PostApiSportsComplexRgbAlert converts echo context to params.
+func (w *ServerInterfaceWrapper) PostApiSportsComplexRgbAlert(ctx echo.Context) error {
+	var err error
+
+	// Invoke the callback with all the unmarshaled arguments
+	err = w.Handler.PostApiSportsComplexRgbAlert(ctx)
+	return err
+}
+
+// GetApiSportsComplexRgbB converts echo context to params.
+func (w *ServerInterfaceWrapper) GetApiSportsComplexRgbB(ctx echo.Context) error {
+	var err error
+
+	// Invoke the callback with all the unmarshaled arguments
+	err = w.Handler.GetApiSportsComplexRgbB(ctx)
+	return err
+}
+
+// PostApiSportsComplexRgbB converts echo context to params.
+func (w *ServerInterfaceWrapper) PostApiSportsComplexRgbB(ctx echo.Context) error {
+	var err error
+
+	// Invoke the callback with all the unmarshaled arguments
+	err = w.Handler.PostApiSportsComplexRgbB(ctx)
+	return err
+}
+
+// GetApiSportsComplexRgbG converts echo context to params.
+func (w *ServerInterfaceWrapper) GetApiSportsComplexRgbG(ctx echo.Context) error {
+	var err error
+
+	// Invoke the callback with all the unmarshaled arguments
+	err = w.Handler.GetApiSportsComplexRgbG(ctx)
+	return err
+}
+
+// PostApiSportsComplexRgbG converts echo context to params.
+func (w *ServerInterfaceWrapper) PostApiSportsComplexRgbG(ctx echo.Context) error {
+	var err error
+
+	// Invoke the callback with all the unmarshaled arguments
+	err = w.Handler.PostApiSportsComplexRgbG(ctx)
+	return err
+}
+
+// GetApiSportsComplexRgbR converts echo context to params.
+func (w *ServerInterfaceWrapper) GetApiSportsComplexRgbR(ctx echo.Context) error {
+	var err error
+
+	// Invoke the callback with all the unmarshaled arguments
+	err = w.Handler.GetApiSportsComplexRgbR(ctx)
+	return err
+}
+
+// PostApiSportsComplexRgbR converts echo context to params.
+func (w *ServerInterfaceWrapper) PostApiSportsComplexRgbR(ctx echo.Context) error {
+	var err error
+
+	// Invoke the callback with all the unmarshaled arguments
+	err = w.Handler.PostApiSportsComplexRgbR(ctx)
+	return err
+}
+
 // GetApiSportsComplexStadiumLights converts echo context to params.
 func (w *ServerInterfaceWrapper) GetApiSportsComplexStadiumLights(ctx echo.Context) error {
 	var err error
@@ -534,6 +1200,42 @@ func (w *ServerInterfaceWrapper) PostApiSportsComplexStadiumLights(ctx echo.Cont
 
 	// Invoke the callback with all the unmarshaled arguments
 	err = w.Handler.PostApiSportsComplexStadiumLights(ctx)
+	return err
+}
+
+// GetApiSportsComplexStreetlights1 converts echo context to params.
+func (w *ServerInterfaceWrapper) GetApiSportsComplexStreetlights1(ctx echo.Context) error {
+	var err error
+
+	// Invoke the callback with all the unmarshaled arguments
+	err = w.Handler.GetApiSportsComplexStreetlights1(ctx)
+	return err
+}
+
+// PostApiSportsComplexStreetlights1 converts echo context to params.
+func (w *ServerInterfaceWrapper) PostApiSportsComplexStreetlights1(ctx echo.Context) error {
+	var err error
+
+	// Invoke the callback with all the unmarshaled arguments
+	err = w.Handler.PostApiSportsComplexStreetlights1(ctx)
+	return err
+}
+
+// GetApiSportsComplexTl0 converts echo context to params.
+func (w *ServerInterfaceWrapper) GetApiSportsComplexTl0(ctx echo.Context) error {
+	var err error
+
+	// Invoke the callback with all the unmarshaled arguments
+	err = w.Handler.GetApiSportsComplexTl0(ctx)
+	return err
+}
+
+// PostApiSportsComplexTl0 converts echo context to params.
+func (w *ServerInterfaceWrapper) PostApiSportsComplexTl0(ctx echo.Context) error {
+	var err error
+
+	// Invoke the callback with all the unmarshaled arguments
+	err = w.Handler.PostApiSportsComplexTl0(ctx)
 	return err
 }
 
@@ -609,21 +1311,75 @@ func (w *ServerInterfaceWrapper) PostApiWaterPumpPump3(ctx echo.Context) error {
 	return err
 }
 
-// GetApiWaterPumpTransferBase converts echo context to params.
-func (w *ServerInterfaceWrapper) GetApiWaterPumpTransferBase(ctx echo.Context) error {
+// GetApiWaterPumpRgbAlert converts echo context to params.
+func (w *ServerInterfaceWrapper) GetApiWaterPumpRgbAlert(ctx echo.Context) error {
 	var err error
 
 	// Invoke the callback with all the unmarshaled arguments
-	err = w.Handler.GetApiWaterPumpTransferBase(ctx)
+	err = w.Handler.GetApiWaterPumpRgbAlert(ctx)
 	return err
 }
 
-// PostApiWaterPumpTransferBase converts echo context to params.
-func (w *ServerInterfaceWrapper) PostApiWaterPumpTransferBase(ctx echo.Context) error {
+// PostApiWaterPumpRgbAlert converts echo context to params.
+func (w *ServerInterfaceWrapper) PostApiWaterPumpRgbAlert(ctx echo.Context) error {
 	var err error
 
 	// Invoke the callback with all the unmarshaled arguments
-	err = w.Handler.PostApiWaterPumpTransferBase(ctx)
+	err = w.Handler.PostApiWaterPumpRgbAlert(ctx)
+	return err
+}
+
+// GetApiWaterPumpRgbB converts echo context to params.
+func (w *ServerInterfaceWrapper) GetApiWaterPumpRgbB(ctx echo.Context) error {
+	var err error
+
+	// Invoke the callback with all the unmarshaled arguments
+	err = w.Handler.GetApiWaterPumpRgbB(ctx)
+	return err
+}
+
+// PostApiWaterPumpRgbB converts echo context to params.
+func (w *ServerInterfaceWrapper) PostApiWaterPumpRgbB(ctx echo.Context) error {
+	var err error
+
+	// Invoke the callback with all the unmarshaled arguments
+	err = w.Handler.PostApiWaterPumpRgbB(ctx)
+	return err
+}
+
+// GetApiWaterPumpRgbG converts echo context to params.
+func (w *ServerInterfaceWrapper) GetApiWaterPumpRgbG(ctx echo.Context) error {
+	var err error
+
+	// Invoke the callback with all the unmarshaled arguments
+	err = w.Handler.GetApiWaterPumpRgbG(ctx)
+	return err
+}
+
+// PostApiWaterPumpRgbG converts echo context to params.
+func (w *ServerInterfaceWrapper) PostApiWaterPumpRgbG(ctx echo.Context) error {
+	var err error
+
+	// Invoke the callback with all the unmarshaled arguments
+	err = w.Handler.PostApiWaterPumpRgbG(ctx)
+	return err
+}
+
+// GetApiWaterPumpRgbR converts echo context to params.
+func (w *ServerInterfaceWrapper) GetApiWaterPumpRgbR(ctx echo.Context) error {
+	var err error
+
+	// Invoke the callback with all the unmarshaled arguments
+	err = w.Handler.GetApiWaterPumpRgbR(ctx)
+	return err
+}
+
+// PostApiWaterPumpRgbR converts echo context to params.
+func (w *ServerInterfaceWrapper) PostApiWaterPumpRgbR(ctx echo.Context) error {
+	var err error
+
+	// Invoke the callback with all the unmarshaled arguments
+	err = w.Handler.PostApiWaterPumpRgbR(ctx)
 	return err
 }
 
@@ -657,12 +1413,30 @@ func RegisterHandlersWithBaseURL(router EchoRouter, si ServerInterface, baseURL 
 
 	router.GET(baseURL+"/api/astana_lrt/building1", wrapper.GetApiAstanaLrtBuilding1)
 	router.POST(baseURL+"/api/astana_lrt/building1", wrapper.PostApiAstanaLrtBuilding1)
+	router.GET(baseURL+"/api/astana_lrt/rgb_alert", wrapper.GetApiAstanaLrtRgbAlert)
+	router.POST(baseURL+"/api/astana_lrt/rgb_alert", wrapper.PostApiAstanaLrtRgbAlert)
+	router.GET(baseURL+"/api/astana_lrt/rgb_b", wrapper.GetApiAstanaLrtRgbB)
+	router.POST(baseURL+"/api/astana_lrt/rgb_b", wrapper.PostApiAstanaLrtRgbB)
+	router.GET(baseURL+"/api/astana_lrt/rgb_g", wrapper.GetApiAstanaLrtRgbG)
+	router.POST(baseURL+"/api/astana_lrt/rgb_g", wrapper.PostApiAstanaLrtRgbG)
+	router.GET(baseURL+"/api/astana_lrt/rgb_r", wrapper.GetApiAstanaLrtRgbR)
+	router.POST(baseURL+"/api/astana_lrt/rgb_r", wrapper.PostApiAstanaLrtRgbR)
 	router.GET(baseURL+"/api/astana_lrt/streetlights1", wrapper.GetApiAstanaLrtStreetlights1)
 	router.POST(baseURL+"/api/astana_lrt/streetlights1", wrapper.PostApiAstanaLrtStreetlights1)
+	router.GET(baseURL+"/api/astana_lrt/tl0", wrapper.GetApiAstanaLrtTl0)
+	router.POST(baseURL+"/api/astana_lrt/tl0", wrapper.PostApiAstanaLrtTl0)
 	router.GET(baseURL+"/api/astana_lrt/tl1", wrapper.GetApiAstanaLrtTl1)
 	router.POST(baseURL+"/api/astana_lrt/tl1", wrapper.PostApiAstanaLrtTl1)
 	router.GET(baseURL+"/api/business_center/building1", wrapper.GetApiBusinessCenterBuilding1)
 	router.POST(baseURL+"/api/business_center/building1", wrapper.PostApiBusinessCenterBuilding1)
+	router.GET(baseURL+"/api/business_center/rgb_alert", wrapper.GetApiBusinessCenterRgbAlert)
+	router.POST(baseURL+"/api/business_center/rgb_alert", wrapper.PostApiBusinessCenterRgbAlert)
+	router.GET(baseURL+"/api/business_center/rgb_b", wrapper.GetApiBusinessCenterRgbB)
+	router.POST(baseURL+"/api/business_center/rgb_b", wrapper.PostApiBusinessCenterRgbB)
+	router.GET(baseURL+"/api/business_center/rgb_g", wrapper.GetApiBusinessCenterRgbG)
+	router.POST(baseURL+"/api/business_center/rgb_g", wrapper.PostApiBusinessCenterRgbG)
+	router.GET(baseURL+"/api/business_center/rgb_r", wrapper.GetApiBusinessCenterRgbR)
+	router.POST(baseURL+"/api/business_center/rgb_r", wrapper.PostApiBusinessCenterRgbR)
 	router.GET(baseURL+"/api/government_complex/building1", wrapper.GetApiGovernmentComplexBuilding1)
 	router.POST(baseURL+"/api/government_complex/building1", wrapper.PostApiGovernmentComplexBuilding1)
 	router.GET(baseURL+"/api/government_complex/building2", wrapper.GetApiGovernmentComplexBuilding2)
@@ -671,20 +1445,52 @@ func RegisterHandlersWithBaseURL(router EchoRouter, si ServerInterface, baseURL 
 	router.POST(baseURL+"/api/government_complex/building3", wrapper.PostApiGovernmentComplexBuilding3)
 	router.GET(baseURL+"/api/government_complex/building4", wrapper.GetApiGovernmentComplexBuilding4)
 	router.POST(baseURL+"/api/government_complex/building4", wrapper.PostApiGovernmentComplexBuilding4)
+	router.GET(baseURL+"/api/government_complex/building5", wrapper.GetApiGovernmentComplexBuilding5)
+	router.POST(baseURL+"/api/government_complex/building5", wrapper.PostApiGovernmentComplexBuilding5)
+	router.GET(baseURL+"/api/government_complex/building6", wrapper.GetApiGovernmentComplexBuilding6)
+	router.POST(baseURL+"/api/government_complex/building6", wrapper.PostApiGovernmentComplexBuilding6)
+	router.GET(baseURL+"/api/government_complex/building7", wrapper.GetApiGovernmentComplexBuilding7)
+	router.POST(baseURL+"/api/government_complex/building7", wrapper.PostApiGovernmentComplexBuilding7)
+	router.GET(baseURL+"/api/government_complex/building8", wrapper.GetApiGovernmentComplexBuilding8)
+	router.POST(baseURL+"/api/government_complex/building8", wrapper.PostApiGovernmentComplexBuilding8)
+	router.GET(baseURL+"/api/government_complex/rgb_alert", wrapper.GetApiGovernmentComplexRgbAlert)
+	router.POST(baseURL+"/api/government_complex/rgb_alert", wrapper.PostApiGovernmentComplexRgbAlert)
+	router.GET(baseURL+"/api/government_complex/rgb_b", wrapper.GetApiGovernmentComplexRgbB)
+	router.POST(baseURL+"/api/government_complex/rgb_b", wrapper.PostApiGovernmentComplexRgbB)
+	router.GET(baseURL+"/api/government_complex/rgb_g", wrapper.GetApiGovernmentComplexRgbG)
+	router.POST(baseURL+"/api/government_complex/rgb_g", wrapper.PostApiGovernmentComplexRgbG)
+	router.GET(baseURL+"/api/government_complex/rgb_r", wrapper.GetApiGovernmentComplexRgbR)
+	router.POST(baseURL+"/api/government_complex/rgb_r", wrapper.PostApiGovernmentComplexRgbR)
 	router.GET(baseURL+"/api/hospital/barrier", wrapper.GetApiHospitalBarrier)
 	router.POST(baseURL+"/api/hospital/barrier", wrapper.PostApiHospitalBarrier)
 	router.GET(baseURL+"/api/hospital/building1", wrapper.GetApiHospitalBuilding1)
 	router.POST(baseURL+"/api/hospital/building1", wrapper.PostApiHospitalBuilding1)
-	router.GET(baseURL+"/api/hospital/fire", wrapper.GetApiHospitalFire)
-	router.POST(baseURL+"/api/hospital/fire", wrapper.PostApiHospitalFire)
 	router.GET(baseURL+"/api/hospital/fire_alarm", wrapper.GetApiHospitalFireAlarm)
 	router.POST(baseURL+"/api/hospital/fire_alarm", wrapper.PostApiHospitalFireAlarm)
-	router.GET(baseURL+"/api/hospital/fire_truck", wrapper.GetApiHospitalFireTruck)
-	router.POST(baseURL+"/api/hospital/fire_truck", wrapper.PostApiHospitalFireTruck)
+	router.GET(baseURL+"/api/hospital/rgb_alert", wrapper.GetApiHospitalRgbAlert)
+	router.POST(baseURL+"/api/hospital/rgb_alert", wrapper.PostApiHospitalRgbAlert)
+	router.GET(baseURL+"/api/hospital/rgb_b", wrapper.GetApiHospitalRgbB)
+	router.POST(baseURL+"/api/hospital/rgb_b", wrapper.PostApiHospitalRgbB)
+	router.GET(baseURL+"/api/hospital/rgb_g", wrapper.GetApiHospitalRgbG)
+	router.POST(baseURL+"/api/hospital/rgb_g", wrapper.PostApiHospitalRgbG)
+	router.GET(baseURL+"/api/hospital/rgb_r", wrapper.GetApiHospitalRgbR)
+	router.POST(baseURL+"/api/hospital/rgb_r", wrapper.PostApiHospitalRgbR)
 	router.GET(baseURL+"/api/hospital/siren", wrapper.GetApiHospitalSiren)
 	router.POST(baseURL+"/api/hospital/siren", wrapper.PostApiHospitalSiren)
+	router.GET(baseURL+"/api/sports_complex/rgb_alert", wrapper.GetApiSportsComplexRgbAlert)
+	router.POST(baseURL+"/api/sports_complex/rgb_alert", wrapper.PostApiSportsComplexRgbAlert)
+	router.GET(baseURL+"/api/sports_complex/rgb_b", wrapper.GetApiSportsComplexRgbB)
+	router.POST(baseURL+"/api/sports_complex/rgb_b", wrapper.PostApiSportsComplexRgbB)
+	router.GET(baseURL+"/api/sports_complex/rgb_g", wrapper.GetApiSportsComplexRgbG)
+	router.POST(baseURL+"/api/sports_complex/rgb_g", wrapper.PostApiSportsComplexRgbG)
+	router.GET(baseURL+"/api/sports_complex/rgb_r", wrapper.GetApiSportsComplexRgbR)
+	router.POST(baseURL+"/api/sports_complex/rgb_r", wrapper.PostApiSportsComplexRgbR)
 	router.GET(baseURL+"/api/sports_complex/stadium_lights", wrapper.GetApiSportsComplexStadiumLights)
 	router.POST(baseURL+"/api/sports_complex/stadium_lights", wrapper.PostApiSportsComplexStadiumLights)
+	router.GET(baseURL+"/api/sports_complex/streetlights1", wrapper.GetApiSportsComplexStreetlights1)
+	router.POST(baseURL+"/api/sports_complex/streetlights1", wrapper.PostApiSportsComplexStreetlights1)
+	router.GET(baseURL+"/api/sports_complex/tl0", wrapper.GetApiSportsComplexTl0)
+	router.POST(baseURL+"/api/sports_complex/tl0", wrapper.PostApiSportsComplexTl0)
 	router.GET(baseURL+"/api/sports_complex/tl1", wrapper.GetApiSportsComplexTl1)
 	router.POST(baseURL+"/api/sports_complex/tl1", wrapper.PostApiSportsComplexTl1)
 	router.GET(baseURL+"/api/water_pump/building1", wrapper.GetApiWaterPumpBuilding1)
@@ -693,8 +1499,14 @@ func RegisterHandlersWithBaseURL(router EchoRouter, si ServerInterface, baseURL 
 	router.POST(baseURL+"/api/water_pump/pump2", wrapper.PostApiWaterPumpPump2)
 	router.GET(baseURL+"/api/water_pump/pump3", wrapper.GetApiWaterPumpPump3)
 	router.POST(baseURL+"/api/water_pump/pump3", wrapper.PostApiWaterPumpPump3)
-	router.GET(baseURL+"/api/water_pump/transfer_base", wrapper.GetApiWaterPumpTransferBase)
-	router.POST(baseURL+"/api/water_pump/transfer_base", wrapper.PostApiWaterPumpTransferBase)
+	router.GET(baseURL+"/api/water_pump/rgb_alert", wrapper.GetApiWaterPumpRgbAlert)
+	router.POST(baseURL+"/api/water_pump/rgb_alert", wrapper.PostApiWaterPumpRgbAlert)
+	router.GET(baseURL+"/api/water_pump/rgb_b", wrapper.GetApiWaterPumpRgbB)
+	router.POST(baseURL+"/api/water_pump/rgb_b", wrapper.PostApiWaterPumpRgbB)
+	router.GET(baseURL+"/api/water_pump/rgb_g", wrapper.GetApiWaterPumpRgbG)
+	router.POST(baseURL+"/api/water_pump/rgb_g", wrapper.PostApiWaterPumpRgbG)
+	router.GET(baseURL+"/api/water_pump/rgb_r", wrapper.GetApiWaterPumpRgbR)
+	router.POST(baseURL+"/api/water_pump/rgb_r", wrapper.PostApiWaterPumpRgbR)
 
 }
 
@@ -731,6 +1543,138 @@ func (response PostApiAstanaLrtBuilding1200JSONResponse) VisitPostApiAstanaLrtBu
 	return json.NewEncoder(w).Encode(response)
 }
 
+type GetApiAstanaLrtRgbAlertRequestObject struct {
+}
+
+type GetApiAstanaLrtRgbAlertResponseObject interface {
+	VisitGetApiAstanaLrtRgbAlertResponse(w http.ResponseWriter) error
+}
+
+type GetApiAstanaLrtRgbAlert200JSONResponse Discrete
+
+func (response GetApiAstanaLrtRgbAlert200JSONResponse) VisitGetApiAstanaLrtRgbAlertResponse(w http.ResponseWriter) error {
+	w.Header().Set("Content-Type", "application/json")
+	w.WriteHeader(200)
+
+	return json.NewEncoder(w).Encode(response)
+}
+
+type PostApiAstanaLrtRgbAlertRequestObject struct {
+	Body *PostApiAstanaLrtRgbAlertJSONRequestBody
+}
+
+type PostApiAstanaLrtRgbAlertResponseObject interface {
+	VisitPostApiAstanaLrtRgbAlertResponse(w http.ResponseWriter) error
+}
+
+type PostApiAstanaLrtRgbAlert200JSONResponse Discrete
+
+func (response PostApiAstanaLrtRgbAlert200JSONResponse) VisitPostApiAstanaLrtRgbAlertResponse(w http.ResponseWriter) error {
+	w.Header().Set("Content-Type", "application/json")
+	w.WriteHeader(200)
+
+	return json.NewEncoder(w).Encode(response)
+}
+
+type GetApiAstanaLrtRgbBRequestObject struct {
+}
+
+type GetApiAstanaLrtRgbBResponseObject interface {
+	VisitGetApiAstanaLrtRgbBResponse(w http.ResponseWriter) error
+}
+
+type GetApiAstanaLrtRgbB200JSONResponse Discrete
+
+func (response GetApiAstanaLrtRgbB200JSONResponse) VisitGetApiAstanaLrtRgbBResponse(w http.ResponseWriter) error {
+	w.Header().Set("Content-Type", "application/json")
+	w.WriteHeader(200)
+
+	return json.NewEncoder(w).Encode(response)
+}
+
+type PostApiAstanaLrtRgbBRequestObject struct {
+	Body *PostApiAstanaLrtRgbBJSONRequestBody
+}
+
+type PostApiAstanaLrtRgbBResponseObject interface {
+	VisitPostApiAstanaLrtRgbBResponse(w http.ResponseWriter) error
+}
+
+type PostApiAstanaLrtRgbB200JSONResponse Discrete
+
+func (response PostApiAstanaLrtRgbB200JSONResponse) VisitPostApiAstanaLrtRgbBResponse(w http.ResponseWriter) error {
+	w.Header().Set("Content-Type", "application/json")
+	w.WriteHeader(200)
+
+	return json.NewEncoder(w).Encode(response)
+}
+
+type GetApiAstanaLrtRgbGRequestObject struct {
+}
+
+type GetApiAstanaLrtRgbGResponseObject interface {
+	VisitGetApiAstanaLrtRgbGResponse(w http.ResponseWriter) error
+}
+
+type GetApiAstanaLrtRgbG200JSONResponse Discrete
+
+func (response GetApiAstanaLrtRgbG200JSONResponse) VisitGetApiAstanaLrtRgbGResponse(w http.ResponseWriter) error {
+	w.Header().Set("Content-Type", "application/json")
+	w.WriteHeader(200)
+
+	return json.NewEncoder(w).Encode(response)
+}
+
+type PostApiAstanaLrtRgbGRequestObject struct {
+	Body *PostApiAstanaLrtRgbGJSONRequestBody
+}
+
+type PostApiAstanaLrtRgbGResponseObject interface {
+	VisitPostApiAstanaLrtRgbGResponse(w http.ResponseWriter) error
+}
+
+type PostApiAstanaLrtRgbG200JSONResponse Discrete
+
+func (response PostApiAstanaLrtRgbG200JSONResponse) VisitPostApiAstanaLrtRgbGResponse(w http.ResponseWriter) error {
+	w.Header().Set("Content-Type", "application/json")
+	w.WriteHeader(200)
+
+	return json.NewEncoder(w).Encode(response)
+}
+
+type GetApiAstanaLrtRgbRRequestObject struct {
+}
+
+type GetApiAstanaLrtRgbRResponseObject interface {
+	VisitGetApiAstanaLrtRgbRResponse(w http.ResponseWriter) error
+}
+
+type GetApiAstanaLrtRgbR200JSONResponse Discrete
+
+func (response GetApiAstanaLrtRgbR200JSONResponse) VisitGetApiAstanaLrtRgbRResponse(w http.ResponseWriter) error {
+	w.Header().Set("Content-Type", "application/json")
+	w.WriteHeader(200)
+
+	return json.NewEncoder(w).Encode(response)
+}
+
+type PostApiAstanaLrtRgbRRequestObject struct {
+	Body *PostApiAstanaLrtRgbRJSONRequestBody
+}
+
+type PostApiAstanaLrtRgbRResponseObject interface {
+	VisitPostApiAstanaLrtRgbRResponse(w http.ResponseWriter) error
+}
+
+type PostApiAstanaLrtRgbR200JSONResponse Discrete
+
+func (response PostApiAstanaLrtRgbR200JSONResponse) VisitPostApiAstanaLrtRgbRResponse(w http.ResponseWriter) error {
+	w.Header().Set("Content-Type", "application/json")
+	w.WriteHeader(200)
+
+	return json.NewEncoder(w).Encode(response)
+}
+
 type GetApiAstanaLrtStreetlights1RequestObject struct {
 }
 
@@ -758,6 +1702,39 @@ type PostApiAstanaLrtStreetlights1ResponseObject interface {
 type PostApiAstanaLrtStreetlights1200JSONResponse Discrete
 
 func (response PostApiAstanaLrtStreetlights1200JSONResponse) VisitPostApiAstanaLrtStreetlights1Response(w http.ResponseWriter) error {
+	w.Header().Set("Content-Type", "application/json")
+	w.WriteHeader(200)
+
+	return json.NewEncoder(w).Encode(response)
+}
+
+type GetApiAstanaLrtTl0RequestObject struct {
+}
+
+type GetApiAstanaLrtTl0ResponseObject interface {
+	VisitGetApiAstanaLrtTl0Response(w http.ResponseWriter) error
+}
+
+type GetApiAstanaLrtTl0200JSONResponse Tl
+
+func (response GetApiAstanaLrtTl0200JSONResponse) VisitGetApiAstanaLrtTl0Response(w http.ResponseWriter) error {
+	w.Header().Set("Content-Type", "application/json")
+	w.WriteHeader(200)
+
+	return json.NewEncoder(w).Encode(response)
+}
+
+type PostApiAstanaLrtTl0RequestObject struct {
+	Body *PostApiAstanaLrtTl0JSONRequestBody
+}
+
+type PostApiAstanaLrtTl0ResponseObject interface {
+	VisitPostApiAstanaLrtTl0Response(w http.ResponseWriter) error
+}
+
+type PostApiAstanaLrtTl0200JSONResponse Tl
+
+func (response PostApiAstanaLrtTl0200JSONResponse) VisitPostApiAstanaLrtTl0Response(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(200)
 
@@ -824,6 +1801,138 @@ type PostApiBusinessCenterBuilding1ResponseObject interface {
 type PostApiBusinessCenterBuilding1200JSONResponse Discrete
 
 func (response PostApiBusinessCenterBuilding1200JSONResponse) VisitPostApiBusinessCenterBuilding1Response(w http.ResponseWriter) error {
+	w.Header().Set("Content-Type", "application/json")
+	w.WriteHeader(200)
+
+	return json.NewEncoder(w).Encode(response)
+}
+
+type GetApiBusinessCenterRgbAlertRequestObject struct {
+}
+
+type GetApiBusinessCenterRgbAlertResponseObject interface {
+	VisitGetApiBusinessCenterRgbAlertResponse(w http.ResponseWriter) error
+}
+
+type GetApiBusinessCenterRgbAlert200JSONResponse Discrete
+
+func (response GetApiBusinessCenterRgbAlert200JSONResponse) VisitGetApiBusinessCenterRgbAlertResponse(w http.ResponseWriter) error {
+	w.Header().Set("Content-Type", "application/json")
+	w.WriteHeader(200)
+
+	return json.NewEncoder(w).Encode(response)
+}
+
+type PostApiBusinessCenterRgbAlertRequestObject struct {
+	Body *PostApiBusinessCenterRgbAlertJSONRequestBody
+}
+
+type PostApiBusinessCenterRgbAlertResponseObject interface {
+	VisitPostApiBusinessCenterRgbAlertResponse(w http.ResponseWriter) error
+}
+
+type PostApiBusinessCenterRgbAlert200JSONResponse Discrete
+
+func (response PostApiBusinessCenterRgbAlert200JSONResponse) VisitPostApiBusinessCenterRgbAlertResponse(w http.ResponseWriter) error {
+	w.Header().Set("Content-Type", "application/json")
+	w.WriteHeader(200)
+
+	return json.NewEncoder(w).Encode(response)
+}
+
+type GetApiBusinessCenterRgbBRequestObject struct {
+}
+
+type GetApiBusinessCenterRgbBResponseObject interface {
+	VisitGetApiBusinessCenterRgbBResponse(w http.ResponseWriter) error
+}
+
+type GetApiBusinessCenterRgbB200JSONResponse Discrete
+
+func (response GetApiBusinessCenterRgbB200JSONResponse) VisitGetApiBusinessCenterRgbBResponse(w http.ResponseWriter) error {
+	w.Header().Set("Content-Type", "application/json")
+	w.WriteHeader(200)
+
+	return json.NewEncoder(w).Encode(response)
+}
+
+type PostApiBusinessCenterRgbBRequestObject struct {
+	Body *PostApiBusinessCenterRgbBJSONRequestBody
+}
+
+type PostApiBusinessCenterRgbBResponseObject interface {
+	VisitPostApiBusinessCenterRgbBResponse(w http.ResponseWriter) error
+}
+
+type PostApiBusinessCenterRgbB200JSONResponse Discrete
+
+func (response PostApiBusinessCenterRgbB200JSONResponse) VisitPostApiBusinessCenterRgbBResponse(w http.ResponseWriter) error {
+	w.Header().Set("Content-Type", "application/json")
+	w.WriteHeader(200)
+
+	return json.NewEncoder(w).Encode(response)
+}
+
+type GetApiBusinessCenterRgbGRequestObject struct {
+}
+
+type GetApiBusinessCenterRgbGResponseObject interface {
+	VisitGetApiBusinessCenterRgbGResponse(w http.ResponseWriter) error
+}
+
+type GetApiBusinessCenterRgbG200JSONResponse Discrete
+
+func (response GetApiBusinessCenterRgbG200JSONResponse) VisitGetApiBusinessCenterRgbGResponse(w http.ResponseWriter) error {
+	w.Header().Set("Content-Type", "application/json")
+	w.WriteHeader(200)
+
+	return json.NewEncoder(w).Encode(response)
+}
+
+type PostApiBusinessCenterRgbGRequestObject struct {
+	Body *PostApiBusinessCenterRgbGJSONRequestBody
+}
+
+type PostApiBusinessCenterRgbGResponseObject interface {
+	VisitPostApiBusinessCenterRgbGResponse(w http.ResponseWriter) error
+}
+
+type PostApiBusinessCenterRgbG200JSONResponse Discrete
+
+func (response PostApiBusinessCenterRgbG200JSONResponse) VisitPostApiBusinessCenterRgbGResponse(w http.ResponseWriter) error {
+	w.Header().Set("Content-Type", "application/json")
+	w.WriteHeader(200)
+
+	return json.NewEncoder(w).Encode(response)
+}
+
+type GetApiBusinessCenterRgbRRequestObject struct {
+}
+
+type GetApiBusinessCenterRgbRResponseObject interface {
+	VisitGetApiBusinessCenterRgbRResponse(w http.ResponseWriter) error
+}
+
+type GetApiBusinessCenterRgbR200JSONResponse Discrete
+
+func (response GetApiBusinessCenterRgbR200JSONResponse) VisitGetApiBusinessCenterRgbRResponse(w http.ResponseWriter) error {
+	w.Header().Set("Content-Type", "application/json")
+	w.WriteHeader(200)
+
+	return json.NewEncoder(w).Encode(response)
+}
+
+type PostApiBusinessCenterRgbRRequestObject struct {
+	Body *PostApiBusinessCenterRgbRJSONRequestBody
+}
+
+type PostApiBusinessCenterRgbRResponseObject interface {
+	VisitPostApiBusinessCenterRgbRResponse(w http.ResponseWriter) error
+}
+
+type PostApiBusinessCenterRgbR200JSONResponse Discrete
+
+func (response PostApiBusinessCenterRgbR200JSONResponse) VisitPostApiBusinessCenterRgbRResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(200)
 
@@ -962,6 +2071,270 @@ func (response PostApiGovernmentComplexBuilding4200JSONResponse) VisitPostApiGov
 	return json.NewEncoder(w).Encode(response)
 }
 
+type GetApiGovernmentComplexBuilding5RequestObject struct {
+}
+
+type GetApiGovernmentComplexBuilding5ResponseObject interface {
+	VisitGetApiGovernmentComplexBuilding5Response(w http.ResponseWriter) error
+}
+
+type GetApiGovernmentComplexBuilding5200JSONResponse Discrete
+
+func (response GetApiGovernmentComplexBuilding5200JSONResponse) VisitGetApiGovernmentComplexBuilding5Response(w http.ResponseWriter) error {
+	w.Header().Set("Content-Type", "application/json")
+	w.WriteHeader(200)
+
+	return json.NewEncoder(w).Encode(response)
+}
+
+type PostApiGovernmentComplexBuilding5RequestObject struct {
+	Body *PostApiGovernmentComplexBuilding5JSONRequestBody
+}
+
+type PostApiGovernmentComplexBuilding5ResponseObject interface {
+	VisitPostApiGovernmentComplexBuilding5Response(w http.ResponseWriter) error
+}
+
+type PostApiGovernmentComplexBuilding5200JSONResponse Discrete
+
+func (response PostApiGovernmentComplexBuilding5200JSONResponse) VisitPostApiGovernmentComplexBuilding5Response(w http.ResponseWriter) error {
+	w.Header().Set("Content-Type", "application/json")
+	w.WriteHeader(200)
+
+	return json.NewEncoder(w).Encode(response)
+}
+
+type GetApiGovernmentComplexBuilding6RequestObject struct {
+}
+
+type GetApiGovernmentComplexBuilding6ResponseObject interface {
+	VisitGetApiGovernmentComplexBuilding6Response(w http.ResponseWriter) error
+}
+
+type GetApiGovernmentComplexBuilding6200JSONResponse Discrete
+
+func (response GetApiGovernmentComplexBuilding6200JSONResponse) VisitGetApiGovernmentComplexBuilding6Response(w http.ResponseWriter) error {
+	w.Header().Set("Content-Type", "application/json")
+	w.WriteHeader(200)
+
+	return json.NewEncoder(w).Encode(response)
+}
+
+type PostApiGovernmentComplexBuilding6RequestObject struct {
+	Body *PostApiGovernmentComplexBuilding6JSONRequestBody
+}
+
+type PostApiGovernmentComplexBuilding6ResponseObject interface {
+	VisitPostApiGovernmentComplexBuilding6Response(w http.ResponseWriter) error
+}
+
+type PostApiGovernmentComplexBuilding6200JSONResponse Discrete
+
+func (response PostApiGovernmentComplexBuilding6200JSONResponse) VisitPostApiGovernmentComplexBuilding6Response(w http.ResponseWriter) error {
+	w.Header().Set("Content-Type", "application/json")
+	w.WriteHeader(200)
+
+	return json.NewEncoder(w).Encode(response)
+}
+
+type GetApiGovernmentComplexBuilding7RequestObject struct {
+}
+
+type GetApiGovernmentComplexBuilding7ResponseObject interface {
+	VisitGetApiGovernmentComplexBuilding7Response(w http.ResponseWriter) error
+}
+
+type GetApiGovernmentComplexBuilding7200JSONResponse Discrete
+
+func (response GetApiGovernmentComplexBuilding7200JSONResponse) VisitGetApiGovernmentComplexBuilding7Response(w http.ResponseWriter) error {
+	w.Header().Set("Content-Type", "application/json")
+	w.WriteHeader(200)
+
+	return json.NewEncoder(w).Encode(response)
+}
+
+type PostApiGovernmentComplexBuilding7RequestObject struct {
+	Body *PostApiGovernmentComplexBuilding7JSONRequestBody
+}
+
+type PostApiGovernmentComplexBuilding7ResponseObject interface {
+	VisitPostApiGovernmentComplexBuilding7Response(w http.ResponseWriter) error
+}
+
+type PostApiGovernmentComplexBuilding7200JSONResponse Discrete
+
+func (response PostApiGovernmentComplexBuilding7200JSONResponse) VisitPostApiGovernmentComplexBuilding7Response(w http.ResponseWriter) error {
+	w.Header().Set("Content-Type", "application/json")
+	w.WriteHeader(200)
+
+	return json.NewEncoder(w).Encode(response)
+}
+
+type GetApiGovernmentComplexBuilding8RequestObject struct {
+}
+
+type GetApiGovernmentComplexBuilding8ResponseObject interface {
+	VisitGetApiGovernmentComplexBuilding8Response(w http.ResponseWriter) error
+}
+
+type GetApiGovernmentComplexBuilding8200JSONResponse Discrete
+
+func (response GetApiGovernmentComplexBuilding8200JSONResponse) VisitGetApiGovernmentComplexBuilding8Response(w http.ResponseWriter) error {
+	w.Header().Set("Content-Type", "application/json")
+	w.WriteHeader(200)
+
+	return json.NewEncoder(w).Encode(response)
+}
+
+type PostApiGovernmentComplexBuilding8RequestObject struct {
+	Body *PostApiGovernmentComplexBuilding8JSONRequestBody
+}
+
+type PostApiGovernmentComplexBuilding8ResponseObject interface {
+	VisitPostApiGovernmentComplexBuilding8Response(w http.ResponseWriter) error
+}
+
+type PostApiGovernmentComplexBuilding8200JSONResponse Discrete
+
+func (response PostApiGovernmentComplexBuilding8200JSONResponse) VisitPostApiGovernmentComplexBuilding8Response(w http.ResponseWriter) error {
+	w.Header().Set("Content-Type", "application/json")
+	w.WriteHeader(200)
+
+	return json.NewEncoder(w).Encode(response)
+}
+
+type GetApiGovernmentComplexRgbAlertRequestObject struct {
+}
+
+type GetApiGovernmentComplexRgbAlertResponseObject interface {
+	VisitGetApiGovernmentComplexRgbAlertResponse(w http.ResponseWriter) error
+}
+
+type GetApiGovernmentComplexRgbAlert200JSONResponse Discrete
+
+func (response GetApiGovernmentComplexRgbAlert200JSONResponse) VisitGetApiGovernmentComplexRgbAlertResponse(w http.ResponseWriter) error {
+	w.Header().Set("Content-Type", "application/json")
+	w.WriteHeader(200)
+
+	return json.NewEncoder(w).Encode(response)
+}
+
+type PostApiGovernmentComplexRgbAlertRequestObject struct {
+	Body *PostApiGovernmentComplexRgbAlertJSONRequestBody
+}
+
+type PostApiGovernmentComplexRgbAlertResponseObject interface {
+	VisitPostApiGovernmentComplexRgbAlertResponse(w http.ResponseWriter) error
+}
+
+type PostApiGovernmentComplexRgbAlert200JSONResponse Discrete
+
+func (response PostApiGovernmentComplexRgbAlert200JSONResponse) VisitPostApiGovernmentComplexRgbAlertResponse(w http.ResponseWriter) error {
+	w.Header().Set("Content-Type", "application/json")
+	w.WriteHeader(200)
+
+	return json.NewEncoder(w).Encode(response)
+}
+
+type GetApiGovernmentComplexRgbBRequestObject struct {
+}
+
+type GetApiGovernmentComplexRgbBResponseObject interface {
+	VisitGetApiGovernmentComplexRgbBResponse(w http.ResponseWriter) error
+}
+
+type GetApiGovernmentComplexRgbB200JSONResponse Discrete
+
+func (response GetApiGovernmentComplexRgbB200JSONResponse) VisitGetApiGovernmentComplexRgbBResponse(w http.ResponseWriter) error {
+	w.Header().Set("Content-Type", "application/json")
+	w.WriteHeader(200)
+
+	return json.NewEncoder(w).Encode(response)
+}
+
+type PostApiGovernmentComplexRgbBRequestObject struct {
+	Body *PostApiGovernmentComplexRgbBJSONRequestBody
+}
+
+type PostApiGovernmentComplexRgbBResponseObject interface {
+	VisitPostApiGovernmentComplexRgbBResponse(w http.ResponseWriter) error
+}
+
+type PostApiGovernmentComplexRgbB200JSONResponse Discrete
+
+func (response PostApiGovernmentComplexRgbB200JSONResponse) VisitPostApiGovernmentComplexRgbBResponse(w http.ResponseWriter) error {
+	w.Header().Set("Content-Type", "application/json")
+	w.WriteHeader(200)
+
+	return json.NewEncoder(w).Encode(response)
+}
+
+type GetApiGovernmentComplexRgbGRequestObject struct {
+}
+
+type GetApiGovernmentComplexRgbGResponseObject interface {
+	VisitGetApiGovernmentComplexRgbGResponse(w http.ResponseWriter) error
+}
+
+type GetApiGovernmentComplexRgbG200JSONResponse Discrete
+
+func (response GetApiGovernmentComplexRgbG200JSONResponse) VisitGetApiGovernmentComplexRgbGResponse(w http.ResponseWriter) error {
+	w.Header().Set("Content-Type", "application/json")
+	w.WriteHeader(200)
+
+	return json.NewEncoder(w).Encode(response)
+}
+
+type PostApiGovernmentComplexRgbGRequestObject struct {
+	Body *PostApiGovernmentComplexRgbGJSONRequestBody
+}
+
+type PostApiGovernmentComplexRgbGResponseObject interface {
+	VisitPostApiGovernmentComplexRgbGResponse(w http.ResponseWriter) error
+}
+
+type PostApiGovernmentComplexRgbG200JSONResponse Discrete
+
+func (response PostApiGovernmentComplexRgbG200JSONResponse) VisitPostApiGovernmentComplexRgbGResponse(w http.ResponseWriter) error {
+	w.Header().Set("Content-Type", "application/json")
+	w.WriteHeader(200)
+
+	return json.NewEncoder(w).Encode(response)
+}
+
+type GetApiGovernmentComplexRgbRRequestObject struct {
+}
+
+type GetApiGovernmentComplexRgbRResponseObject interface {
+	VisitGetApiGovernmentComplexRgbRResponse(w http.ResponseWriter) error
+}
+
+type GetApiGovernmentComplexRgbR200JSONResponse Discrete
+
+func (response GetApiGovernmentComplexRgbR200JSONResponse) VisitGetApiGovernmentComplexRgbRResponse(w http.ResponseWriter) error {
+	w.Header().Set("Content-Type", "application/json")
+	w.WriteHeader(200)
+
+	return json.NewEncoder(w).Encode(response)
+}
+
+type PostApiGovernmentComplexRgbRRequestObject struct {
+	Body *PostApiGovernmentComplexRgbRJSONRequestBody
+}
+
+type PostApiGovernmentComplexRgbRResponseObject interface {
+	VisitPostApiGovernmentComplexRgbRResponse(w http.ResponseWriter) error
+}
+
+type PostApiGovernmentComplexRgbR200JSONResponse Discrete
+
+func (response PostApiGovernmentComplexRgbR200JSONResponse) VisitPostApiGovernmentComplexRgbRResponse(w http.ResponseWriter) error {
+	w.Header().Set("Content-Type", "application/json")
+	w.WriteHeader(200)
+
+	return json.NewEncoder(w).Encode(response)
+}
+
 type GetApiHospitalBarrierRequestObject struct {
 }
 
@@ -1028,39 +2401,6 @@ func (response PostApiHospitalBuilding1200JSONResponse) VisitPostApiHospitalBuil
 	return json.NewEncoder(w).Encode(response)
 }
 
-type GetApiHospitalFireRequestObject struct {
-}
-
-type GetApiHospitalFireResponseObject interface {
-	VisitGetApiHospitalFireResponse(w http.ResponseWriter) error
-}
-
-type GetApiHospitalFire200JSONResponse Discrete
-
-func (response GetApiHospitalFire200JSONResponse) VisitGetApiHospitalFireResponse(w http.ResponseWriter) error {
-	w.Header().Set("Content-Type", "application/json")
-	w.WriteHeader(200)
-
-	return json.NewEncoder(w).Encode(response)
-}
-
-type PostApiHospitalFireRequestObject struct {
-	Body *PostApiHospitalFireJSONRequestBody
-}
-
-type PostApiHospitalFireResponseObject interface {
-	VisitPostApiHospitalFireResponse(w http.ResponseWriter) error
-}
-
-type PostApiHospitalFire200JSONResponse Discrete
-
-func (response PostApiHospitalFire200JSONResponse) VisitPostApiHospitalFireResponse(w http.ResponseWriter) error {
-	w.Header().Set("Content-Type", "application/json")
-	w.WriteHeader(200)
-
-	return json.NewEncoder(w).Encode(response)
-}
-
 type GetApiHospitalFireAlarmRequestObject struct {
 }
 
@@ -1094,33 +2434,132 @@ func (response PostApiHospitalFireAlarm200JSONResponse) VisitPostApiHospitalFire
 	return json.NewEncoder(w).Encode(response)
 }
 
-type GetApiHospitalFireTruckRequestObject struct {
+type GetApiHospitalRgbAlertRequestObject struct {
 }
 
-type GetApiHospitalFireTruckResponseObject interface {
-	VisitGetApiHospitalFireTruckResponse(w http.ResponseWriter) error
+type GetApiHospitalRgbAlertResponseObject interface {
+	VisitGetApiHospitalRgbAlertResponse(w http.ResponseWriter) error
 }
 
-type GetApiHospitalFireTruck200JSONResponse Discrete
+type GetApiHospitalRgbAlert200JSONResponse Discrete
 
-func (response GetApiHospitalFireTruck200JSONResponse) VisitGetApiHospitalFireTruckResponse(w http.ResponseWriter) error {
+func (response GetApiHospitalRgbAlert200JSONResponse) VisitGetApiHospitalRgbAlertResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(200)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type PostApiHospitalFireTruckRequestObject struct {
-	Body *PostApiHospitalFireTruckJSONRequestBody
+type PostApiHospitalRgbAlertRequestObject struct {
+	Body *PostApiHospitalRgbAlertJSONRequestBody
 }
 
-type PostApiHospitalFireTruckResponseObject interface {
-	VisitPostApiHospitalFireTruckResponse(w http.ResponseWriter) error
+type PostApiHospitalRgbAlertResponseObject interface {
+	VisitPostApiHospitalRgbAlertResponse(w http.ResponseWriter) error
 }
 
-type PostApiHospitalFireTruck200JSONResponse Discrete
+type PostApiHospitalRgbAlert200JSONResponse Discrete
 
-func (response PostApiHospitalFireTruck200JSONResponse) VisitPostApiHospitalFireTruckResponse(w http.ResponseWriter) error {
+func (response PostApiHospitalRgbAlert200JSONResponse) VisitPostApiHospitalRgbAlertResponse(w http.ResponseWriter) error {
+	w.Header().Set("Content-Type", "application/json")
+	w.WriteHeader(200)
+
+	return json.NewEncoder(w).Encode(response)
+}
+
+type GetApiHospitalRgbBRequestObject struct {
+}
+
+type GetApiHospitalRgbBResponseObject interface {
+	VisitGetApiHospitalRgbBResponse(w http.ResponseWriter) error
+}
+
+type GetApiHospitalRgbB200JSONResponse Discrete
+
+func (response GetApiHospitalRgbB200JSONResponse) VisitGetApiHospitalRgbBResponse(w http.ResponseWriter) error {
+	w.Header().Set("Content-Type", "application/json")
+	w.WriteHeader(200)
+
+	return json.NewEncoder(w).Encode(response)
+}
+
+type PostApiHospitalRgbBRequestObject struct {
+	Body *PostApiHospitalRgbBJSONRequestBody
+}
+
+type PostApiHospitalRgbBResponseObject interface {
+	VisitPostApiHospitalRgbBResponse(w http.ResponseWriter) error
+}
+
+type PostApiHospitalRgbB200JSONResponse Discrete
+
+func (response PostApiHospitalRgbB200JSONResponse) VisitPostApiHospitalRgbBResponse(w http.ResponseWriter) error {
+	w.Header().Set("Content-Type", "application/json")
+	w.WriteHeader(200)
+
+	return json.NewEncoder(w).Encode(response)
+}
+
+type GetApiHospitalRgbGRequestObject struct {
+}
+
+type GetApiHospitalRgbGResponseObject interface {
+	VisitGetApiHospitalRgbGResponse(w http.ResponseWriter) error
+}
+
+type GetApiHospitalRgbG200JSONResponse Discrete
+
+func (response GetApiHospitalRgbG200JSONResponse) VisitGetApiHospitalRgbGResponse(w http.ResponseWriter) error {
+	w.Header().Set("Content-Type", "application/json")
+	w.WriteHeader(200)
+
+	return json.NewEncoder(w).Encode(response)
+}
+
+type PostApiHospitalRgbGRequestObject struct {
+	Body *PostApiHospitalRgbGJSONRequestBody
+}
+
+type PostApiHospitalRgbGResponseObject interface {
+	VisitPostApiHospitalRgbGResponse(w http.ResponseWriter) error
+}
+
+type PostApiHospitalRgbG200JSONResponse Discrete
+
+func (response PostApiHospitalRgbG200JSONResponse) VisitPostApiHospitalRgbGResponse(w http.ResponseWriter) error {
+	w.Header().Set("Content-Type", "application/json")
+	w.WriteHeader(200)
+
+	return json.NewEncoder(w).Encode(response)
+}
+
+type GetApiHospitalRgbRRequestObject struct {
+}
+
+type GetApiHospitalRgbRResponseObject interface {
+	VisitGetApiHospitalRgbRResponse(w http.ResponseWriter) error
+}
+
+type GetApiHospitalRgbR200JSONResponse Discrete
+
+func (response GetApiHospitalRgbR200JSONResponse) VisitGetApiHospitalRgbRResponse(w http.ResponseWriter) error {
+	w.Header().Set("Content-Type", "application/json")
+	w.WriteHeader(200)
+
+	return json.NewEncoder(w).Encode(response)
+}
+
+type PostApiHospitalRgbRRequestObject struct {
+	Body *PostApiHospitalRgbRJSONRequestBody
+}
+
+type PostApiHospitalRgbRResponseObject interface {
+	VisitPostApiHospitalRgbRResponse(w http.ResponseWriter) error
+}
+
+type PostApiHospitalRgbR200JSONResponse Discrete
+
+func (response PostApiHospitalRgbR200JSONResponse) VisitPostApiHospitalRgbRResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(200)
 
@@ -1160,6 +2599,138 @@ func (response PostApiHospitalSiren200JSONResponse) VisitPostApiHospitalSirenRes
 	return json.NewEncoder(w).Encode(response)
 }
 
+type GetApiSportsComplexRgbAlertRequestObject struct {
+}
+
+type GetApiSportsComplexRgbAlertResponseObject interface {
+	VisitGetApiSportsComplexRgbAlertResponse(w http.ResponseWriter) error
+}
+
+type GetApiSportsComplexRgbAlert200JSONResponse Discrete
+
+func (response GetApiSportsComplexRgbAlert200JSONResponse) VisitGetApiSportsComplexRgbAlertResponse(w http.ResponseWriter) error {
+	w.Header().Set("Content-Type", "application/json")
+	w.WriteHeader(200)
+
+	return json.NewEncoder(w).Encode(response)
+}
+
+type PostApiSportsComplexRgbAlertRequestObject struct {
+	Body *PostApiSportsComplexRgbAlertJSONRequestBody
+}
+
+type PostApiSportsComplexRgbAlertResponseObject interface {
+	VisitPostApiSportsComplexRgbAlertResponse(w http.ResponseWriter) error
+}
+
+type PostApiSportsComplexRgbAlert200JSONResponse Discrete
+
+func (response PostApiSportsComplexRgbAlert200JSONResponse) VisitPostApiSportsComplexRgbAlertResponse(w http.ResponseWriter) error {
+	w.Header().Set("Content-Type", "application/json")
+	w.WriteHeader(200)
+
+	return json.NewEncoder(w).Encode(response)
+}
+
+type GetApiSportsComplexRgbBRequestObject struct {
+}
+
+type GetApiSportsComplexRgbBResponseObject interface {
+	VisitGetApiSportsComplexRgbBResponse(w http.ResponseWriter) error
+}
+
+type GetApiSportsComplexRgbB200JSONResponse Discrete
+
+func (response GetApiSportsComplexRgbB200JSONResponse) VisitGetApiSportsComplexRgbBResponse(w http.ResponseWriter) error {
+	w.Header().Set("Content-Type", "application/json")
+	w.WriteHeader(200)
+
+	return json.NewEncoder(w).Encode(response)
+}
+
+type PostApiSportsComplexRgbBRequestObject struct {
+	Body *PostApiSportsComplexRgbBJSONRequestBody
+}
+
+type PostApiSportsComplexRgbBResponseObject interface {
+	VisitPostApiSportsComplexRgbBResponse(w http.ResponseWriter) error
+}
+
+type PostApiSportsComplexRgbB200JSONResponse Discrete
+
+func (response PostApiSportsComplexRgbB200JSONResponse) VisitPostApiSportsComplexRgbBResponse(w http.ResponseWriter) error {
+	w.Header().Set("Content-Type", "application/json")
+	w.WriteHeader(200)
+
+	return json.NewEncoder(w).Encode(response)
+}
+
+type GetApiSportsComplexRgbGRequestObject struct {
+}
+
+type GetApiSportsComplexRgbGResponseObject interface {
+	VisitGetApiSportsComplexRgbGResponse(w http.ResponseWriter) error
+}
+
+type GetApiSportsComplexRgbG200JSONResponse Discrete
+
+func (response GetApiSportsComplexRgbG200JSONResponse) VisitGetApiSportsComplexRgbGResponse(w http.ResponseWriter) error {
+	w.Header().Set("Content-Type", "application/json")
+	w.WriteHeader(200)
+
+	return json.NewEncoder(w).Encode(response)
+}
+
+type PostApiSportsComplexRgbGRequestObject struct {
+	Body *PostApiSportsComplexRgbGJSONRequestBody
+}
+
+type PostApiSportsComplexRgbGResponseObject interface {
+	VisitPostApiSportsComplexRgbGResponse(w http.ResponseWriter) error
+}
+
+type PostApiSportsComplexRgbG200JSONResponse Discrete
+
+func (response PostApiSportsComplexRgbG200JSONResponse) VisitPostApiSportsComplexRgbGResponse(w http.ResponseWriter) error {
+	w.Header().Set("Content-Type", "application/json")
+	w.WriteHeader(200)
+
+	return json.NewEncoder(w).Encode(response)
+}
+
+type GetApiSportsComplexRgbRRequestObject struct {
+}
+
+type GetApiSportsComplexRgbRResponseObject interface {
+	VisitGetApiSportsComplexRgbRResponse(w http.ResponseWriter) error
+}
+
+type GetApiSportsComplexRgbR200JSONResponse Discrete
+
+func (response GetApiSportsComplexRgbR200JSONResponse) VisitGetApiSportsComplexRgbRResponse(w http.ResponseWriter) error {
+	w.Header().Set("Content-Type", "application/json")
+	w.WriteHeader(200)
+
+	return json.NewEncoder(w).Encode(response)
+}
+
+type PostApiSportsComplexRgbRRequestObject struct {
+	Body *PostApiSportsComplexRgbRJSONRequestBody
+}
+
+type PostApiSportsComplexRgbRResponseObject interface {
+	VisitPostApiSportsComplexRgbRResponse(w http.ResponseWriter) error
+}
+
+type PostApiSportsComplexRgbR200JSONResponse Discrete
+
+func (response PostApiSportsComplexRgbR200JSONResponse) VisitPostApiSportsComplexRgbRResponse(w http.ResponseWriter) error {
+	w.Header().Set("Content-Type", "application/json")
+	w.WriteHeader(200)
+
+	return json.NewEncoder(w).Encode(response)
+}
+
 type GetApiSportsComplexStadiumLightsRequestObject struct {
 }
 
@@ -1187,6 +2758,72 @@ type PostApiSportsComplexStadiumLightsResponseObject interface {
 type PostApiSportsComplexStadiumLights200JSONResponse Discrete
 
 func (response PostApiSportsComplexStadiumLights200JSONResponse) VisitPostApiSportsComplexStadiumLightsResponse(w http.ResponseWriter) error {
+	w.Header().Set("Content-Type", "application/json")
+	w.WriteHeader(200)
+
+	return json.NewEncoder(w).Encode(response)
+}
+
+type GetApiSportsComplexStreetlights1RequestObject struct {
+}
+
+type GetApiSportsComplexStreetlights1ResponseObject interface {
+	VisitGetApiSportsComplexStreetlights1Response(w http.ResponseWriter) error
+}
+
+type GetApiSportsComplexStreetlights1200JSONResponse Discrete
+
+func (response GetApiSportsComplexStreetlights1200JSONResponse) VisitGetApiSportsComplexStreetlights1Response(w http.ResponseWriter) error {
+	w.Header().Set("Content-Type", "application/json")
+	w.WriteHeader(200)
+
+	return json.NewEncoder(w).Encode(response)
+}
+
+type PostApiSportsComplexStreetlights1RequestObject struct {
+	Body *PostApiSportsComplexStreetlights1JSONRequestBody
+}
+
+type PostApiSportsComplexStreetlights1ResponseObject interface {
+	VisitPostApiSportsComplexStreetlights1Response(w http.ResponseWriter) error
+}
+
+type PostApiSportsComplexStreetlights1200JSONResponse Discrete
+
+func (response PostApiSportsComplexStreetlights1200JSONResponse) VisitPostApiSportsComplexStreetlights1Response(w http.ResponseWriter) error {
+	w.Header().Set("Content-Type", "application/json")
+	w.WriteHeader(200)
+
+	return json.NewEncoder(w).Encode(response)
+}
+
+type GetApiSportsComplexTl0RequestObject struct {
+}
+
+type GetApiSportsComplexTl0ResponseObject interface {
+	VisitGetApiSportsComplexTl0Response(w http.ResponseWriter) error
+}
+
+type GetApiSportsComplexTl0200JSONResponse Tl
+
+func (response GetApiSportsComplexTl0200JSONResponse) VisitGetApiSportsComplexTl0Response(w http.ResponseWriter) error {
+	w.Header().Set("Content-Type", "application/json")
+	w.WriteHeader(200)
+
+	return json.NewEncoder(w).Encode(response)
+}
+
+type PostApiSportsComplexTl0RequestObject struct {
+	Body *PostApiSportsComplexTl0JSONRequestBody
+}
+
+type PostApiSportsComplexTl0ResponseObject interface {
+	VisitPostApiSportsComplexTl0Response(w http.ResponseWriter) error
+}
+
+type PostApiSportsComplexTl0200JSONResponse Tl
+
+func (response PostApiSportsComplexTl0200JSONResponse) VisitPostApiSportsComplexTl0Response(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(200)
 
@@ -1325,33 +2962,132 @@ func (response PostApiWaterPumpPump3200JSONResponse) VisitPostApiWaterPumpPump3R
 	return json.NewEncoder(w).Encode(response)
 }
 
-type GetApiWaterPumpTransferBaseRequestObject struct {
+type GetApiWaterPumpRgbAlertRequestObject struct {
 }
 
-type GetApiWaterPumpTransferBaseResponseObject interface {
-	VisitGetApiWaterPumpTransferBaseResponse(w http.ResponseWriter) error
+type GetApiWaterPumpRgbAlertResponseObject interface {
+	VisitGetApiWaterPumpRgbAlertResponse(w http.ResponseWriter) error
 }
 
-type GetApiWaterPumpTransferBase200JSONResponse Discrete
+type GetApiWaterPumpRgbAlert200JSONResponse Discrete
 
-func (response GetApiWaterPumpTransferBase200JSONResponse) VisitGetApiWaterPumpTransferBaseResponse(w http.ResponseWriter) error {
+func (response GetApiWaterPumpRgbAlert200JSONResponse) VisitGetApiWaterPumpRgbAlertResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(200)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type PostApiWaterPumpTransferBaseRequestObject struct {
-	Body *PostApiWaterPumpTransferBaseJSONRequestBody
+type PostApiWaterPumpRgbAlertRequestObject struct {
+	Body *PostApiWaterPumpRgbAlertJSONRequestBody
 }
 
-type PostApiWaterPumpTransferBaseResponseObject interface {
-	VisitPostApiWaterPumpTransferBaseResponse(w http.ResponseWriter) error
+type PostApiWaterPumpRgbAlertResponseObject interface {
+	VisitPostApiWaterPumpRgbAlertResponse(w http.ResponseWriter) error
 }
 
-type PostApiWaterPumpTransferBase200JSONResponse Discrete
+type PostApiWaterPumpRgbAlert200JSONResponse Discrete
 
-func (response PostApiWaterPumpTransferBase200JSONResponse) VisitPostApiWaterPumpTransferBaseResponse(w http.ResponseWriter) error {
+func (response PostApiWaterPumpRgbAlert200JSONResponse) VisitPostApiWaterPumpRgbAlertResponse(w http.ResponseWriter) error {
+	w.Header().Set("Content-Type", "application/json")
+	w.WriteHeader(200)
+
+	return json.NewEncoder(w).Encode(response)
+}
+
+type GetApiWaterPumpRgbBRequestObject struct {
+}
+
+type GetApiWaterPumpRgbBResponseObject interface {
+	VisitGetApiWaterPumpRgbBResponse(w http.ResponseWriter) error
+}
+
+type GetApiWaterPumpRgbB200JSONResponse Discrete
+
+func (response GetApiWaterPumpRgbB200JSONResponse) VisitGetApiWaterPumpRgbBResponse(w http.ResponseWriter) error {
+	w.Header().Set("Content-Type", "application/json")
+	w.WriteHeader(200)
+
+	return json.NewEncoder(w).Encode(response)
+}
+
+type PostApiWaterPumpRgbBRequestObject struct {
+	Body *PostApiWaterPumpRgbBJSONRequestBody
+}
+
+type PostApiWaterPumpRgbBResponseObject interface {
+	VisitPostApiWaterPumpRgbBResponse(w http.ResponseWriter) error
+}
+
+type PostApiWaterPumpRgbB200JSONResponse Discrete
+
+func (response PostApiWaterPumpRgbB200JSONResponse) VisitPostApiWaterPumpRgbBResponse(w http.ResponseWriter) error {
+	w.Header().Set("Content-Type", "application/json")
+	w.WriteHeader(200)
+
+	return json.NewEncoder(w).Encode(response)
+}
+
+type GetApiWaterPumpRgbGRequestObject struct {
+}
+
+type GetApiWaterPumpRgbGResponseObject interface {
+	VisitGetApiWaterPumpRgbGResponse(w http.ResponseWriter) error
+}
+
+type GetApiWaterPumpRgbG200JSONResponse Discrete
+
+func (response GetApiWaterPumpRgbG200JSONResponse) VisitGetApiWaterPumpRgbGResponse(w http.ResponseWriter) error {
+	w.Header().Set("Content-Type", "application/json")
+	w.WriteHeader(200)
+
+	return json.NewEncoder(w).Encode(response)
+}
+
+type PostApiWaterPumpRgbGRequestObject struct {
+	Body *PostApiWaterPumpRgbGJSONRequestBody
+}
+
+type PostApiWaterPumpRgbGResponseObject interface {
+	VisitPostApiWaterPumpRgbGResponse(w http.ResponseWriter) error
+}
+
+type PostApiWaterPumpRgbG200JSONResponse Discrete
+
+func (response PostApiWaterPumpRgbG200JSONResponse) VisitPostApiWaterPumpRgbGResponse(w http.ResponseWriter) error {
+	w.Header().Set("Content-Type", "application/json")
+	w.WriteHeader(200)
+
+	return json.NewEncoder(w).Encode(response)
+}
+
+type GetApiWaterPumpRgbRRequestObject struct {
+}
+
+type GetApiWaterPumpRgbRResponseObject interface {
+	VisitGetApiWaterPumpRgbRResponse(w http.ResponseWriter) error
+}
+
+type GetApiWaterPumpRgbR200JSONResponse Discrete
+
+func (response GetApiWaterPumpRgbR200JSONResponse) VisitGetApiWaterPumpRgbRResponse(w http.ResponseWriter) error {
+	w.Header().Set("Content-Type", "application/json")
+	w.WriteHeader(200)
+
+	return json.NewEncoder(w).Encode(response)
+}
+
+type PostApiWaterPumpRgbRRequestObject struct {
+	Body *PostApiWaterPumpRgbRJSONRequestBody
+}
+
+type PostApiWaterPumpRgbRResponseObject interface {
+	VisitPostApiWaterPumpRgbRResponse(w http.ResponseWriter) error
+}
+
+type PostApiWaterPumpRgbR200JSONResponse Discrete
+
+func (response PostApiWaterPumpRgbR200JSONResponse) VisitPostApiWaterPumpRgbRResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(200)
 
@@ -1366,12 +3102,42 @@ type StrictServerInterface interface {
 	// Post data to /api/astana_lrt/building1
 	// (POST /api/astana_lrt/building1)
 	PostApiAstanaLrtBuilding1(ctx context.Context, request PostApiAstanaLrtBuilding1RequestObject) (PostApiAstanaLrtBuilding1ResponseObject, error)
+	// Get information from /api/astana_lrt/rgb_alert
+	// (GET /api/astana_lrt/rgb_alert)
+	GetApiAstanaLrtRgbAlert(ctx context.Context, request GetApiAstanaLrtRgbAlertRequestObject) (GetApiAstanaLrtRgbAlertResponseObject, error)
+	// Post data to /api/astana_lrt/rgb_alert
+	// (POST /api/astana_lrt/rgb_alert)
+	PostApiAstanaLrtRgbAlert(ctx context.Context, request PostApiAstanaLrtRgbAlertRequestObject) (PostApiAstanaLrtRgbAlertResponseObject, error)
+	// Get information from /api/astana_lrt/rgb_b
+	// (GET /api/astana_lrt/rgb_b)
+	GetApiAstanaLrtRgbB(ctx context.Context, request GetApiAstanaLrtRgbBRequestObject) (GetApiAstanaLrtRgbBResponseObject, error)
+	// Post data to /api/astana_lrt/rgb_b
+	// (POST /api/astana_lrt/rgb_b)
+	PostApiAstanaLrtRgbB(ctx context.Context, request PostApiAstanaLrtRgbBRequestObject) (PostApiAstanaLrtRgbBResponseObject, error)
+	// Get information from /api/astana_lrt/rgb_g
+	// (GET /api/astana_lrt/rgb_g)
+	GetApiAstanaLrtRgbG(ctx context.Context, request GetApiAstanaLrtRgbGRequestObject) (GetApiAstanaLrtRgbGResponseObject, error)
+	// Post data to /api/astana_lrt/rgb_g
+	// (POST /api/astana_lrt/rgb_g)
+	PostApiAstanaLrtRgbG(ctx context.Context, request PostApiAstanaLrtRgbGRequestObject) (PostApiAstanaLrtRgbGResponseObject, error)
+	// Get information from /api/astana_lrt/rgb_r
+	// (GET /api/astana_lrt/rgb_r)
+	GetApiAstanaLrtRgbR(ctx context.Context, request GetApiAstanaLrtRgbRRequestObject) (GetApiAstanaLrtRgbRResponseObject, error)
+	// Post data to /api/astana_lrt/rgb_r
+	// (POST /api/astana_lrt/rgb_r)
+	PostApiAstanaLrtRgbR(ctx context.Context, request PostApiAstanaLrtRgbRRequestObject) (PostApiAstanaLrtRgbRResponseObject, error)
 	// Get information from /api/astana_lrt/streetlights1
 	// (GET /api/astana_lrt/streetlights1)
 	GetApiAstanaLrtStreetlights1(ctx context.Context, request GetApiAstanaLrtStreetlights1RequestObject) (GetApiAstanaLrtStreetlights1ResponseObject, error)
 	// Post data to /api/astana_lrt/streetlights1
 	// (POST /api/astana_lrt/streetlights1)
 	PostApiAstanaLrtStreetlights1(ctx context.Context, request PostApiAstanaLrtStreetlights1RequestObject) (PostApiAstanaLrtStreetlights1ResponseObject, error)
+	// Get information from /api/astana_lrt/tl0
+	// (GET /api/astana_lrt/tl0)
+	GetApiAstanaLrtTl0(ctx context.Context, request GetApiAstanaLrtTl0RequestObject) (GetApiAstanaLrtTl0ResponseObject, error)
+	// Post data to /api/astana_lrt/tl0
+	// (POST /api/astana_lrt/tl0)
+	PostApiAstanaLrtTl0(ctx context.Context, request PostApiAstanaLrtTl0RequestObject) (PostApiAstanaLrtTl0ResponseObject, error)
 	// Get information from /api/astana_lrt/tl1
 	// (GET /api/astana_lrt/tl1)
 	GetApiAstanaLrtTl1(ctx context.Context, request GetApiAstanaLrtTl1RequestObject) (GetApiAstanaLrtTl1ResponseObject, error)
@@ -1384,6 +3150,30 @@ type StrictServerInterface interface {
 	// Post data to /api/business_center/building1
 	// (POST /api/business_center/building1)
 	PostApiBusinessCenterBuilding1(ctx context.Context, request PostApiBusinessCenterBuilding1RequestObject) (PostApiBusinessCenterBuilding1ResponseObject, error)
+	// Get information from /api/business_center/rgb_alert
+	// (GET /api/business_center/rgb_alert)
+	GetApiBusinessCenterRgbAlert(ctx context.Context, request GetApiBusinessCenterRgbAlertRequestObject) (GetApiBusinessCenterRgbAlertResponseObject, error)
+	// Post data to /api/business_center/rgb_alert
+	// (POST /api/business_center/rgb_alert)
+	PostApiBusinessCenterRgbAlert(ctx context.Context, request PostApiBusinessCenterRgbAlertRequestObject) (PostApiBusinessCenterRgbAlertResponseObject, error)
+	// Get information from /api/business_center/rgb_b
+	// (GET /api/business_center/rgb_b)
+	GetApiBusinessCenterRgbB(ctx context.Context, request GetApiBusinessCenterRgbBRequestObject) (GetApiBusinessCenterRgbBResponseObject, error)
+	// Post data to /api/business_center/rgb_b
+	// (POST /api/business_center/rgb_b)
+	PostApiBusinessCenterRgbB(ctx context.Context, request PostApiBusinessCenterRgbBRequestObject) (PostApiBusinessCenterRgbBResponseObject, error)
+	// Get information from /api/business_center/rgb_g
+	// (GET /api/business_center/rgb_g)
+	GetApiBusinessCenterRgbG(ctx context.Context, request GetApiBusinessCenterRgbGRequestObject) (GetApiBusinessCenterRgbGResponseObject, error)
+	// Post data to /api/business_center/rgb_g
+	// (POST /api/business_center/rgb_g)
+	PostApiBusinessCenterRgbG(ctx context.Context, request PostApiBusinessCenterRgbGRequestObject) (PostApiBusinessCenterRgbGResponseObject, error)
+	// Get information from /api/business_center/rgb_r
+	// (GET /api/business_center/rgb_r)
+	GetApiBusinessCenterRgbR(ctx context.Context, request GetApiBusinessCenterRgbRRequestObject) (GetApiBusinessCenterRgbRResponseObject, error)
+	// Post data to /api/business_center/rgb_r
+	// (POST /api/business_center/rgb_r)
+	PostApiBusinessCenterRgbR(ctx context.Context, request PostApiBusinessCenterRgbRRequestObject) (PostApiBusinessCenterRgbRResponseObject, error)
 	// Get information from /api/government_complex/building1
 	// (GET /api/government_complex/building1)
 	GetApiGovernmentComplexBuilding1(ctx context.Context, request GetApiGovernmentComplexBuilding1RequestObject) (GetApiGovernmentComplexBuilding1ResponseObject, error)
@@ -1408,6 +3198,54 @@ type StrictServerInterface interface {
 	// Post data to /api/government_complex/building4
 	// (POST /api/government_complex/building4)
 	PostApiGovernmentComplexBuilding4(ctx context.Context, request PostApiGovernmentComplexBuilding4RequestObject) (PostApiGovernmentComplexBuilding4ResponseObject, error)
+	// Get information from /api/government_complex/building5
+	// (GET /api/government_complex/building5)
+	GetApiGovernmentComplexBuilding5(ctx context.Context, request GetApiGovernmentComplexBuilding5RequestObject) (GetApiGovernmentComplexBuilding5ResponseObject, error)
+	// Post data to /api/government_complex/building5
+	// (POST /api/government_complex/building5)
+	PostApiGovernmentComplexBuilding5(ctx context.Context, request PostApiGovernmentComplexBuilding5RequestObject) (PostApiGovernmentComplexBuilding5ResponseObject, error)
+	// Get information from /api/government_complex/building6
+	// (GET /api/government_complex/building6)
+	GetApiGovernmentComplexBuilding6(ctx context.Context, request GetApiGovernmentComplexBuilding6RequestObject) (GetApiGovernmentComplexBuilding6ResponseObject, error)
+	// Post data to /api/government_complex/building6
+	// (POST /api/government_complex/building6)
+	PostApiGovernmentComplexBuilding6(ctx context.Context, request PostApiGovernmentComplexBuilding6RequestObject) (PostApiGovernmentComplexBuilding6ResponseObject, error)
+	// Get information from /api/government_complex/building7
+	// (GET /api/government_complex/building7)
+	GetApiGovernmentComplexBuilding7(ctx context.Context, request GetApiGovernmentComplexBuilding7RequestObject) (GetApiGovernmentComplexBuilding7ResponseObject, error)
+	// Post data to /api/government_complex/building7
+	// (POST /api/government_complex/building7)
+	PostApiGovernmentComplexBuilding7(ctx context.Context, request PostApiGovernmentComplexBuilding7RequestObject) (PostApiGovernmentComplexBuilding7ResponseObject, error)
+	// Get information from /api/government_complex/building8
+	// (GET /api/government_complex/building8)
+	GetApiGovernmentComplexBuilding8(ctx context.Context, request GetApiGovernmentComplexBuilding8RequestObject) (GetApiGovernmentComplexBuilding8ResponseObject, error)
+	// Post data to /api/government_complex/building8
+	// (POST /api/government_complex/building8)
+	PostApiGovernmentComplexBuilding8(ctx context.Context, request PostApiGovernmentComplexBuilding8RequestObject) (PostApiGovernmentComplexBuilding8ResponseObject, error)
+	// Get information from /api/government_complex/rgb_alert
+	// (GET /api/government_complex/rgb_alert)
+	GetApiGovernmentComplexRgbAlert(ctx context.Context, request GetApiGovernmentComplexRgbAlertRequestObject) (GetApiGovernmentComplexRgbAlertResponseObject, error)
+	// Post data to /api/government_complex/rgb_alert
+	// (POST /api/government_complex/rgb_alert)
+	PostApiGovernmentComplexRgbAlert(ctx context.Context, request PostApiGovernmentComplexRgbAlertRequestObject) (PostApiGovernmentComplexRgbAlertResponseObject, error)
+	// Get information from /api/government_complex/rgb_b
+	// (GET /api/government_complex/rgb_b)
+	GetApiGovernmentComplexRgbB(ctx context.Context, request GetApiGovernmentComplexRgbBRequestObject) (GetApiGovernmentComplexRgbBResponseObject, error)
+	// Post data to /api/government_complex/rgb_b
+	// (POST /api/government_complex/rgb_b)
+	PostApiGovernmentComplexRgbB(ctx context.Context, request PostApiGovernmentComplexRgbBRequestObject) (PostApiGovernmentComplexRgbBResponseObject, error)
+	// Get information from /api/government_complex/rgb_g
+	// (GET /api/government_complex/rgb_g)
+	GetApiGovernmentComplexRgbG(ctx context.Context, request GetApiGovernmentComplexRgbGRequestObject) (GetApiGovernmentComplexRgbGResponseObject, error)
+	// Post data to /api/government_complex/rgb_g
+	// (POST /api/government_complex/rgb_g)
+	PostApiGovernmentComplexRgbG(ctx context.Context, request PostApiGovernmentComplexRgbGRequestObject) (PostApiGovernmentComplexRgbGResponseObject, error)
+	// Get information from /api/government_complex/rgb_r
+	// (GET /api/government_complex/rgb_r)
+	GetApiGovernmentComplexRgbR(ctx context.Context, request GetApiGovernmentComplexRgbRRequestObject) (GetApiGovernmentComplexRgbRResponseObject, error)
+	// Post data to /api/government_complex/rgb_r
+	// (POST /api/government_complex/rgb_r)
+	PostApiGovernmentComplexRgbR(ctx context.Context, request PostApiGovernmentComplexRgbRRequestObject) (PostApiGovernmentComplexRgbRResponseObject, error)
 	// Get information from /api/hospital/barrier
 	// (GET /api/hospital/barrier)
 	GetApiHospitalBarrier(ctx context.Context, request GetApiHospitalBarrierRequestObject) (GetApiHospitalBarrierResponseObject, error)
@@ -1420,36 +3258,84 @@ type StrictServerInterface interface {
 	// Post data to /api/hospital/building1
 	// (POST /api/hospital/building1)
 	PostApiHospitalBuilding1(ctx context.Context, request PostApiHospitalBuilding1RequestObject) (PostApiHospitalBuilding1ResponseObject, error)
-	// Get information from /api/hospital/fire
-	// (GET /api/hospital/fire)
-	GetApiHospitalFire(ctx context.Context, request GetApiHospitalFireRequestObject) (GetApiHospitalFireResponseObject, error)
-	// Post data to /api/hospital/fire
-	// (POST /api/hospital/fire)
-	PostApiHospitalFire(ctx context.Context, request PostApiHospitalFireRequestObject) (PostApiHospitalFireResponseObject, error)
 	// Get information from /api/hospital/fire_alarm
 	// (GET /api/hospital/fire_alarm)
 	GetApiHospitalFireAlarm(ctx context.Context, request GetApiHospitalFireAlarmRequestObject) (GetApiHospitalFireAlarmResponseObject, error)
 	// Post data to /api/hospital/fire_alarm
 	// (POST /api/hospital/fire_alarm)
 	PostApiHospitalFireAlarm(ctx context.Context, request PostApiHospitalFireAlarmRequestObject) (PostApiHospitalFireAlarmResponseObject, error)
-	// Get information from /api/hospital/fire_truck
-	// (GET /api/hospital/fire_truck)
-	GetApiHospitalFireTruck(ctx context.Context, request GetApiHospitalFireTruckRequestObject) (GetApiHospitalFireTruckResponseObject, error)
-	// Post data to /api/hospital/fire_truck
-	// (POST /api/hospital/fire_truck)
-	PostApiHospitalFireTruck(ctx context.Context, request PostApiHospitalFireTruckRequestObject) (PostApiHospitalFireTruckResponseObject, error)
+	// Get information from /api/hospital/rgb_alert
+	// (GET /api/hospital/rgb_alert)
+	GetApiHospitalRgbAlert(ctx context.Context, request GetApiHospitalRgbAlertRequestObject) (GetApiHospitalRgbAlertResponseObject, error)
+	// Post data to /api/hospital/rgb_alert
+	// (POST /api/hospital/rgb_alert)
+	PostApiHospitalRgbAlert(ctx context.Context, request PostApiHospitalRgbAlertRequestObject) (PostApiHospitalRgbAlertResponseObject, error)
+	// Get information from /api/hospital/rgb_b
+	// (GET /api/hospital/rgb_b)
+	GetApiHospitalRgbB(ctx context.Context, request GetApiHospitalRgbBRequestObject) (GetApiHospitalRgbBResponseObject, error)
+	// Post data to /api/hospital/rgb_b
+	// (POST /api/hospital/rgb_b)
+	PostApiHospitalRgbB(ctx context.Context, request PostApiHospitalRgbBRequestObject) (PostApiHospitalRgbBResponseObject, error)
+	// Get information from /api/hospital/rgb_g
+	// (GET /api/hospital/rgb_g)
+	GetApiHospitalRgbG(ctx context.Context, request GetApiHospitalRgbGRequestObject) (GetApiHospitalRgbGResponseObject, error)
+	// Post data to /api/hospital/rgb_g
+	// (POST /api/hospital/rgb_g)
+	PostApiHospitalRgbG(ctx context.Context, request PostApiHospitalRgbGRequestObject) (PostApiHospitalRgbGResponseObject, error)
+	// Get information from /api/hospital/rgb_r
+	// (GET /api/hospital/rgb_r)
+	GetApiHospitalRgbR(ctx context.Context, request GetApiHospitalRgbRRequestObject) (GetApiHospitalRgbRResponseObject, error)
+	// Post data to /api/hospital/rgb_r
+	// (POST /api/hospital/rgb_r)
+	PostApiHospitalRgbR(ctx context.Context, request PostApiHospitalRgbRRequestObject) (PostApiHospitalRgbRResponseObject, error)
 	// Get information from /api/hospital/siren
 	// (GET /api/hospital/siren)
 	GetApiHospitalSiren(ctx context.Context, request GetApiHospitalSirenRequestObject) (GetApiHospitalSirenResponseObject, error)
 	// Post data to /api/hospital/siren
 	// (POST /api/hospital/siren)
 	PostApiHospitalSiren(ctx context.Context, request PostApiHospitalSirenRequestObject) (PostApiHospitalSirenResponseObject, error)
+	// Get information from /api/sports_complex/rgb_alert
+	// (GET /api/sports_complex/rgb_alert)
+	GetApiSportsComplexRgbAlert(ctx context.Context, request GetApiSportsComplexRgbAlertRequestObject) (GetApiSportsComplexRgbAlertResponseObject, error)
+	// Post data to /api/sports_complex/rgb_alert
+	// (POST /api/sports_complex/rgb_alert)
+	PostApiSportsComplexRgbAlert(ctx context.Context, request PostApiSportsComplexRgbAlertRequestObject) (PostApiSportsComplexRgbAlertResponseObject, error)
+	// Get information from /api/sports_complex/rgb_b
+	// (GET /api/sports_complex/rgb_b)
+	GetApiSportsComplexRgbB(ctx context.Context, request GetApiSportsComplexRgbBRequestObject) (GetApiSportsComplexRgbBResponseObject, error)
+	// Post data to /api/sports_complex/rgb_b
+	// (POST /api/sports_complex/rgb_b)
+	PostApiSportsComplexRgbB(ctx context.Context, request PostApiSportsComplexRgbBRequestObject) (PostApiSportsComplexRgbBResponseObject, error)
+	// Get information from /api/sports_complex/rgb_g
+	// (GET /api/sports_complex/rgb_g)
+	GetApiSportsComplexRgbG(ctx context.Context, request GetApiSportsComplexRgbGRequestObject) (GetApiSportsComplexRgbGResponseObject, error)
+	// Post data to /api/sports_complex/rgb_g
+	// (POST /api/sports_complex/rgb_g)
+	PostApiSportsComplexRgbG(ctx context.Context, request PostApiSportsComplexRgbGRequestObject) (PostApiSportsComplexRgbGResponseObject, error)
+	// Get information from /api/sports_complex/rgb_r
+	// (GET /api/sports_complex/rgb_r)
+	GetApiSportsComplexRgbR(ctx context.Context, request GetApiSportsComplexRgbRRequestObject) (GetApiSportsComplexRgbRResponseObject, error)
+	// Post data to /api/sports_complex/rgb_r
+	// (POST /api/sports_complex/rgb_r)
+	PostApiSportsComplexRgbR(ctx context.Context, request PostApiSportsComplexRgbRRequestObject) (PostApiSportsComplexRgbRResponseObject, error)
 	// Get information from /api/sports_complex/stadium_lights
 	// (GET /api/sports_complex/stadium_lights)
 	GetApiSportsComplexStadiumLights(ctx context.Context, request GetApiSportsComplexStadiumLightsRequestObject) (GetApiSportsComplexStadiumLightsResponseObject, error)
 	// Post data to /api/sports_complex/stadium_lights
 	// (POST /api/sports_complex/stadium_lights)
 	PostApiSportsComplexStadiumLights(ctx context.Context, request PostApiSportsComplexStadiumLightsRequestObject) (PostApiSportsComplexStadiumLightsResponseObject, error)
+	// Get information from /api/sports_complex/streetlights1
+	// (GET /api/sports_complex/streetlights1)
+	GetApiSportsComplexStreetlights1(ctx context.Context, request GetApiSportsComplexStreetlights1RequestObject) (GetApiSportsComplexStreetlights1ResponseObject, error)
+	// Post data to /api/sports_complex/streetlights1
+	// (POST /api/sports_complex/streetlights1)
+	PostApiSportsComplexStreetlights1(ctx context.Context, request PostApiSportsComplexStreetlights1RequestObject) (PostApiSportsComplexStreetlights1ResponseObject, error)
+	// Get information from /api/sports_complex/tl0
+	// (GET /api/sports_complex/tl0)
+	GetApiSportsComplexTl0(ctx context.Context, request GetApiSportsComplexTl0RequestObject) (GetApiSportsComplexTl0ResponseObject, error)
+	// Post data to /api/sports_complex/tl0
+	// (POST /api/sports_complex/tl0)
+	PostApiSportsComplexTl0(ctx context.Context, request PostApiSportsComplexTl0RequestObject) (PostApiSportsComplexTl0ResponseObject, error)
 	// Get information from /api/sports_complex/tl1
 	// (GET /api/sports_complex/tl1)
 	GetApiSportsComplexTl1(ctx context.Context, request GetApiSportsComplexTl1RequestObject) (GetApiSportsComplexTl1ResponseObject, error)
@@ -1474,12 +3360,30 @@ type StrictServerInterface interface {
 	// Post data to /api/water_pump/pump3
 	// (POST /api/water_pump/pump3)
 	PostApiWaterPumpPump3(ctx context.Context, request PostApiWaterPumpPump3RequestObject) (PostApiWaterPumpPump3ResponseObject, error)
-	// Get information from /api/water_pump/transfer_base
-	// (GET /api/water_pump/transfer_base)
-	GetApiWaterPumpTransferBase(ctx context.Context, request GetApiWaterPumpTransferBaseRequestObject) (GetApiWaterPumpTransferBaseResponseObject, error)
-	// Post data to /api/water_pump/transfer_base
-	// (POST /api/water_pump/transfer_base)
-	PostApiWaterPumpTransferBase(ctx context.Context, request PostApiWaterPumpTransferBaseRequestObject) (PostApiWaterPumpTransferBaseResponseObject, error)
+	// Get information from /api/water_pump/rgb_alert
+	// (GET /api/water_pump/rgb_alert)
+	GetApiWaterPumpRgbAlert(ctx context.Context, request GetApiWaterPumpRgbAlertRequestObject) (GetApiWaterPumpRgbAlertResponseObject, error)
+	// Post data to /api/water_pump/rgb_alert
+	// (POST /api/water_pump/rgb_alert)
+	PostApiWaterPumpRgbAlert(ctx context.Context, request PostApiWaterPumpRgbAlertRequestObject) (PostApiWaterPumpRgbAlertResponseObject, error)
+	// Get information from /api/water_pump/rgb_b
+	// (GET /api/water_pump/rgb_b)
+	GetApiWaterPumpRgbB(ctx context.Context, request GetApiWaterPumpRgbBRequestObject) (GetApiWaterPumpRgbBResponseObject, error)
+	// Post data to /api/water_pump/rgb_b
+	// (POST /api/water_pump/rgb_b)
+	PostApiWaterPumpRgbB(ctx context.Context, request PostApiWaterPumpRgbBRequestObject) (PostApiWaterPumpRgbBResponseObject, error)
+	// Get information from /api/water_pump/rgb_g
+	// (GET /api/water_pump/rgb_g)
+	GetApiWaterPumpRgbG(ctx context.Context, request GetApiWaterPumpRgbGRequestObject) (GetApiWaterPumpRgbGResponseObject, error)
+	// Post data to /api/water_pump/rgb_g
+	// (POST /api/water_pump/rgb_g)
+	PostApiWaterPumpRgbG(ctx context.Context, request PostApiWaterPumpRgbGRequestObject) (PostApiWaterPumpRgbGResponseObject, error)
+	// Get information from /api/water_pump/rgb_r
+	// (GET /api/water_pump/rgb_r)
+	GetApiWaterPumpRgbR(ctx context.Context, request GetApiWaterPumpRgbRRequestObject) (GetApiWaterPumpRgbRResponseObject, error)
+	// Post data to /api/water_pump/rgb_r
+	// (POST /api/water_pump/rgb_r)
+	PostApiWaterPumpRgbR(ctx context.Context, request PostApiWaterPumpRgbRRequestObject) (PostApiWaterPumpRgbRResponseObject, error)
 }
 
 type StrictHandlerFunc = strictecho.StrictEchoHandlerFunc
@@ -1546,6 +3450,214 @@ func (sh *strictHandler) PostApiAstanaLrtBuilding1(ctx echo.Context) error {
 	return nil
 }
 
+// GetApiAstanaLrtRgbAlert operation middleware
+func (sh *strictHandler) GetApiAstanaLrtRgbAlert(ctx echo.Context) error {
+	var request GetApiAstanaLrtRgbAlertRequestObject
+
+	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
+		return sh.ssi.GetApiAstanaLrtRgbAlert(ctx.Request().Context(), request.(GetApiAstanaLrtRgbAlertRequestObject))
+	}
+	for _, middleware := range sh.middlewares {
+		handler = middleware(handler, "GetApiAstanaLrtRgbAlert")
+	}
+
+	response, err := handler(ctx, request)
+
+	if err != nil {
+		return err
+	} else if validResponse, ok := response.(GetApiAstanaLrtRgbAlertResponseObject); ok {
+		return validResponse.VisitGetApiAstanaLrtRgbAlertResponse(ctx.Response())
+	} else if response != nil {
+		return fmt.Errorf("unexpected response type: %T", response)
+	}
+	return nil
+}
+
+// PostApiAstanaLrtRgbAlert operation middleware
+func (sh *strictHandler) PostApiAstanaLrtRgbAlert(ctx echo.Context) error {
+	var request PostApiAstanaLrtRgbAlertRequestObject
+
+	var body PostApiAstanaLrtRgbAlertJSONRequestBody
+	if err := ctx.Bind(&body); err != nil {
+		return err
+	}
+	request.Body = &body
+
+	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
+		return sh.ssi.PostApiAstanaLrtRgbAlert(ctx.Request().Context(), request.(PostApiAstanaLrtRgbAlertRequestObject))
+	}
+	for _, middleware := range sh.middlewares {
+		handler = middleware(handler, "PostApiAstanaLrtRgbAlert")
+	}
+
+	response, err := handler(ctx, request)
+
+	if err != nil {
+		return err
+	} else if validResponse, ok := response.(PostApiAstanaLrtRgbAlertResponseObject); ok {
+		return validResponse.VisitPostApiAstanaLrtRgbAlertResponse(ctx.Response())
+	} else if response != nil {
+		return fmt.Errorf("unexpected response type: %T", response)
+	}
+	return nil
+}
+
+// GetApiAstanaLrtRgbB operation middleware
+func (sh *strictHandler) GetApiAstanaLrtRgbB(ctx echo.Context) error {
+	var request GetApiAstanaLrtRgbBRequestObject
+
+	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
+		return sh.ssi.GetApiAstanaLrtRgbB(ctx.Request().Context(), request.(GetApiAstanaLrtRgbBRequestObject))
+	}
+	for _, middleware := range sh.middlewares {
+		handler = middleware(handler, "GetApiAstanaLrtRgbB")
+	}
+
+	response, err := handler(ctx, request)
+
+	if err != nil {
+		return err
+	} else if validResponse, ok := response.(GetApiAstanaLrtRgbBResponseObject); ok {
+		return validResponse.VisitGetApiAstanaLrtRgbBResponse(ctx.Response())
+	} else if response != nil {
+		return fmt.Errorf("unexpected response type: %T", response)
+	}
+	return nil
+}
+
+// PostApiAstanaLrtRgbB operation middleware
+func (sh *strictHandler) PostApiAstanaLrtRgbB(ctx echo.Context) error {
+	var request PostApiAstanaLrtRgbBRequestObject
+
+	var body PostApiAstanaLrtRgbBJSONRequestBody
+	if err := ctx.Bind(&body); err != nil {
+		return err
+	}
+	request.Body = &body
+
+	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
+		return sh.ssi.PostApiAstanaLrtRgbB(ctx.Request().Context(), request.(PostApiAstanaLrtRgbBRequestObject))
+	}
+	for _, middleware := range sh.middlewares {
+		handler = middleware(handler, "PostApiAstanaLrtRgbB")
+	}
+
+	response, err := handler(ctx, request)
+
+	if err != nil {
+		return err
+	} else if validResponse, ok := response.(PostApiAstanaLrtRgbBResponseObject); ok {
+		return validResponse.VisitPostApiAstanaLrtRgbBResponse(ctx.Response())
+	} else if response != nil {
+		return fmt.Errorf("unexpected response type: %T", response)
+	}
+	return nil
+}
+
+// GetApiAstanaLrtRgbG operation middleware
+func (sh *strictHandler) GetApiAstanaLrtRgbG(ctx echo.Context) error {
+	var request GetApiAstanaLrtRgbGRequestObject
+
+	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
+		return sh.ssi.GetApiAstanaLrtRgbG(ctx.Request().Context(), request.(GetApiAstanaLrtRgbGRequestObject))
+	}
+	for _, middleware := range sh.middlewares {
+		handler = middleware(handler, "GetApiAstanaLrtRgbG")
+	}
+
+	response, err := handler(ctx, request)
+
+	if err != nil {
+		return err
+	} else if validResponse, ok := response.(GetApiAstanaLrtRgbGResponseObject); ok {
+		return validResponse.VisitGetApiAstanaLrtRgbGResponse(ctx.Response())
+	} else if response != nil {
+		return fmt.Errorf("unexpected response type: %T", response)
+	}
+	return nil
+}
+
+// PostApiAstanaLrtRgbG operation middleware
+func (sh *strictHandler) PostApiAstanaLrtRgbG(ctx echo.Context) error {
+	var request PostApiAstanaLrtRgbGRequestObject
+
+	var body PostApiAstanaLrtRgbGJSONRequestBody
+	if err := ctx.Bind(&body); err != nil {
+		return err
+	}
+	request.Body = &body
+
+	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
+		return sh.ssi.PostApiAstanaLrtRgbG(ctx.Request().Context(), request.(PostApiAstanaLrtRgbGRequestObject))
+	}
+	for _, middleware := range sh.middlewares {
+		handler = middleware(handler, "PostApiAstanaLrtRgbG")
+	}
+
+	response, err := handler(ctx, request)
+
+	if err != nil {
+		return err
+	} else if validResponse, ok := response.(PostApiAstanaLrtRgbGResponseObject); ok {
+		return validResponse.VisitPostApiAstanaLrtRgbGResponse(ctx.Response())
+	} else if response != nil {
+		return fmt.Errorf("unexpected response type: %T", response)
+	}
+	return nil
+}
+
+// GetApiAstanaLrtRgbR operation middleware
+func (sh *strictHandler) GetApiAstanaLrtRgbR(ctx echo.Context) error {
+	var request GetApiAstanaLrtRgbRRequestObject
+
+	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
+		return sh.ssi.GetApiAstanaLrtRgbR(ctx.Request().Context(), request.(GetApiAstanaLrtRgbRRequestObject))
+	}
+	for _, middleware := range sh.middlewares {
+		handler = middleware(handler, "GetApiAstanaLrtRgbR")
+	}
+
+	response, err := handler(ctx, request)
+
+	if err != nil {
+		return err
+	} else if validResponse, ok := response.(GetApiAstanaLrtRgbRResponseObject); ok {
+		return validResponse.VisitGetApiAstanaLrtRgbRResponse(ctx.Response())
+	} else if response != nil {
+		return fmt.Errorf("unexpected response type: %T", response)
+	}
+	return nil
+}
+
+// PostApiAstanaLrtRgbR operation middleware
+func (sh *strictHandler) PostApiAstanaLrtRgbR(ctx echo.Context) error {
+	var request PostApiAstanaLrtRgbRRequestObject
+
+	var body PostApiAstanaLrtRgbRJSONRequestBody
+	if err := ctx.Bind(&body); err != nil {
+		return err
+	}
+	request.Body = &body
+
+	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
+		return sh.ssi.PostApiAstanaLrtRgbR(ctx.Request().Context(), request.(PostApiAstanaLrtRgbRRequestObject))
+	}
+	for _, middleware := range sh.middlewares {
+		handler = middleware(handler, "PostApiAstanaLrtRgbR")
+	}
+
+	response, err := handler(ctx, request)
+
+	if err != nil {
+		return err
+	} else if validResponse, ok := response.(PostApiAstanaLrtRgbRResponseObject); ok {
+		return validResponse.VisitPostApiAstanaLrtRgbRResponse(ctx.Response())
+	} else if response != nil {
+		return fmt.Errorf("unexpected response type: %T", response)
+	}
+	return nil
+}
+
 // GetApiAstanaLrtStreetlights1 operation middleware
 func (sh *strictHandler) GetApiAstanaLrtStreetlights1(ctx echo.Context) error {
 	var request GetApiAstanaLrtStreetlights1RequestObject
@@ -1592,6 +3704,58 @@ func (sh *strictHandler) PostApiAstanaLrtStreetlights1(ctx echo.Context) error {
 		return err
 	} else if validResponse, ok := response.(PostApiAstanaLrtStreetlights1ResponseObject); ok {
 		return validResponse.VisitPostApiAstanaLrtStreetlights1Response(ctx.Response())
+	} else if response != nil {
+		return fmt.Errorf("unexpected response type: %T", response)
+	}
+	return nil
+}
+
+// GetApiAstanaLrtTl0 operation middleware
+func (sh *strictHandler) GetApiAstanaLrtTl0(ctx echo.Context) error {
+	var request GetApiAstanaLrtTl0RequestObject
+
+	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
+		return sh.ssi.GetApiAstanaLrtTl0(ctx.Request().Context(), request.(GetApiAstanaLrtTl0RequestObject))
+	}
+	for _, middleware := range sh.middlewares {
+		handler = middleware(handler, "GetApiAstanaLrtTl0")
+	}
+
+	response, err := handler(ctx, request)
+
+	if err != nil {
+		return err
+	} else if validResponse, ok := response.(GetApiAstanaLrtTl0ResponseObject); ok {
+		return validResponse.VisitGetApiAstanaLrtTl0Response(ctx.Response())
+	} else if response != nil {
+		return fmt.Errorf("unexpected response type: %T", response)
+	}
+	return nil
+}
+
+// PostApiAstanaLrtTl0 operation middleware
+func (sh *strictHandler) PostApiAstanaLrtTl0(ctx echo.Context) error {
+	var request PostApiAstanaLrtTl0RequestObject
+
+	var body PostApiAstanaLrtTl0JSONRequestBody
+	if err := ctx.Bind(&body); err != nil {
+		return err
+	}
+	request.Body = &body
+
+	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
+		return sh.ssi.PostApiAstanaLrtTl0(ctx.Request().Context(), request.(PostApiAstanaLrtTl0RequestObject))
+	}
+	for _, middleware := range sh.middlewares {
+		handler = middleware(handler, "PostApiAstanaLrtTl0")
+	}
+
+	response, err := handler(ctx, request)
+
+	if err != nil {
+		return err
+	} else if validResponse, ok := response.(PostApiAstanaLrtTl0ResponseObject); ok {
+		return validResponse.VisitPostApiAstanaLrtTl0Response(ctx.Response())
 	} else if response != nil {
 		return fmt.Errorf("unexpected response type: %T", response)
 	}
@@ -1696,6 +3860,214 @@ func (sh *strictHandler) PostApiBusinessCenterBuilding1(ctx echo.Context) error 
 		return err
 	} else if validResponse, ok := response.(PostApiBusinessCenterBuilding1ResponseObject); ok {
 		return validResponse.VisitPostApiBusinessCenterBuilding1Response(ctx.Response())
+	} else if response != nil {
+		return fmt.Errorf("unexpected response type: %T", response)
+	}
+	return nil
+}
+
+// GetApiBusinessCenterRgbAlert operation middleware
+func (sh *strictHandler) GetApiBusinessCenterRgbAlert(ctx echo.Context) error {
+	var request GetApiBusinessCenterRgbAlertRequestObject
+
+	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
+		return sh.ssi.GetApiBusinessCenterRgbAlert(ctx.Request().Context(), request.(GetApiBusinessCenterRgbAlertRequestObject))
+	}
+	for _, middleware := range sh.middlewares {
+		handler = middleware(handler, "GetApiBusinessCenterRgbAlert")
+	}
+
+	response, err := handler(ctx, request)
+
+	if err != nil {
+		return err
+	} else if validResponse, ok := response.(GetApiBusinessCenterRgbAlertResponseObject); ok {
+		return validResponse.VisitGetApiBusinessCenterRgbAlertResponse(ctx.Response())
+	} else if response != nil {
+		return fmt.Errorf("unexpected response type: %T", response)
+	}
+	return nil
+}
+
+// PostApiBusinessCenterRgbAlert operation middleware
+func (sh *strictHandler) PostApiBusinessCenterRgbAlert(ctx echo.Context) error {
+	var request PostApiBusinessCenterRgbAlertRequestObject
+
+	var body PostApiBusinessCenterRgbAlertJSONRequestBody
+	if err := ctx.Bind(&body); err != nil {
+		return err
+	}
+	request.Body = &body
+
+	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
+		return sh.ssi.PostApiBusinessCenterRgbAlert(ctx.Request().Context(), request.(PostApiBusinessCenterRgbAlertRequestObject))
+	}
+	for _, middleware := range sh.middlewares {
+		handler = middleware(handler, "PostApiBusinessCenterRgbAlert")
+	}
+
+	response, err := handler(ctx, request)
+
+	if err != nil {
+		return err
+	} else if validResponse, ok := response.(PostApiBusinessCenterRgbAlertResponseObject); ok {
+		return validResponse.VisitPostApiBusinessCenterRgbAlertResponse(ctx.Response())
+	} else if response != nil {
+		return fmt.Errorf("unexpected response type: %T", response)
+	}
+	return nil
+}
+
+// GetApiBusinessCenterRgbB operation middleware
+func (sh *strictHandler) GetApiBusinessCenterRgbB(ctx echo.Context) error {
+	var request GetApiBusinessCenterRgbBRequestObject
+
+	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
+		return sh.ssi.GetApiBusinessCenterRgbB(ctx.Request().Context(), request.(GetApiBusinessCenterRgbBRequestObject))
+	}
+	for _, middleware := range sh.middlewares {
+		handler = middleware(handler, "GetApiBusinessCenterRgbB")
+	}
+
+	response, err := handler(ctx, request)
+
+	if err != nil {
+		return err
+	} else if validResponse, ok := response.(GetApiBusinessCenterRgbBResponseObject); ok {
+		return validResponse.VisitGetApiBusinessCenterRgbBResponse(ctx.Response())
+	} else if response != nil {
+		return fmt.Errorf("unexpected response type: %T", response)
+	}
+	return nil
+}
+
+// PostApiBusinessCenterRgbB operation middleware
+func (sh *strictHandler) PostApiBusinessCenterRgbB(ctx echo.Context) error {
+	var request PostApiBusinessCenterRgbBRequestObject
+
+	var body PostApiBusinessCenterRgbBJSONRequestBody
+	if err := ctx.Bind(&body); err != nil {
+		return err
+	}
+	request.Body = &body
+
+	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
+		return sh.ssi.PostApiBusinessCenterRgbB(ctx.Request().Context(), request.(PostApiBusinessCenterRgbBRequestObject))
+	}
+	for _, middleware := range sh.middlewares {
+		handler = middleware(handler, "PostApiBusinessCenterRgbB")
+	}
+
+	response, err := handler(ctx, request)
+
+	if err != nil {
+		return err
+	} else if validResponse, ok := response.(PostApiBusinessCenterRgbBResponseObject); ok {
+		return validResponse.VisitPostApiBusinessCenterRgbBResponse(ctx.Response())
+	} else if response != nil {
+		return fmt.Errorf("unexpected response type: %T", response)
+	}
+	return nil
+}
+
+// GetApiBusinessCenterRgbG operation middleware
+func (sh *strictHandler) GetApiBusinessCenterRgbG(ctx echo.Context) error {
+	var request GetApiBusinessCenterRgbGRequestObject
+
+	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
+		return sh.ssi.GetApiBusinessCenterRgbG(ctx.Request().Context(), request.(GetApiBusinessCenterRgbGRequestObject))
+	}
+	for _, middleware := range sh.middlewares {
+		handler = middleware(handler, "GetApiBusinessCenterRgbG")
+	}
+
+	response, err := handler(ctx, request)
+
+	if err != nil {
+		return err
+	} else if validResponse, ok := response.(GetApiBusinessCenterRgbGResponseObject); ok {
+		return validResponse.VisitGetApiBusinessCenterRgbGResponse(ctx.Response())
+	} else if response != nil {
+		return fmt.Errorf("unexpected response type: %T", response)
+	}
+	return nil
+}
+
+// PostApiBusinessCenterRgbG operation middleware
+func (sh *strictHandler) PostApiBusinessCenterRgbG(ctx echo.Context) error {
+	var request PostApiBusinessCenterRgbGRequestObject
+
+	var body PostApiBusinessCenterRgbGJSONRequestBody
+	if err := ctx.Bind(&body); err != nil {
+		return err
+	}
+	request.Body = &body
+
+	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
+		return sh.ssi.PostApiBusinessCenterRgbG(ctx.Request().Context(), request.(PostApiBusinessCenterRgbGRequestObject))
+	}
+	for _, middleware := range sh.middlewares {
+		handler = middleware(handler, "PostApiBusinessCenterRgbG")
+	}
+
+	response, err := handler(ctx, request)
+
+	if err != nil {
+		return err
+	} else if validResponse, ok := response.(PostApiBusinessCenterRgbGResponseObject); ok {
+		return validResponse.VisitPostApiBusinessCenterRgbGResponse(ctx.Response())
+	} else if response != nil {
+		return fmt.Errorf("unexpected response type: %T", response)
+	}
+	return nil
+}
+
+// GetApiBusinessCenterRgbR operation middleware
+func (sh *strictHandler) GetApiBusinessCenterRgbR(ctx echo.Context) error {
+	var request GetApiBusinessCenterRgbRRequestObject
+
+	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
+		return sh.ssi.GetApiBusinessCenterRgbR(ctx.Request().Context(), request.(GetApiBusinessCenterRgbRRequestObject))
+	}
+	for _, middleware := range sh.middlewares {
+		handler = middleware(handler, "GetApiBusinessCenterRgbR")
+	}
+
+	response, err := handler(ctx, request)
+
+	if err != nil {
+		return err
+	} else if validResponse, ok := response.(GetApiBusinessCenterRgbRResponseObject); ok {
+		return validResponse.VisitGetApiBusinessCenterRgbRResponse(ctx.Response())
+	} else if response != nil {
+		return fmt.Errorf("unexpected response type: %T", response)
+	}
+	return nil
+}
+
+// PostApiBusinessCenterRgbR operation middleware
+func (sh *strictHandler) PostApiBusinessCenterRgbR(ctx echo.Context) error {
+	var request PostApiBusinessCenterRgbRRequestObject
+
+	var body PostApiBusinessCenterRgbRJSONRequestBody
+	if err := ctx.Bind(&body); err != nil {
+		return err
+	}
+	request.Body = &body
+
+	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
+		return sh.ssi.PostApiBusinessCenterRgbR(ctx.Request().Context(), request.(PostApiBusinessCenterRgbRRequestObject))
+	}
+	for _, middleware := range sh.middlewares {
+		handler = middleware(handler, "PostApiBusinessCenterRgbR")
+	}
+
+	response, err := handler(ctx, request)
+
+	if err != nil {
+		return err
+	} else if validResponse, ok := response.(PostApiBusinessCenterRgbRResponseObject); ok {
+		return validResponse.VisitPostApiBusinessCenterRgbRResponse(ctx.Response())
 	} else if response != nil {
 		return fmt.Errorf("unexpected response type: %T", response)
 	}
@@ -1910,6 +4282,422 @@ func (sh *strictHandler) PostApiGovernmentComplexBuilding4(ctx echo.Context) err
 	return nil
 }
 
+// GetApiGovernmentComplexBuilding5 operation middleware
+func (sh *strictHandler) GetApiGovernmentComplexBuilding5(ctx echo.Context) error {
+	var request GetApiGovernmentComplexBuilding5RequestObject
+
+	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
+		return sh.ssi.GetApiGovernmentComplexBuilding5(ctx.Request().Context(), request.(GetApiGovernmentComplexBuilding5RequestObject))
+	}
+	for _, middleware := range sh.middlewares {
+		handler = middleware(handler, "GetApiGovernmentComplexBuilding5")
+	}
+
+	response, err := handler(ctx, request)
+
+	if err != nil {
+		return err
+	} else if validResponse, ok := response.(GetApiGovernmentComplexBuilding5ResponseObject); ok {
+		return validResponse.VisitGetApiGovernmentComplexBuilding5Response(ctx.Response())
+	} else if response != nil {
+		return fmt.Errorf("unexpected response type: %T", response)
+	}
+	return nil
+}
+
+// PostApiGovernmentComplexBuilding5 operation middleware
+func (sh *strictHandler) PostApiGovernmentComplexBuilding5(ctx echo.Context) error {
+	var request PostApiGovernmentComplexBuilding5RequestObject
+
+	var body PostApiGovernmentComplexBuilding5JSONRequestBody
+	if err := ctx.Bind(&body); err != nil {
+		return err
+	}
+	request.Body = &body
+
+	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
+		return sh.ssi.PostApiGovernmentComplexBuilding5(ctx.Request().Context(), request.(PostApiGovernmentComplexBuilding5RequestObject))
+	}
+	for _, middleware := range sh.middlewares {
+		handler = middleware(handler, "PostApiGovernmentComplexBuilding5")
+	}
+
+	response, err := handler(ctx, request)
+
+	if err != nil {
+		return err
+	} else if validResponse, ok := response.(PostApiGovernmentComplexBuilding5ResponseObject); ok {
+		return validResponse.VisitPostApiGovernmentComplexBuilding5Response(ctx.Response())
+	} else if response != nil {
+		return fmt.Errorf("unexpected response type: %T", response)
+	}
+	return nil
+}
+
+// GetApiGovernmentComplexBuilding6 operation middleware
+func (sh *strictHandler) GetApiGovernmentComplexBuilding6(ctx echo.Context) error {
+	var request GetApiGovernmentComplexBuilding6RequestObject
+
+	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
+		return sh.ssi.GetApiGovernmentComplexBuilding6(ctx.Request().Context(), request.(GetApiGovernmentComplexBuilding6RequestObject))
+	}
+	for _, middleware := range sh.middlewares {
+		handler = middleware(handler, "GetApiGovernmentComplexBuilding6")
+	}
+
+	response, err := handler(ctx, request)
+
+	if err != nil {
+		return err
+	} else if validResponse, ok := response.(GetApiGovernmentComplexBuilding6ResponseObject); ok {
+		return validResponse.VisitGetApiGovernmentComplexBuilding6Response(ctx.Response())
+	} else if response != nil {
+		return fmt.Errorf("unexpected response type: %T", response)
+	}
+	return nil
+}
+
+// PostApiGovernmentComplexBuilding6 operation middleware
+func (sh *strictHandler) PostApiGovernmentComplexBuilding6(ctx echo.Context) error {
+	var request PostApiGovernmentComplexBuilding6RequestObject
+
+	var body PostApiGovernmentComplexBuilding6JSONRequestBody
+	if err := ctx.Bind(&body); err != nil {
+		return err
+	}
+	request.Body = &body
+
+	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
+		return sh.ssi.PostApiGovernmentComplexBuilding6(ctx.Request().Context(), request.(PostApiGovernmentComplexBuilding6RequestObject))
+	}
+	for _, middleware := range sh.middlewares {
+		handler = middleware(handler, "PostApiGovernmentComplexBuilding6")
+	}
+
+	response, err := handler(ctx, request)
+
+	if err != nil {
+		return err
+	} else if validResponse, ok := response.(PostApiGovernmentComplexBuilding6ResponseObject); ok {
+		return validResponse.VisitPostApiGovernmentComplexBuilding6Response(ctx.Response())
+	} else if response != nil {
+		return fmt.Errorf("unexpected response type: %T", response)
+	}
+	return nil
+}
+
+// GetApiGovernmentComplexBuilding7 operation middleware
+func (sh *strictHandler) GetApiGovernmentComplexBuilding7(ctx echo.Context) error {
+	var request GetApiGovernmentComplexBuilding7RequestObject
+
+	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
+		return sh.ssi.GetApiGovernmentComplexBuilding7(ctx.Request().Context(), request.(GetApiGovernmentComplexBuilding7RequestObject))
+	}
+	for _, middleware := range sh.middlewares {
+		handler = middleware(handler, "GetApiGovernmentComplexBuilding7")
+	}
+
+	response, err := handler(ctx, request)
+
+	if err != nil {
+		return err
+	} else if validResponse, ok := response.(GetApiGovernmentComplexBuilding7ResponseObject); ok {
+		return validResponse.VisitGetApiGovernmentComplexBuilding7Response(ctx.Response())
+	} else if response != nil {
+		return fmt.Errorf("unexpected response type: %T", response)
+	}
+	return nil
+}
+
+// PostApiGovernmentComplexBuilding7 operation middleware
+func (sh *strictHandler) PostApiGovernmentComplexBuilding7(ctx echo.Context) error {
+	var request PostApiGovernmentComplexBuilding7RequestObject
+
+	var body PostApiGovernmentComplexBuilding7JSONRequestBody
+	if err := ctx.Bind(&body); err != nil {
+		return err
+	}
+	request.Body = &body
+
+	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
+		return sh.ssi.PostApiGovernmentComplexBuilding7(ctx.Request().Context(), request.(PostApiGovernmentComplexBuilding7RequestObject))
+	}
+	for _, middleware := range sh.middlewares {
+		handler = middleware(handler, "PostApiGovernmentComplexBuilding7")
+	}
+
+	response, err := handler(ctx, request)
+
+	if err != nil {
+		return err
+	} else if validResponse, ok := response.(PostApiGovernmentComplexBuilding7ResponseObject); ok {
+		return validResponse.VisitPostApiGovernmentComplexBuilding7Response(ctx.Response())
+	} else if response != nil {
+		return fmt.Errorf("unexpected response type: %T", response)
+	}
+	return nil
+}
+
+// GetApiGovernmentComplexBuilding8 operation middleware
+func (sh *strictHandler) GetApiGovernmentComplexBuilding8(ctx echo.Context) error {
+	var request GetApiGovernmentComplexBuilding8RequestObject
+
+	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
+		return sh.ssi.GetApiGovernmentComplexBuilding8(ctx.Request().Context(), request.(GetApiGovernmentComplexBuilding8RequestObject))
+	}
+	for _, middleware := range sh.middlewares {
+		handler = middleware(handler, "GetApiGovernmentComplexBuilding8")
+	}
+
+	response, err := handler(ctx, request)
+
+	if err != nil {
+		return err
+	} else if validResponse, ok := response.(GetApiGovernmentComplexBuilding8ResponseObject); ok {
+		return validResponse.VisitGetApiGovernmentComplexBuilding8Response(ctx.Response())
+	} else if response != nil {
+		return fmt.Errorf("unexpected response type: %T", response)
+	}
+	return nil
+}
+
+// PostApiGovernmentComplexBuilding8 operation middleware
+func (sh *strictHandler) PostApiGovernmentComplexBuilding8(ctx echo.Context) error {
+	var request PostApiGovernmentComplexBuilding8RequestObject
+
+	var body PostApiGovernmentComplexBuilding8JSONRequestBody
+	if err := ctx.Bind(&body); err != nil {
+		return err
+	}
+	request.Body = &body
+
+	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
+		return sh.ssi.PostApiGovernmentComplexBuilding8(ctx.Request().Context(), request.(PostApiGovernmentComplexBuilding8RequestObject))
+	}
+	for _, middleware := range sh.middlewares {
+		handler = middleware(handler, "PostApiGovernmentComplexBuilding8")
+	}
+
+	response, err := handler(ctx, request)
+
+	if err != nil {
+		return err
+	} else if validResponse, ok := response.(PostApiGovernmentComplexBuilding8ResponseObject); ok {
+		return validResponse.VisitPostApiGovernmentComplexBuilding8Response(ctx.Response())
+	} else if response != nil {
+		return fmt.Errorf("unexpected response type: %T", response)
+	}
+	return nil
+}
+
+// GetApiGovernmentComplexRgbAlert operation middleware
+func (sh *strictHandler) GetApiGovernmentComplexRgbAlert(ctx echo.Context) error {
+	var request GetApiGovernmentComplexRgbAlertRequestObject
+
+	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
+		return sh.ssi.GetApiGovernmentComplexRgbAlert(ctx.Request().Context(), request.(GetApiGovernmentComplexRgbAlertRequestObject))
+	}
+	for _, middleware := range sh.middlewares {
+		handler = middleware(handler, "GetApiGovernmentComplexRgbAlert")
+	}
+
+	response, err := handler(ctx, request)
+
+	if err != nil {
+		return err
+	} else if validResponse, ok := response.(GetApiGovernmentComplexRgbAlertResponseObject); ok {
+		return validResponse.VisitGetApiGovernmentComplexRgbAlertResponse(ctx.Response())
+	} else if response != nil {
+		return fmt.Errorf("unexpected response type: %T", response)
+	}
+	return nil
+}
+
+// PostApiGovernmentComplexRgbAlert operation middleware
+func (sh *strictHandler) PostApiGovernmentComplexRgbAlert(ctx echo.Context) error {
+	var request PostApiGovernmentComplexRgbAlertRequestObject
+
+	var body PostApiGovernmentComplexRgbAlertJSONRequestBody
+	if err := ctx.Bind(&body); err != nil {
+		return err
+	}
+	request.Body = &body
+
+	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
+		return sh.ssi.PostApiGovernmentComplexRgbAlert(ctx.Request().Context(), request.(PostApiGovernmentComplexRgbAlertRequestObject))
+	}
+	for _, middleware := range sh.middlewares {
+		handler = middleware(handler, "PostApiGovernmentComplexRgbAlert")
+	}
+
+	response, err := handler(ctx, request)
+
+	if err != nil {
+		return err
+	} else if validResponse, ok := response.(PostApiGovernmentComplexRgbAlertResponseObject); ok {
+		return validResponse.VisitPostApiGovernmentComplexRgbAlertResponse(ctx.Response())
+	} else if response != nil {
+		return fmt.Errorf("unexpected response type: %T", response)
+	}
+	return nil
+}
+
+// GetApiGovernmentComplexRgbB operation middleware
+func (sh *strictHandler) GetApiGovernmentComplexRgbB(ctx echo.Context) error {
+	var request GetApiGovernmentComplexRgbBRequestObject
+
+	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
+		return sh.ssi.GetApiGovernmentComplexRgbB(ctx.Request().Context(), request.(GetApiGovernmentComplexRgbBRequestObject))
+	}
+	for _, middleware := range sh.middlewares {
+		handler = middleware(handler, "GetApiGovernmentComplexRgbB")
+	}
+
+	response, err := handler(ctx, request)
+
+	if err != nil {
+		return err
+	} else if validResponse, ok := response.(GetApiGovernmentComplexRgbBResponseObject); ok {
+		return validResponse.VisitGetApiGovernmentComplexRgbBResponse(ctx.Response())
+	} else if response != nil {
+		return fmt.Errorf("unexpected response type: %T", response)
+	}
+	return nil
+}
+
+// PostApiGovernmentComplexRgbB operation middleware
+func (sh *strictHandler) PostApiGovernmentComplexRgbB(ctx echo.Context) error {
+	var request PostApiGovernmentComplexRgbBRequestObject
+
+	var body PostApiGovernmentComplexRgbBJSONRequestBody
+	if err := ctx.Bind(&body); err != nil {
+		return err
+	}
+	request.Body = &body
+
+	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
+		return sh.ssi.PostApiGovernmentComplexRgbB(ctx.Request().Context(), request.(PostApiGovernmentComplexRgbBRequestObject))
+	}
+	for _, middleware := range sh.middlewares {
+		handler = middleware(handler, "PostApiGovernmentComplexRgbB")
+	}
+
+	response, err := handler(ctx, request)
+
+	if err != nil {
+		return err
+	} else if validResponse, ok := response.(PostApiGovernmentComplexRgbBResponseObject); ok {
+		return validResponse.VisitPostApiGovernmentComplexRgbBResponse(ctx.Response())
+	} else if response != nil {
+		return fmt.Errorf("unexpected response type: %T", response)
+	}
+	return nil
+}
+
+// GetApiGovernmentComplexRgbG operation middleware
+func (sh *strictHandler) GetApiGovernmentComplexRgbG(ctx echo.Context) error {
+	var request GetApiGovernmentComplexRgbGRequestObject
+
+	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
+		return sh.ssi.GetApiGovernmentComplexRgbG(ctx.Request().Context(), request.(GetApiGovernmentComplexRgbGRequestObject))
+	}
+	for _, middleware := range sh.middlewares {
+		handler = middleware(handler, "GetApiGovernmentComplexRgbG")
+	}
+
+	response, err := handler(ctx, request)
+
+	if err != nil {
+		return err
+	} else if validResponse, ok := response.(GetApiGovernmentComplexRgbGResponseObject); ok {
+		return validResponse.VisitGetApiGovernmentComplexRgbGResponse(ctx.Response())
+	} else if response != nil {
+		return fmt.Errorf("unexpected response type: %T", response)
+	}
+	return nil
+}
+
+// PostApiGovernmentComplexRgbG operation middleware
+func (sh *strictHandler) PostApiGovernmentComplexRgbG(ctx echo.Context) error {
+	var request PostApiGovernmentComplexRgbGRequestObject
+
+	var body PostApiGovernmentComplexRgbGJSONRequestBody
+	if err := ctx.Bind(&body); err != nil {
+		return err
+	}
+	request.Body = &body
+
+	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
+		return sh.ssi.PostApiGovernmentComplexRgbG(ctx.Request().Context(), request.(PostApiGovernmentComplexRgbGRequestObject))
+	}
+	for _, middleware := range sh.middlewares {
+		handler = middleware(handler, "PostApiGovernmentComplexRgbG")
+	}
+
+	response, err := handler(ctx, request)
+
+	if err != nil {
+		return err
+	} else if validResponse, ok := response.(PostApiGovernmentComplexRgbGResponseObject); ok {
+		return validResponse.VisitPostApiGovernmentComplexRgbGResponse(ctx.Response())
+	} else if response != nil {
+		return fmt.Errorf("unexpected response type: %T", response)
+	}
+	return nil
+}
+
+// GetApiGovernmentComplexRgbR operation middleware
+func (sh *strictHandler) GetApiGovernmentComplexRgbR(ctx echo.Context) error {
+	var request GetApiGovernmentComplexRgbRRequestObject
+
+	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
+		return sh.ssi.GetApiGovernmentComplexRgbR(ctx.Request().Context(), request.(GetApiGovernmentComplexRgbRRequestObject))
+	}
+	for _, middleware := range sh.middlewares {
+		handler = middleware(handler, "GetApiGovernmentComplexRgbR")
+	}
+
+	response, err := handler(ctx, request)
+
+	if err != nil {
+		return err
+	} else if validResponse, ok := response.(GetApiGovernmentComplexRgbRResponseObject); ok {
+		return validResponse.VisitGetApiGovernmentComplexRgbRResponse(ctx.Response())
+	} else if response != nil {
+		return fmt.Errorf("unexpected response type: %T", response)
+	}
+	return nil
+}
+
+// PostApiGovernmentComplexRgbR operation middleware
+func (sh *strictHandler) PostApiGovernmentComplexRgbR(ctx echo.Context) error {
+	var request PostApiGovernmentComplexRgbRRequestObject
+
+	var body PostApiGovernmentComplexRgbRJSONRequestBody
+	if err := ctx.Bind(&body); err != nil {
+		return err
+	}
+	request.Body = &body
+
+	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
+		return sh.ssi.PostApiGovernmentComplexRgbR(ctx.Request().Context(), request.(PostApiGovernmentComplexRgbRRequestObject))
+	}
+	for _, middleware := range sh.middlewares {
+		handler = middleware(handler, "PostApiGovernmentComplexRgbR")
+	}
+
+	response, err := handler(ctx, request)
+
+	if err != nil {
+		return err
+	} else if validResponse, ok := response.(PostApiGovernmentComplexRgbRResponseObject); ok {
+		return validResponse.VisitPostApiGovernmentComplexRgbRResponse(ctx.Response())
+	} else if response != nil {
+		return fmt.Errorf("unexpected response type: %T", response)
+	}
+	return nil
+}
+
 // GetApiHospitalBarrier operation middleware
 func (sh *strictHandler) GetApiHospitalBarrier(ctx echo.Context) error {
 	var request GetApiHospitalBarrierRequestObject
@@ -2014,58 +4802,6 @@ func (sh *strictHandler) PostApiHospitalBuilding1(ctx echo.Context) error {
 	return nil
 }
 
-// GetApiHospitalFire operation middleware
-func (sh *strictHandler) GetApiHospitalFire(ctx echo.Context) error {
-	var request GetApiHospitalFireRequestObject
-
-	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
-		return sh.ssi.GetApiHospitalFire(ctx.Request().Context(), request.(GetApiHospitalFireRequestObject))
-	}
-	for _, middleware := range sh.middlewares {
-		handler = middleware(handler, "GetApiHospitalFire")
-	}
-
-	response, err := handler(ctx, request)
-
-	if err != nil {
-		return err
-	} else if validResponse, ok := response.(GetApiHospitalFireResponseObject); ok {
-		return validResponse.VisitGetApiHospitalFireResponse(ctx.Response())
-	} else if response != nil {
-		return fmt.Errorf("unexpected response type: %T", response)
-	}
-	return nil
-}
-
-// PostApiHospitalFire operation middleware
-func (sh *strictHandler) PostApiHospitalFire(ctx echo.Context) error {
-	var request PostApiHospitalFireRequestObject
-
-	var body PostApiHospitalFireJSONRequestBody
-	if err := ctx.Bind(&body); err != nil {
-		return err
-	}
-	request.Body = &body
-
-	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
-		return sh.ssi.PostApiHospitalFire(ctx.Request().Context(), request.(PostApiHospitalFireRequestObject))
-	}
-	for _, middleware := range sh.middlewares {
-		handler = middleware(handler, "PostApiHospitalFire")
-	}
-
-	response, err := handler(ctx, request)
-
-	if err != nil {
-		return err
-	} else if validResponse, ok := response.(PostApiHospitalFireResponseObject); ok {
-		return validResponse.VisitPostApiHospitalFireResponse(ctx.Response())
-	} else if response != nil {
-		return fmt.Errorf("unexpected response type: %T", response)
-	}
-	return nil
-}
-
 // GetApiHospitalFireAlarm operation middleware
 func (sh *strictHandler) GetApiHospitalFireAlarm(ctx echo.Context) error {
 	var request GetApiHospitalFireAlarmRequestObject
@@ -2118,52 +4854,208 @@ func (sh *strictHandler) PostApiHospitalFireAlarm(ctx echo.Context) error {
 	return nil
 }
 
-// GetApiHospitalFireTruck operation middleware
-func (sh *strictHandler) GetApiHospitalFireTruck(ctx echo.Context) error {
-	var request GetApiHospitalFireTruckRequestObject
+// GetApiHospitalRgbAlert operation middleware
+func (sh *strictHandler) GetApiHospitalRgbAlert(ctx echo.Context) error {
+	var request GetApiHospitalRgbAlertRequestObject
 
 	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
-		return sh.ssi.GetApiHospitalFireTruck(ctx.Request().Context(), request.(GetApiHospitalFireTruckRequestObject))
+		return sh.ssi.GetApiHospitalRgbAlert(ctx.Request().Context(), request.(GetApiHospitalRgbAlertRequestObject))
 	}
 	for _, middleware := range sh.middlewares {
-		handler = middleware(handler, "GetApiHospitalFireTruck")
+		handler = middleware(handler, "GetApiHospitalRgbAlert")
 	}
 
 	response, err := handler(ctx, request)
 
 	if err != nil {
 		return err
-	} else if validResponse, ok := response.(GetApiHospitalFireTruckResponseObject); ok {
-		return validResponse.VisitGetApiHospitalFireTruckResponse(ctx.Response())
+	} else if validResponse, ok := response.(GetApiHospitalRgbAlertResponseObject); ok {
+		return validResponse.VisitGetApiHospitalRgbAlertResponse(ctx.Response())
 	} else if response != nil {
 		return fmt.Errorf("unexpected response type: %T", response)
 	}
 	return nil
 }
 
-// PostApiHospitalFireTruck operation middleware
-func (sh *strictHandler) PostApiHospitalFireTruck(ctx echo.Context) error {
-	var request PostApiHospitalFireTruckRequestObject
+// PostApiHospitalRgbAlert operation middleware
+func (sh *strictHandler) PostApiHospitalRgbAlert(ctx echo.Context) error {
+	var request PostApiHospitalRgbAlertRequestObject
 
-	var body PostApiHospitalFireTruckJSONRequestBody
+	var body PostApiHospitalRgbAlertJSONRequestBody
 	if err := ctx.Bind(&body); err != nil {
 		return err
 	}
 	request.Body = &body
 
 	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
-		return sh.ssi.PostApiHospitalFireTruck(ctx.Request().Context(), request.(PostApiHospitalFireTruckRequestObject))
+		return sh.ssi.PostApiHospitalRgbAlert(ctx.Request().Context(), request.(PostApiHospitalRgbAlertRequestObject))
 	}
 	for _, middleware := range sh.middlewares {
-		handler = middleware(handler, "PostApiHospitalFireTruck")
+		handler = middleware(handler, "PostApiHospitalRgbAlert")
 	}
 
 	response, err := handler(ctx, request)
 
 	if err != nil {
 		return err
-	} else if validResponse, ok := response.(PostApiHospitalFireTruckResponseObject); ok {
-		return validResponse.VisitPostApiHospitalFireTruckResponse(ctx.Response())
+	} else if validResponse, ok := response.(PostApiHospitalRgbAlertResponseObject); ok {
+		return validResponse.VisitPostApiHospitalRgbAlertResponse(ctx.Response())
+	} else if response != nil {
+		return fmt.Errorf("unexpected response type: %T", response)
+	}
+	return nil
+}
+
+// GetApiHospitalRgbB operation middleware
+func (sh *strictHandler) GetApiHospitalRgbB(ctx echo.Context) error {
+	var request GetApiHospitalRgbBRequestObject
+
+	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
+		return sh.ssi.GetApiHospitalRgbB(ctx.Request().Context(), request.(GetApiHospitalRgbBRequestObject))
+	}
+	for _, middleware := range sh.middlewares {
+		handler = middleware(handler, "GetApiHospitalRgbB")
+	}
+
+	response, err := handler(ctx, request)
+
+	if err != nil {
+		return err
+	} else if validResponse, ok := response.(GetApiHospitalRgbBResponseObject); ok {
+		return validResponse.VisitGetApiHospitalRgbBResponse(ctx.Response())
+	} else if response != nil {
+		return fmt.Errorf("unexpected response type: %T", response)
+	}
+	return nil
+}
+
+// PostApiHospitalRgbB operation middleware
+func (sh *strictHandler) PostApiHospitalRgbB(ctx echo.Context) error {
+	var request PostApiHospitalRgbBRequestObject
+
+	var body PostApiHospitalRgbBJSONRequestBody
+	if err := ctx.Bind(&body); err != nil {
+		return err
+	}
+	request.Body = &body
+
+	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
+		return sh.ssi.PostApiHospitalRgbB(ctx.Request().Context(), request.(PostApiHospitalRgbBRequestObject))
+	}
+	for _, middleware := range sh.middlewares {
+		handler = middleware(handler, "PostApiHospitalRgbB")
+	}
+
+	response, err := handler(ctx, request)
+
+	if err != nil {
+		return err
+	} else if validResponse, ok := response.(PostApiHospitalRgbBResponseObject); ok {
+		return validResponse.VisitPostApiHospitalRgbBResponse(ctx.Response())
+	} else if response != nil {
+		return fmt.Errorf("unexpected response type: %T", response)
+	}
+	return nil
+}
+
+// GetApiHospitalRgbG operation middleware
+func (sh *strictHandler) GetApiHospitalRgbG(ctx echo.Context) error {
+	var request GetApiHospitalRgbGRequestObject
+
+	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
+		return sh.ssi.GetApiHospitalRgbG(ctx.Request().Context(), request.(GetApiHospitalRgbGRequestObject))
+	}
+	for _, middleware := range sh.middlewares {
+		handler = middleware(handler, "GetApiHospitalRgbG")
+	}
+
+	response, err := handler(ctx, request)
+
+	if err != nil {
+		return err
+	} else if validResponse, ok := response.(GetApiHospitalRgbGResponseObject); ok {
+		return validResponse.VisitGetApiHospitalRgbGResponse(ctx.Response())
+	} else if response != nil {
+		return fmt.Errorf("unexpected response type: %T", response)
+	}
+	return nil
+}
+
+// PostApiHospitalRgbG operation middleware
+func (sh *strictHandler) PostApiHospitalRgbG(ctx echo.Context) error {
+	var request PostApiHospitalRgbGRequestObject
+
+	var body PostApiHospitalRgbGJSONRequestBody
+	if err := ctx.Bind(&body); err != nil {
+		return err
+	}
+	request.Body = &body
+
+	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
+		return sh.ssi.PostApiHospitalRgbG(ctx.Request().Context(), request.(PostApiHospitalRgbGRequestObject))
+	}
+	for _, middleware := range sh.middlewares {
+		handler = middleware(handler, "PostApiHospitalRgbG")
+	}
+
+	response, err := handler(ctx, request)
+
+	if err != nil {
+		return err
+	} else if validResponse, ok := response.(PostApiHospitalRgbGResponseObject); ok {
+		return validResponse.VisitPostApiHospitalRgbGResponse(ctx.Response())
+	} else if response != nil {
+		return fmt.Errorf("unexpected response type: %T", response)
+	}
+	return nil
+}
+
+// GetApiHospitalRgbR operation middleware
+func (sh *strictHandler) GetApiHospitalRgbR(ctx echo.Context) error {
+	var request GetApiHospitalRgbRRequestObject
+
+	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
+		return sh.ssi.GetApiHospitalRgbR(ctx.Request().Context(), request.(GetApiHospitalRgbRRequestObject))
+	}
+	for _, middleware := range sh.middlewares {
+		handler = middleware(handler, "GetApiHospitalRgbR")
+	}
+
+	response, err := handler(ctx, request)
+
+	if err != nil {
+		return err
+	} else if validResponse, ok := response.(GetApiHospitalRgbRResponseObject); ok {
+		return validResponse.VisitGetApiHospitalRgbRResponse(ctx.Response())
+	} else if response != nil {
+		return fmt.Errorf("unexpected response type: %T", response)
+	}
+	return nil
+}
+
+// PostApiHospitalRgbR operation middleware
+func (sh *strictHandler) PostApiHospitalRgbR(ctx echo.Context) error {
+	var request PostApiHospitalRgbRRequestObject
+
+	var body PostApiHospitalRgbRJSONRequestBody
+	if err := ctx.Bind(&body); err != nil {
+		return err
+	}
+	request.Body = &body
+
+	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
+		return sh.ssi.PostApiHospitalRgbR(ctx.Request().Context(), request.(PostApiHospitalRgbRRequestObject))
+	}
+	for _, middleware := range sh.middlewares {
+		handler = middleware(handler, "PostApiHospitalRgbR")
+	}
+
+	response, err := handler(ctx, request)
+
+	if err != nil {
+		return err
+	} else if validResponse, ok := response.(PostApiHospitalRgbRResponseObject); ok {
+		return validResponse.VisitPostApiHospitalRgbRResponse(ctx.Response())
 	} else if response != nil {
 		return fmt.Errorf("unexpected response type: %T", response)
 	}
@@ -2222,6 +5114,214 @@ func (sh *strictHandler) PostApiHospitalSiren(ctx echo.Context) error {
 	return nil
 }
 
+// GetApiSportsComplexRgbAlert operation middleware
+func (sh *strictHandler) GetApiSportsComplexRgbAlert(ctx echo.Context) error {
+	var request GetApiSportsComplexRgbAlertRequestObject
+
+	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
+		return sh.ssi.GetApiSportsComplexRgbAlert(ctx.Request().Context(), request.(GetApiSportsComplexRgbAlertRequestObject))
+	}
+	for _, middleware := range sh.middlewares {
+		handler = middleware(handler, "GetApiSportsComplexRgbAlert")
+	}
+
+	response, err := handler(ctx, request)
+
+	if err != nil {
+		return err
+	} else if validResponse, ok := response.(GetApiSportsComplexRgbAlertResponseObject); ok {
+		return validResponse.VisitGetApiSportsComplexRgbAlertResponse(ctx.Response())
+	} else if response != nil {
+		return fmt.Errorf("unexpected response type: %T", response)
+	}
+	return nil
+}
+
+// PostApiSportsComplexRgbAlert operation middleware
+func (sh *strictHandler) PostApiSportsComplexRgbAlert(ctx echo.Context) error {
+	var request PostApiSportsComplexRgbAlertRequestObject
+
+	var body PostApiSportsComplexRgbAlertJSONRequestBody
+	if err := ctx.Bind(&body); err != nil {
+		return err
+	}
+	request.Body = &body
+
+	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
+		return sh.ssi.PostApiSportsComplexRgbAlert(ctx.Request().Context(), request.(PostApiSportsComplexRgbAlertRequestObject))
+	}
+	for _, middleware := range sh.middlewares {
+		handler = middleware(handler, "PostApiSportsComplexRgbAlert")
+	}
+
+	response, err := handler(ctx, request)
+
+	if err != nil {
+		return err
+	} else if validResponse, ok := response.(PostApiSportsComplexRgbAlertResponseObject); ok {
+		return validResponse.VisitPostApiSportsComplexRgbAlertResponse(ctx.Response())
+	} else if response != nil {
+		return fmt.Errorf("unexpected response type: %T", response)
+	}
+	return nil
+}
+
+// GetApiSportsComplexRgbB operation middleware
+func (sh *strictHandler) GetApiSportsComplexRgbB(ctx echo.Context) error {
+	var request GetApiSportsComplexRgbBRequestObject
+
+	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
+		return sh.ssi.GetApiSportsComplexRgbB(ctx.Request().Context(), request.(GetApiSportsComplexRgbBRequestObject))
+	}
+	for _, middleware := range sh.middlewares {
+		handler = middleware(handler, "GetApiSportsComplexRgbB")
+	}
+
+	response, err := handler(ctx, request)
+
+	if err != nil {
+		return err
+	} else if validResponse, ok := response.(GetApiSportsComplexRgbBResponseObject); ok {
+		return validResponse.VisitGetApiSportsComplexRgbBResponse(ctx.Response())
+	} else if response != nil {
+		return fmt.Errorf("unexpected response type: %T", response)
+	}
+	return nil
+}
+
+// PostApiSportsComplexRgbB operation middleware
+func (sh *strictHandler) PostApiSportsComplexRgbB(ctx echo.Context) error {
+	var request PostApiSportsComplexRgbBRequestObject
+
+	var body PostApiSportsComplexRgbBJSONRequestBody
+	if err := ctx.Bind(&body); err != nil {
+		return err
+	}
+	request.Body = &body
+
+	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
+		return sh.ssi.PostApiSportsComplexRgbB(ctx.Request().Context(), request.(PostApiSportsComplexRgbBRequestObject))
+	}
+	for _, middleware := range sh.middlewares {
+		handler = middleware(handler, "PostApiSportsComplexRgbB")
+	}
+
+	response, err := handler(ctx, request)
+
+	if err != nil {
+		return err
+	} else if validResponse, ok := response.(PostApiSportsComplexRgbBResponseObject); ok {
+		return validResponse.VisitPostApiSportsComplexRgbBResponse(ctx.Response())
+	} else if response != nil {
+		return fmt.Errorf("unexpected response type: %T", response)
+	}
+	return nil
+}
+
+// GetApiSportsComplexRgbG operation middleware
+func (sh *strictHandler) GetApiSportsComplexRgbG(ctx echo.Context) error {
+	var request GetApiSportsComplexRgbGRequestObject
+
+	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
+		return sh.ssi.GetApiSportsComplexRgbG(ctx.Request().Context(), request.(GetApiSportsComplexRgbGRequestObject))
+	}
+	for _, middleware := range sh.middlewares {
+		handler = middleware(handler, "GetApiSportsComplexRgbG")
+	}
+
+	response, err := handler(ctx, request)
+
+	if err != nil {
+		return err
+	} else if validResponse, ok := response.(GetApiSportsComplexRgbGResponseObject); ok {
+		return validResponse.VisitGetApiSportsComplexRgbGResponse(ctx.Response())
+	} else if response != nil {
+		return fmt.Errorf("unexpected response type: %T", response)
+	}
+	return nil
+}
+
+// PostApiSportsComplexRgbG operation middleware
+func (sh *strictHandler) PostApiSportsComplexRgbG(ctx echo.Context) error {
+	var request PostApiSportsComplexRgbGRequestObject
+
+	var body PostApiSportsComplexRgbGJSONRequestBody
+	if err := ctx.Bind(&body); err != nil {
+		return err
+	}
+	request.Body = &body
+
+	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
+		return sh.ssi.PostApiSportsComplexRgbG(ctx.Request().Context(), request.(PostApiSportsComplexRgbGRequestObject))
+	}
+	for _, middleware := range sh.middlewares {
+		handler = middleware(handler, "PostApiSportsComplexRgbG")
+	}
+
+	response, err := handler(ctx, request)
+
+	if err != nil {
+		return err
+	} else if validResponse, ok := response.(PostApiSportsComplexRgbGResponseObject); ok {
+		return validResponse.VisitPostApiSportsComplexRgbGResponse(ctx.Response())
+	} else if response != nil {
+		return fmt.Errorf("unexpected response type: %T", response)
+	}
+	return nil
+}
+
+// GetApiSportsComplexRgbR operation middleware
+func (sh *strictHandler) GetApiSportsComplexRgbR(ctx echo.Context) error {
+	var request GetApiSportsComplexRgbRRequestObject
+
+	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
+		return sh.ssi.GetApiSportsComplexRgbR(ctx.Request().Context(), request.(GetApiSportsComplexRgbRRequestObject))
+	}
+	for _, middleware := range sh.middlewares {
+		handler = middleware(handler, "GetApiSportsComplexRgbR")
+	}
+
+	response, err := handler(ctx, request)
+
+	if err != nil {
+		return err
+	} else if validResponse, ok := response.(GetApiSportsComplexRgbRResponseObject); ok {
+		return validResponse.VisitGetApiSportsComplexRgbRResponse(ctx.Response())
+	} else if response != nil {
+		return fmt.Errorf("unexpected response type: %T", response)
+	}
+	return nil
+}
+
+// PostApiSportsComplexRgbR operation middleware
+func (sh *strictHandler) PostApiSportsComplexRgbR(ctx echo.Context) error {
+	var request PostApiSportsComplexRgbRRequestObject
+
+	var body PostApiSportsComplexRgbRJSONRequestBody
+	if err := ctx.Bind(&body); err != nil {
+		return err
+	}
+	request.Body = &body
+
+	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
+		return sh.ssi.PostApiSportsComplexRgbR(ctx.Request().Context(), request.(PostApiSportsComplexRgbRRequestObject))
+	}
+	for _, middleware := range sh.middlewares {
+		handler = middleware(handler, "PostApiSportsComplexRgbR")
+	}
+
+	response, err := handler(ctx, request)
+
+	if err != nil {
+		return err
+	} else if validResponse, ok := response.(PostApiSportsComplexRgbRResponseObject); ok {
+		return validResponse.VisitPostApiSportsComplexRgbRResponse(ctx.Response())
+	} else if response != nil {
+		return fmt.Errorf("unexpected response type: %T", response)
+	}
+	return nil
+}
+
 // GetApiSportsComplexStadiumLights operation middleware
 func (sh *strictHandler) GetApiSportsComplexStadiumLights(ctx echo.Context) error {
 	var request GetApiSportsComplexStadiumLightsRequestObject
@@ -2268,6 +5368,110 @@ func (sh *strictHandler) PostApiSportsComplexStadiumLights(ctx echo.Context) err
 		return err
 	} else if validResponse, ok := response.(PostApiSportsComplexStadiumLightsResponseObject); ok {
 		return validResponse.VisitPostApiSportsComplexStadiumLightsResponse(ctx.Response())
+	} else if response != nil {
+		return fmt.Errorf("unexpected response type: %T", response)
+	}
+	return nil
+}
+
+// GetApiSportsComplexStreetlights1 operation middleware
+func (sh *strictHandler) GetApiSportsComplexStreetlights1(ctx echo.Context) error {
+	var request GetApiSportsComplexStreetlights1RequestObject
+
+	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
+		return sh.ssi.GetApiSportsComplexStreetlights1(ctx.Request().Context(), request.(GetApiSportsComplexStreetlights1RequestObject))
+	}
+	for _, middleware := range sh.middlewares {
+		handler = middleware(handler, "GetApiSportsComplexStreetlights1")
+	}
+
+	response, err := handler(ctx, request)
+
+	if err != nil {
+		return err
+	} else if validResponse, ok := response.(GetApiSportsComplexStreetlights1ResponseObject); ok {
+		return validResponse.VisitGetApiSportsComplexStreetlights1Response(ctx.Response())
+	} else if response != nil {
+		return fmt.Errorf("unexpected response type: %T", response)
+	}
+	return nil
+}
+
+// PostApiSportsComplexStreetlights1 operation middleware
+func (sh *strictHandler) PostApiSportsComplexStreetlights1(ctx echo.Context) error {
+	var request PostApiSportsComplexStreetlights1RequestObject
+
+	var body PostApiSportsComplexStreetlights1JSONRequestBody
+	if err := ctx.Bind(&body); err != nil {
+		return err
+	}
+	request.Body = &body
+
+	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
+		return sh.ssi.PostApiSportsComplexStreetlights1(ctx.Request().Context(), request.(PostApiSportsComplexStreetlights1RequestObject))
+	}
+	for _, middleware := range sh.middlewares {
+		handler = middleware(handler, "PostApiSportsComplexStreetlights1")
+	}
+
+	response, err := handler(ctx, request)
+
+	if err != nil {
+		return err
+	} else if validResponse, ok := response.(PostApiSportsComplexStreetlights1ResponseObject); ok {
+		return validResponse.VisitPostApiSportsComplexStreetlights1Response(ctx.Response())
+	} else if response != nil {
+		return fmt.Errorf("unexpected response type: %T", response)
+	}
+	return nil
+}
+
+// GetApiSportsComplexTl0 operation middleware
+func (sh *strictHandler) GetApiSportsComplexTl0(ctx echo.Context) error {
+	var request GetApiSportsComplexTl0RequestObject
+
+	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
+		return sh.ssi.GetApiSportsComplexTl0(ctx.Request().Context(), request.(GetApiSportsComplexTl0RequestObject))
+	}
+	for _, middleware := range sh.middlewares {
+		handler = middleware(handler, "GetApiSportsComplexTl0")
+	}
+
+	response, err := handler(ctx, request)
+
+	if err != nil {
+		return err
+	} else if validResponse, ok := response.(GetApiSportsComplexTl0ResponseObject); ok {
+		return validResponse.VisitGetApiSportsComplexTl0Response(ctx.Response())
+	} else if response != nil {
+		return fmt.Errorf("unexpected response type: %T", response)
+	}
+	return nil
+}
+
+// PostApiSportsComplexTl0 operation middleware
+func (sh *strictHandler) PostApiSportsComplexTl0(ctx echo.Context) error {
+	var request PostApiSportsComplexTl0RequestObject
+
+	var body PostApiSportsComplexTl0JSONRequestBody
+	if err := ctx.Bind(&body); err != nil {
+		return err
+	}
+	request.Body = &body
+
+	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
+		return sh.ssi.PostApiSportsComplexTl0(ctx.Request().Context(), request.(PostApiSportsComplexTl0RequestObject))
+	}
+	for _, middleware := range sh.middlewares {
+		handler = middleware(handler, "PostApiSportsComplexTl0")
+	}
+
+	response, err := handler(ctx, request)
+
+	if err != nil {
+		return err
+	} else if validResponse, ok := response.(PostApiSportsComplexTl0ResponseObject); ok {
+		return validResponse.VisitPostApiSportsComplexTl0Response(ctx.Response())
 	} else if response != nil {
 		return fmt.Errorf("unexpected response type: %T", response)
 	}
@@ -2482,52 +5686,208 @@ func (sh *strictHandler) PostApiWaterPumpPump3(ctx echo.Context) error {
 	return nil
 }
 
-// GetApiWaterPumpTransferBase operation middleware
-func (sh *strictHandler) GetApiWaterPumpTransferBase(ctx echo.Context) error {
-	var request GetApiWaterPumpTransferBaseRequestObject
+// GetApiWaterPumpRgbAlert operation middleware
+func (sh *strictHandler) GetApiWaterPumpRgbAlert(ctx echo.Context) error {
+	var request GetApiWaterPumpRgbAlertRequestObject
 
 	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
-		return sh.ssi.GetApiWaterPumpTransferBase(ctx.Request().Context(), request.(GetApiWaterPumpTransferBaseRequestObject))
+		return sh.ssi.GetApiWaterPumpRgbAlert(ctx.Request().Context(), request.(GetApiWaterPumpRgbAlertRequestObject))
 	}
 	for _, middleware := range sh.middlewares {
-		handler = middleware(handler, "GetApiWaterPumpTransferBase")
+		handler = middleware(handler, "GetApiWaterPumpRgbAlert")
 	}
 
 	response, err := handler(ctx, request)
 
 	if err != nil {
 		return err
-	} else if validResponse, ok := response.(GetApiWaterPumpTransferBaseResponseObject); ok {
-		return validResponse.VisitGetApiWaterPumpTransferBaseResponse(ctx.Response())
+	} else if validResponse, ok := response.(GetApiWaterPumpRgbAlertResponseObject); ok {
+		return validResponse.VisitGetApiWaterPumpRgbAlertResponse(ctx.Response())
 	} else if response != nil {
 		return fmt.Errorf("unexpected response type: %T", response)
 	}
 	return nil
 }
 
-// PostApiWaterPumpTransferBase operation middleware
-func (sh *strictHandler) PostApiWaterPumpTransferBase(ctx echo.Context) error {
-	var request PostApiWaterPumpTransferBaseRequestObject
+// PostApiWaterPumpRgbAlert operation middleware
+func (sh *strictHandler) PostApiWaterPumpRgbAlert(ctx echo.Context) error {
+	var request PostApiWaterPumpRgbAlertRequestObject
 
-	var body PostApiWaterPumpTransferBaseJSONRequestBody
+	var body PostApiWaterPumpRgbAlertJSONRequestBody
 	if err := ctx.Bind(&body); err != nil {
 		return err
 	}
 	request.Body = &body
 
 	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
-		return sh.ssi.PostApiWaterPumpTransferBase(ctx.Request().Context(), request.(PostApiWaterPumpTransferBaseRequestObject))
+		return sh.ssi.PostApiWaterPumpRgbAlert(ctx.Request().Context(), request.(PostApiWaterPumpRgbAlertRequestObject))
 	}
 	for _, middleware := range sh.middlewares {
-		handler = middleware(handler, "PostApiWaterPumpTransferBase")
+		handler = middleware(handler, "PostApiWaterPumpRgbAlert")
 	}
 
 	response, err := handler(ctx, request)
 
 	if err != nil {
 		return err
-	} else if validResponse, ok := response.(PostApiWaterPumpTransferBaseResponseObject); ok {
-		return validResponse.VisitPostApiWaterPumpTransferBaseResponse(ctx.Response())
+	} else if validResponse, ok := response.(PostApiWaterPumpRgbAlertResponseObject); ok {
+		return validResponse.VisitPostApiWaterPumpRgbAlertResponse(ctx.Response())
+	} else if response != nil {
+		return fmt.Errorf("unexpected response type: %T", response)
+	}
+	return nil
+}
+
+// GetApiWaterPumpRgbB operation middleware
+func (sh *strictHandler) GetApiWaterPumpRgbB(ctx echo.Context) error {
+	var request GetApiWaterPumpRgbBRequestObject
+
+	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
+		return sh.ssi.GetApiWaterPumpRgbB(ctx.Request().Context(), request.(GetApiWaterPumpRgbBRequestObject))
+	}
+	for _, middleware := range sh.middlewares {
+		handler = middleware(handler, "GetApiWaterPumpRgbB")
+	}
+
+	response, err := handler(ctx, request)
+
+	if err != nil {
+		return err
+	} else if validResponse, ok := response.(GetApiWaterPumpRgbBResponseObject); ok {
+		return validResponse.VisitGetApiWaterPumpRgbBResponse(ctx.Response())
+	} else if response != nil {
+		return fmt.Errorf("unexpected response type: %T", response)
+	}
+	return nil
+}
+
+// PostApiWaterPumpRgbB operation middleware
+func (sh *strictHandler) PostApiWaterPumpRgbB(ctx echo.Context) error {
+	var request PostApiWaterPumpRgbBRequestObject
+
+	var body PostApiWaterPumpRgbBJSONRequestBody
+	if err := ctx.Bind(&body); err != nil {
+		return err
+	}
+	request.Body = &body
+
+	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
+		return sh.ssi.PostApiWaterPumpRgbB(ctx.Request().Context(), request.(PostApiWaterPumpRgbBRequestObject))
+	}
+	for _, middleware := range sh.middlewares {
+		handler = middleware(handler, "PostApiWaterPumpRgbB")
+	}
+
+	response, err := handler(ctx, request)
+
+	if err != nil {
+		return err
+	} else if validResponse, ok := response.(PostApiWaterPumpRgbBResponseObject); ok {
+		return validResponse.VisitPostApiWaterPumpRgbBResponse(ctx.Response())
+	} else if response != nil {
+		return fmt.Errorf("unexpected response type: %T", response)
+	}
+	return nil
+}
+
+// GetApiWaterPumpRgbG operation middleware
+func (sh *strictHandler) GetApiWaterPumpRgbG(ctx echo.Context) error {
+	var request GetApiWaterPumpRgbGRequestObject
+
+	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
+		return sh.ssi.GetApiWaterPumpRgbG(ctx.Request().Context(), request.(GetApiWaterPumpRgbGRequestObject))
+	}
+	for _, middleware := range sh.middlewares {
+		handler = middleware(handler, "GetApiWaterPumpRgbG")
+	}
+
+	response, err := handler(ctx, request)
+
+	if err != nil {
+		return err
+	} else if validResponse, ok := response.(GetApiWaterPumpRgbGResponseObject); ok {
+		return validResponse.VisitGetApiWaterPumpRgbGResponse(ctx.Response())
+	} else if response != nil {
+		return fmt.Errorf("unexpected response type: %T", response)
+	}
+	return nil
+}
+
+// PostApiWaterPumpRgbG operation middleware
+func (sh *strictHandler) PostApiWaterPumpRgbG(ctx echo.Context) error {
+	var request PostApiWaterPumpRgbGRequestObject
+
+	var body PostApiWaterPumpRgbGJSONRequestBody
+	if err := ctx.Bind(&body); err != nil {
+		return err
+	}
+	request.Body = &body
+
+	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
+		return sh.ssi.PostApiWaterPumpRgbG(ctx.Request().Context(), request.(PostApiWaterPumpRgbGRequestObject))
+	}
+	for _, middleware := range sh.middlewares {
+		handler = middleware(handler, "PostApiWaterPumpRgbG")
+	}
+
+	response, err := handler(ctx, request)
+
+	if err != nil {
+		return err
+	} else if validResponse, ok := response.(PostApiWaterPumpRgbGResponseObject); ok {
+		return validResponse.VisitPostApiWaterPumpRgbGResponse(ctx.Response())
+	} else if response != nil {
+		return fmt.Errorf("unexpected response type: %T", response)
+	}
+	return nil
+}
+
+// GetApiWaterPumpRgbR operation middleware
+func (sh *strictHandler) GetApiWaterPumpRgbR(ctx echo.Context) error {
+	var request GetApiWaterPumpRgbRRequestObject
+
+	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
+		return sh.ssi.GetApiWaterPumpRgbR(ctx.Request().Context(), request.(GetApiWaterPumpRgbRRequestObject))
+	}
+	for _, middleware := range sh.middlewares {
+		handler = middleware(handler, "GetApiWaterPumpRgbR")
+	}
+
+	response, err := handler(ctx, request)
+
+	if err != nil {
+		return err
+	} else if validResponse, ok := response.(GetApiWaterPumpRgbRResponseObject); ok {
+		return validResponse.VisitGetApiWaterPumpRgbRResponse(ctx.Response())
+	} else if response != nil {
+		return fmt.Errorf("unexpected response type: %T", response)
+	}
+	return nil
+}
+
+// PostApiWaterPumpRgbR operation middleware
+func (sh *strictHandler) PostApiWaterPumpRgbR(ctx echo.Context) error {
+	var request PostApiWaterPumpRgbRRequestObject
+
+	var body PostApiWaterPumpRgbRJSONRequestBody
+	if err := ctx.Bind(&body); err != nil {
+		return err
+	}
+	request.Body = &body
+
+	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
+		return sh.ssi.PostApiWaterPumpRgbR(ctx.Request().Context(), request.(PostApiWaterPumpRgbRRequestObject))
+	}
+	for _, middleware := range sh.middlewares {
+		handler = middleware(handler, "PostApiWaterPumpRgbR")
+	}
+
+	response, err := handler(ctx, request)
+
+	if err != nil {
+		return err
+	} else if validResponse, ok := response.(PostApiWaterPumpRgbRResponseObject); ok {
+		return validResponse.VisitPostApiWaterPumpRgbRResponse(ctx.Response())
 	} else if response != nil {
 		return fmt.Errorf("unexpected response type: %T", response)
 	}
@@ -2537,30 +5897,42 @@ func (sh *strictHandler) PostApiWaterPumpTransferBase(ctx echo.Context) error {
 // Base64 encoded, gzipped, json marshaled Swagger object
 var swaggerSpec = []string{
 
-	"H4sIAAAAAAAC/+ybTW/bthvAv4rA//+o1I6Vk4EekgLrCvQQIAV2GAaDlmmHrUSqJJUmKAz0ZVhXDOiA",
-	"YecNu+3odslqNI33FahvNJCS7doW9eLYwRTo4tqRwOfx7/k9BEWzz4FL/YASRAQH7eeAu8fIh/ptD3OX",
-	"IYHU+4DRADGBkb5yAr1Q/xmR0AftbwHt94ENKAE26HqYPAHf2UCcBQi0ARcMkwGwwekOhQHecWkPDRDZ",
-	"QaeCwR0BB3rELiY9dVsbMPQ0xAz1bEoQ7d+l/b5NiR2POhwO7dkNKm6cyDwY7T5GrgDqLkgGWZn78BT7",
-	"KvndZtMGPibxp+ZsKEwEGiC2RuIDge42bU+gu7vNZpmchbeaMHr2JWeVzhmwwWBzgJl9Zg+AStKnvZSi",
-	"wlBQYAOO2Al2EbCBD0kIvc1WWAWxkxB2EkClxMkNffulGmkUqyVSt2HSp2pIgYWnrt1HBDEoUM/aP3wA",
-	"bHCCGMeUgDbYvdO801R1pQEiMMCgDRz9JxsEUBzrxBowwA3IBSSw4zHR6IbYU5nuqosDJHQfIu4yHIh4",
-	"VPlb9FJeyYn8oF8vLPlRnsuRvJJjeQF0MAbVvQ96OjuxH+B9HeAhEwez4dX35QElPNas1Wyqf1xKBCI6",
-	"KgwCD7t6pMZjTsl8clDv/s9QH7TB/xrz2aORTB2N2byheS1mfxS6LuK8H3rWNH5c6ND3ITuLM7YUY+br",
-	"2FafUd8yYxraIKD82pwOKc8A9TREXBzQ3tmWGM3VEyxEw/9sbRQlqwcFtATNqsnQXhGbC4aQ8PDgWPAc",
-	"uT/Ii+itvIgrZUWv5aUcRz/kqX20EKDaei/Cyla8IK1lwVdx1ZIXkHypMimiCy9D7z90uV7JSfS9nEQv",
-	"rB1rN8/rR95WbRbeFj1WLMz2FoGxrO2UxuZlnYK4OU3XRZ8pqEY+1bIbckwQ5x0XEYHYllYXB0mUezpI",
-	"pZcYZmCbXWdkIavnYZPmGdWZGj+gJ4gRHxHRUQl56PS60htn6PuzUPfiSJU2PxPcevKbp/McdHUHmDog",
-	"u0oFmqC1ZhO0yjZB65Y1QWvdJmiVboJW3QTrNkGrUBM45ib4VU7kP9ec/51bpr6ToX4hXnnCO7Xw6wrv",
-	"FBJ+r5Twpef6vVsm/F454cvP8Hu18OsKvzcX/pjyAAvoNbqQMYyYWfI/5aUcyb/kezmKXsvPBr+/TsY7",
-	"SIaroNQrSMwi5zFJHE6DUotrEneV/6qsW9mDmZWpys+gKYw2u+2STqnWOV/n1YfM2bU+Zsjs8u9yIv+W",
-	"o+hFjrhfqVGq7KzGYNbVzGHJzRmIWstcLWPmqUZ2oAeZX8BL+UmOCri5r4eruqAJlQKapmJJUXXOpfa1",
-	"kK/TEqRbK1joPili7ZUcRT9b8rMcRT/KsfpYQOJHevTKSxxDKiJxAUopTs8x1U4XczqpyIrTHDNEzDr/",
-	"Ij/Jy+hd9GZ+fuGlHEcv1Mfopxyhj/TYVZY5pmP2uCSeJZPnfGqLcy1OSjEVmAeUCT7bfOAC9nDod+Jz",
-	"H6VOL72MXsmRPJdjOcmYpI90vGSX6CiO9jAOVkHBs+mVOs6Uhy9xPodf3QCmBsgplaEfNnTGaaFqlTvn",
-	"lMJkI2edUqnU550yrF048/QMCsQ6QegHW9pq+0YFOAz9oNJ7bamYNrvbZgBVT8YmrdNrkiK2emllLasn",
-	"8lxO1CN89Ea9Gn/Sm5XoUI+4RVbx/8fZnsQxkqy1dD6TZW/nUDbv7Bc8bk7YaxQh09YEvsFUp4ypThFT",
-	"naqb6pQy1SlkqlObWsxUJ9VUwSDhfcQ6Xcgzf8+40A/gcXXG8oMcRe+it/E+03s5kh+ND3mzaj1KQh2o",
-	"SNVeOyxSy9qSWwPbsuUr3OqlRAHll0o0HA7/DQAA//8IGc2M9DsAAA==",
+	"H4sIAAAAAAAC/+ydTW/jxhnHvwox7ZGO3vwGA3uwAlQNkMPCLtBDURikNOIy5VuGo80agYF1UiQoAvQQ",
+	"9Nyitx7V3XUi2LHyFR5+o4CUrBdyhpyRJWpJzMUrmwRn/H9+P674cCx+jfq+G/ge9miIzr5GYf8Vdo3k",
+	"5cAO+wRTHL8OiB9gQm2cbHltOKPkx9gbuejsL8gfDpGOfA/pyHRs72/orzqi1wFGZyikxPYspKM3B74R",
+	"2Ad9f4At7B3gN5QYB9SwkiOatjeIdztDBH85sgke6L6H/eELfzjUfU+fHfXm5kZf7BCPO5vIcjDf/AL3",
+	"KYr3Mjwrb+au8cZ248m3mk0dubY3+665OJTtUWxhssHELYpfNHWH4hetZlNmztTJThh/tZpzPJ1rpCNr",
+	"ewET/Vq3UDxJ1x8wimqMqI90FGLy2u5jpCPX8EaGs90Kx4Po8yH0+QDxlEKvpN8+VaMkimyJ4t1sb+jH",
+	"h6Q2deJtPexhYlA80M5ffoZ09BqT0PY9dIZanzQ/acZ19QPsGYGNzlAn+ZGOAoO+SibWMAK7YYTU8Iwr",
+	"h9CGObKdeKateKOFaeIhDvvEDujsqPDv6BYeYQrvkq93GvwMH2AMjzCBO5QMRox4388GyezoeWCfJwN8",
+	"Tmh3cfj49w0D3wtnmLWbzfifvu9R7CWjGkHg2P3kSI0vQt9bnhziV78neIjO0O8ay7NHY37qaCzOG0le",
+	"67O/HPX7OAyHI0d7Gn9W6JHrGuR6NmMtzpi4ydjakPiuxo/pRkeBHz47p5d+mBPUlyMc0q4/uN5RRkv0",
+	"KBnhm4+2NnFK2sCghkb9vJrc6BmwiWVeGQ4mlA/2j3APDw14F/0Qv9Cit3AHP8EEfoGxFn2TfPsOpvAe",
+	"Jho8wliDX2EKH6JbeAd30TdwX4z/hWWeJ3OoNv3LLPn07yDMtCNraSpFBBRZKRxHEbNQjx+fKnoLE3iE",
+	"O3gPUy36bl43RiEnAlZ0a2CEWWzDFrJjSNBVAsgIYHLht4Thh5/hDh7gDh6T/9y3oUCvBgpY4go8O0GG",
+	"CD0lgowIFlcEIi7CffQWxvN3utvQ4KIGGhAJDZ6XH0OCCyWBjASEKUFICcbUsa1XNCy4FI6L84/kPDaB",
+	"Oy36Fh5gEn1XRPrl2gDVRn49rPwLYsG00lxn41KACwCeqgwDdOo0+Xj/d37mmUZ/h2n0VjvQWkVc/8lp",
+	"7pJm6uyQ4zgLPr0iYaSxfUpj+7A+BVEepptGnwtoEjkTy9aWsWxVGMvW1rFsKSzzsVw5W5qj0PZwGF71",
+	"sUcx2VGLvDsf5dNkkEr3yfmBbbdZnheZenvAwzynOjzi99k7Xy9ylRvo/FT30UXPyVW5I+oOo5/O2qXE",
+	"pnqmrN26qFJqe50TozJDxgwz34rSu+2Zovbq4sYe+u6cMJUhMoZY+YaU3IbPlPSiLn6U3pDnRKnskLFj",
+	"pTVv+a8x8Vzs0at4Mg5+89zLcG7PqLcY6tPZSJW+Fs8NbrPLcX6DqSA6RT+P/vwqCUjQ3lCCtqwE7ZpJ",
+	"0N5Ugra0BG0lwaYStIUk6PAl+BdM4ddnnv87NUO/k4O+UF5FwHcU8JsC3xEC/lAKeOlz/WHNgD+UA17+",
+	"DH+ogN8U+EMh4I+kgO/IAn9UM+CP5IDvSAN/pIDfFPgjIeCPpYA/lAX+uGbAH8sBfygN/LECflPgj4WA",
+	"P5EC/kgW+JOaAX8iB/yRNPAnCvhNgT8RAv5UCvhjWeBPawb8qRzwx9LAnyrgNwX+NBf4fS4iylS7yuuI",
+	"crPdx1Ki/HSVShIqMRYUcfYqcU0Rq77dGplT6soifphKFElRzEJJSl9ixKpur0aq7GGhET9SJYykMFah",
+	"MCWvOGLV9qJGupS+7ogfqJJFUpaV1Uev/DCwqeE0TIMQG+dI8j94gDG8h//DOPoWfuFg/8f58brzw1UQ",
+	"+EwkfNCLMpmjywpFQcuDNpt/Ftad/J3aokxVXhXHyGi7f5rGTknhXIxzdtnbYtvQJvjKcAzi8on+D0zh",
+	"JxhHb+EexgUI/8Em+Dw5XJURXkmFz3B+LClo13NR0BZCu1qCDLX77Hs+VbTK7U5GkPtocjKjVG4UusHo",
+	"aK5tK7GPuVLCbuVNKLVpmUlOgS8EvsmBvvS+5EoBe5VHfw9NyEx+SgAhASyOACX3GVfKd1F5/EtvKmbS",
+	"U/ALwc9qyoQ2wV4B/NE/o++XH5F3C5Pkfetj9EMB3ZfJsauM9yydArzF40nxu8xHAVwI8LwUTwCHgU9o",
+	"+FEs5rlMplKDhTzcTPdxfctPVcnCk4VfwBxtSrzgTde0WxNLSr32ZYeopJCQwswVovSL4XRFezXRYg/X",
+	"xewolRwScli5cpR8oZyu50VN1Cj9mpkdpBJDQgzCFSOkxsAeuVezDzaX+nj+27iO8AEmMI3fIItocDkb",
+	"7fPZYNX3IZWe1Of1F8XHoj+bn9JAUIN0qbg+7OZpFakyVvyJFbmhbfOpFQWxKfqF6Wc+vSK115aeYLFW",
+	"tMo9xYKRyVYeGcBMRT02IAfatSdaZLa1doBqq+KotnaCqnrChQCqK2fVrwyKyVUwcoMdLRz+czzAy5Eb",
+	"VHrlMDOm7a4d5gSl3jbwsGbXhAF2/KWd11CZwgeYwj2Mo+/jr9yPTFuU6GVyxB1mRQzP2iXEs0jymiPF",
+	"maS5XYayfWZX8igP2GcUIZfWefgcUjsypHZESO1UndSOFKkdIVI7ilQxUjtMUve5EmBRxyqvAmBmuY8V",
+	"AOw01dsOAT0Yd/5TW0u8679ax24NjCj1bn82PCWAoAAmF/7S7/CvVrFXAwX2cGc/G6ESQVAEiytCyXfz",
+	"V2t4UQMNSr+Lnw1QSSAoAYmPe/NbAAAA//8IKl3d3pEAAA==",
 }
 
 // GetSwagger returns the content of the embedded swagger specification file
