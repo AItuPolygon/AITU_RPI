@@ -30,6 +30,18 @@ func (s *Server) PostApiAstanaLrtBuilding1(ctx context.Context, request PostApiA
     return PostApiAstanaLrtBuilding1200JSONResponse{}, nil
 }
 
+// PostApiAstanaLrtLrtTrack operation middleware
+
+// (POST )
+func (s *Server) PostApiAstanaLrtLrtTrack(ctx context.Context, request PostApiAstanaLrtLrtTrackRequestObject) (PostApiAstanaLrtLrtTrackResponseObject, error) {
+    s.app.processCommand(
+        ctx.Value(TaskKey).(string),
+        ctx.Value(ElementKey).(string),
+        *request.Body,
+    )
+    return PostApiAstanaLrtLrtTrack200JSONResponse{}, nil
+}
+
 // PostApiAstanaLrtRgbAlert operation middleware
 
 // (POST )
@@ -522,6 +534,18 @@ func (s *Server) PostApiWaterPumpBuilding1(ctx context.Context, request PostApiW
     return PostApiWaterPumpBuilding1200JSONResponse{}, nil
 }
 
+// PostApiWaterPumpPump1 operation middleware
+
+// (POST )
+func (s *Server) PostApiWaterPumpPump1(ctx context.Context, request PostApiWaterPumpPump1RequestObject) (PostApiWaterPumpPump1ResponseObject, error) {
+    s.app.processCommand(
+        ctx.Value(TaskKey).(string),
+        ctx.Value(ElementKey).(string),
+        *request.Body,
+    )
+    return PostApiWaterPumpPump1200JSONResponse{}, nil
+}
+
 // PostApiWaterPumpPump2 operation middleware
 
 // (POST )
@@ -601,6 +625,19 @@ func (s *Server) PostApiWaterPumpRgbR(ctx context.Context, request PostApiWaterP
 // (GET )
 func (s *Server) GetApiAstanaLrtBuilding1(ctx context.Context, request GetApiAstanaLrtBuilding1RequestObject) (GetApiAstanaLrtBuilding1ResponseObject, error) {
     result := &GetApiAstanaLrtBuilding1200JSONResponse{}
+    s.app.processInfo(
+        ctx.Value(TaskKey).(string),
+        ctx.Value(ElementKey).(string),
+        result,
+    )
+    return result, nil
+}
+
+// GetApiAstanaLrtLrtTrack operation middleware
+
+// (GET )
+func (s *Server) GetApiAstanaLrtLrtTrack(ctx context.Context, request GetApiAstanaLrtLrtTrackRequestObject) (GetApiAstanaLrtLrtTrackResponseObject, error) {
+    result := &GetApiAstanaLrtLrtTrack200JSONResponse{}
     s.app.processInfo(
         ctx.Value(TaskKey).(string),
         ctx.Value(ElementKey).(string),
@@ -1134,6 +1171,19 @@ func (s *Server) GetApiSportsComplexTl1(ctx context.Context, request GetApiSport
 // (GET )
 func (s *Server) GetApiWaterPumpBuilding1(ctx context.Context, request GetApiWaterPumpBuilding1RequestObject) (GetApiWaterPumpBuilding1ResponseObject, error) {
     result := &GetApiWaterPumpBuilding1200JSONResponse{}
+    s.app.processInfo(
+        ctx.Value(TaskKey).(string),
+        ctx.Value(ElementKey).(string),
+        result,
+    )
+    return result, nil
+}
+
+// GetApiWaterPumpPump1 operation middleware
+
+// (GET )
+func (s *Server) GetApiWaterPumpPump1(ctx context.Context, request GetApiWaterPumpPump1RequestObject) (GetApiWaterPumpPump1ResponseObject, error) {
+    result := &GetApiWaterPumpPump1200JSONResponse{}
     s.app.processInfo(
         ctx.Value(TaskKey).(string),
         ctx.Value(ElementKey).(string),

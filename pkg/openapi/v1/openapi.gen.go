@@ -81,6 +81,9 @@ type TlSn string
 // PostApiAstanaLrtBuilding1JSONRequestBody defines body for PostApiAstanaLrtBuilding1 for application/json ContentType.
 type PostApiAstanaLrtBuilding1JSONRequestBody = Discrete
 
+// PostApiAstanaLrtLrtTrackJSONRequestBody defines body for PostApiAstanaLrtLrtTrack for application/json ContentType.
+type PostApiAstanaLrtLrtTrackJSONRequestBody = Discrete
+
 // PostApiAstanaLrtRgbAlertJSONRequestBody defines body for PostApiAstanaLrtRgbAlert for application/json ContentType.
 type PostApiAstanaLrtRgbAlertJSONRequestBody = Discrete
 
@@ -204,6 +207,9 @@ type PostApiSportsComplexTl1JSONRequestBody = Tl
 // PostApiWaterPumpBuilding1JSONRequestBody defines body for PostApiWaterPumpBuilding1 for application/json ContentType.
 type PostApiWaterPumpBuilding1JSONRequestBody = Discrete
 
+// PostApiWaterPumpPump1JSONRequestBody defines body for PostApiWaterPumpPump1 for application/json ContentType.
+type PostApiWaterPumpPump1JSONRequestBody = Range
+
 // PostApiWaterPumpPump2JSONRequestBody defines body for PostApiWaterPumpPump2 for application/json ContentType.
 type PostApiWaterPumpPump2JSONRequestBody = Range
 
@@ -230,6 +236,12 @@ type ServerInterface interface {
 	// Post data to /api/astana_lrt/building1
 	// (POST /api/astana_lrt/building1)
 	PostApiAstanaLrtBuilding1(ctx echo.Context) error
+	// Get information from /api/astana_lrt/lrt_track
+	// (GET /api/astana_lrt/lrt_track)
+	GetApiAstanaLrtLrtTrack(ctx echo.Context) error
+	// Post data to /api/astana_lrt/lrt_track
+	// (POST /api/astana_lrt/lrt_track)
+	PostApiAstanaLrtLrtTrack(ctx echo.Context) error
 	// Get information from /api/astana_lrt/rgb_alert
 	// (GET /api/astana_lrt/rgb_alert)
 	GetApiAstanaLrtRgbAlert(ctx echo.Context) error
@@ -476,6 +488,12 @@ type ServerInterface interface {
 	// Post data to /api/water_pump/building1
 	// (POST /api/water_pump/building1)
 	PostApiWaterPumpBuilding1(ctx echo.Context) error
+	// Get information from /api/water_pump/pump1
+	// (GET /api/water_pump/pump1)
+	GetApiWaterPumpPump1(ctx echo.Context) error
+	// Post data to /api/water_pump/pump1
+	// (POST /api/water_pump/pump1)
+	PostApiWaterPumpPump1(ctx echo.Context) error
 	// Get information from /api/water_pump/pump2
 	// (GET /api/water_pump/pump2)
 	GetApiWaterPumpPump2(ctx echo.Context) error
@@ -534,6 +552,24 @@ func (w *ServerInterfaceWrapper) PostApiAstanaLrtBuilding1(ctx echo.Context) err
 
 	// Invoke the callback with all the unmarshaled arguments
 	err = w.Handler.PostApiAstanaLrtBuilding1(ctx)
+	return err
+}
+
+// GetApiAstanaLrtLrtTrack converts echo context to params.
+func (w *ServerInterfaceWrapper) GetApiAstanaLrtLrtTrack(ctx echo.Context) error {
+	var err error
+
+	// Invoke the callback with all the unmarshaled arguments
+	err = w.Handler.GetApiAstanaLrtLrtTrack(ctx)
+	return err
+}
+
+// PostApiAstanaLrtLrtTrack converts echo context to params.
+func (w *ServerInterfaceWrapper) PostApiAstanaLrtLrtTrack(ctx echo.Context) error {
+	var err error
+
+	// Invoke the callback with all the unmarshaled arguments
+	err = w.Handler.PostApiAstanaLrtLrtTrack(ctx)
 	return err
 }
 
@@ -1275,6 +1311,24 @@ func (w *ServerInterfaceWrapper) PostApiWaterPumpBuilding1(ctx echo.Context) err
 	return err
 }
 
+// GetApiWaterPumpPump1 converts echo context to params.
+func (w *ServerInterfaceWrapper) GetApiWaterPumpPump1(ctx echo.Context) error {
+	var err error
+
+	// Invoke the callback with all the unmarshaled arguments
+	err = w.Handler.GetApiWaterPumpPump1(ctx)
+	return err
+}
+
+// PostApiWaterPumpPump1 converts echo context to params.
+func (w *ServerInterfaceWrapper) PostApiWaterPumpPump1(ctx echo.Context) error {
+	var err error
+
+	// Invoke the callback with all the unmarshaled arguments
+	err = w.Handler.PostApiWaterPumpPump1(ctx)
+	return err
+}
+
 // GetApiWaterPumpPump2 converts echo context to params.
 func (w *ServerInterfaceWrapper) GetApiWaterPumpPump2(ctx echo.Context) error {
 	var err error
@@ -1413,6 +1467,8 @@ func RegisterHandlersWithBaseURL(router EchoRouter, si ServerInterface, baseURL 
 
 	router.GET(baseURL+"/api/astana_lrt/building1", wrapper.GetApiAstanaLrtBuilding1)
 	router.POST(baseURL+"/api/astana_lrt/building1", wrapper.PostApiAstanaLrtBuilding1)
+	router.GET(baseURL+"/api/astana_lrt/lrt_track", wrapper.GetApiAstanaLrtLrtTrack)
+	router.POST(baseURL+"/api/astana_lrt/lrt_track", wrapper.PostApiAstanaLrtLrtTrack)
 	router.GET(baseURL+"/api/astana_lrt/rgb_alert", wrapper.GetApiAstanaLrtRgbAlert)
 	router.POST(baseURL+"/api/astana_lrt/rgb_alert", wrapper.PostApiAstanaLrtRgbAlert)
 	router.GET(baseURL+"/api/astana_lrt/rgb_b", wrapper.GetApiAstanaLrtRgbB)
@@ -1495,6 +1551,8 @@ func RegisterHandlersWithBaseURL(router EchoRouter, si ServerInterface, baseURL 
 	router.POST(baseURL+"/api/sports_complex/tl1", wrapper.PostApiSportsComplexTl1)
 	router.GET(baseURL+"/api/water_pump/building1", wrapper.GetApiWaterPumpBuilding1)
 	router.POST(baseURL+"/api/water_pump/building1", wrapper.PostApiWaterPumpBuilding1)
+	router.GET(baseURL+"/api/water_pump/pump1", wrapper.GetApiWaterPumpPump1)
+	router.POST(baseURL+"/api/water_pump/pump1", wrapper.PostApiWaterPumpPump1)
 	router.GET(baseURL+"/api/water_pump/pump2", wrapper.GetApiWaterPumpPump2)
 	router.POST(baseURL+"/api/water_pump/pump2", wrapper.PostApiWaterPumpPump2)
 	router.GET(baseURL+"/api/water_pump/pump3", wrapper.GetApiWaterPumpPump3)
@@ -1537,6 +1595,39 @@ type PostApiAstanaLrtBuilding1ResponseObject interface {
 type PostApiAstanaLrtBuilding1200JSONResponse Discrete
 
 func (response PostApiAstanaLrtBuilding1200JSONResponse) VisitPostApiAstanaLrtBuilding1Response(w http.ResponseWriter) error {
+	w.Header().Set("Content-Type", "application/json")
+	w.WriteHeader(200)
+
+	return json.NewEncoder(w).Encode(response)
+}
+
+type GetApiAstanaLrtLrtTrackRequestObject struct {
+}
+
+type GetApiAstanaLrtLrtTrackResponseObject interface {
+	VisitGetApiAstanaLrtLrtTrackResponse(w http.ResponseWriter) error
+}
+
+type GetApiAstanaLrtLrtTrack200JSONResponse Discrete
+
+func (response GetApiAstanaLrtLrtTrack200JSONResponse) VisitGetApiAstanaLrtLrtTrackResponse(w http.ResponseWriter) error {
+	w.Header().Set("Content-Type", "application/json")
+	w.WriteHeader(200)
+
+	return json.NewEncoder(w).Encode(response)
+}
+
+type PostApiAstanaLrtLrtTrackRequestObject struct {
+	Body *PostApiAstanaLrtLrtTrackJSONRequestBody
+}
+
+type PostApiAstanaLrtLrtTrackResponseObject interface {
+	VisitPostApiAstanaLrtLrtTrackResponse(w http.ResponseWriter) error
+}
+
+type PostApiAstanaLrtLrtTrack200JSONResponse Discrete
+
+func (response PostApiAstanaLrtLrtTrack200JSONResponse) VisitPostApiAstanaLrtLrtTrackResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(200)
 
@@ -2896,6 +2987,39 @@ func (response PostApiWaterPumpBuilding1200JSONResponse) VisitPostApiWaterPumpBu
 	return json.NewEncoder(w).Encode(response)
 }
 
+type GetApiWaterPumpPump1RequestObject struct {
+}
+
+type GetApiWaterPumpPump1ResponseObject interface {
+	VisitGetApiWaterPumpPump1Response(w http.ResponseWriter) error
+}
+
+type GetApiWaterPumpPump1200JSONResponse Range
+
+func (response GetApiWaterPumpPump1200JSONResponse) VisitGetApiWaterPumpPump1Response(w http.ResponseWriter) error {
+	w.Header().Set("Content-Type", "application/json")
+	w.WriteHeader(200)
+
+	return json.NewEncoder(w).Encode(response)
+}
+
+type PostApiWaterPumpPump1RequestObject struct {
+	Body *PostApiWaterPumpPump1JSONRequestBody
+}
+
+type PostApiWaterPumpPump1ResponseObject interface {
+	VisitPostApiWaterPumpPump1Response(w http.ResponseWriter) error
+}
+
+type PostApiWaterPumpPump1200JSONResponse Range
+
+func (response PostApiWaterPumpPump1200JSONResponse) VisitPostApiWaterPumpPump1Response(w http.ResponseWriter) error {
+	w.Header().Set("Content-Type", "application/json")
+	w.WriteHeader(200)
+
+	return json.NewEncoder(w).Encode(response)
+}
+
 type GetApiWaterPumpPump2RequestObject struct {
 }
 
@@ -3102,6 +3226,12 @@ type StrictServerInterface interface {
 	// Post data to /api/astana_lrt/building1
 	// (POST /api/astana_lrt/building1)
 	PostApiAstanaLrtBuilding1(ctx context.Context, request PostApiAstanaLrtBuilding1RequestObject) (PostApiAstanaLrtBuilding1ResponseObject, error)
+	// Get information from /api/astana_lrt/lrt_track
+	// (GET /api/astana_lrt/lrt_track)
+	GetApiAstanaLrtLrtTrack(ctx context.Context, request GetApiAstanaLrtLrtTrackRequestObject) (GetApiAstanaLrtLrtTrackResponseObject, error)
+	// Post data to /api/astana_lrt/lrt_track
+	// (POST /api/astana_lrt/lrt_track)
+	PostApiAstanaLrtLrtTrack(ctx context.Context, request PostApiAstanaLrtLrtTrackRequestObject) (PostApiAstanaLrtLrtTrackResponseObject, error)
 	// Get information from /api/astana_lrt/rgb_alert
 	// (GET /api/astana_lrt/rgb_alert)
 	GetApiAstanaLrtRgbAlert(ctx context.Context, request GetApiAstanaLrtRgbAlertRequestObject) (GetApiAstanaLrtRgbAlertResponseObject, error)
@@ -3348,6 +3478,12 @@ type StrictServerInterface interface {
 	// Post data to /api/water_pump/building1
 	// (POST /api/water_pump/building1)
 	PostApiWaterPumpBuilding1(ctx context.Context, request PostApiWaterPumpBuilding1RequestObject) (PostApiWaterPumpBuilding1ResponseObject, error)
+	// Get information from /api/water_pump/pump1
+	// (GET /api/water_pump/pump1)
+	GetApiWaterPumpPump1(ctx context.Context, request GetApiWaterPumpPump1RequestObject) (GetApiWaterPumpPump1ResponseObject, error)
+	// Post data to /api/water_pump/pump1
+	// (POST /api/water_pump/pump1)
+	PostApiWaterPumpPump1(ctx context.Context, request PostApiWaterPumpPump1RequestObject) (PostApiWaterPumpPump1ResponseObject, error)
 	// Get information from /api/water_pump/pump2
 	// (GET /api/water_pump/pump2)
 	GetApiWaterPumpPump2(ctx context.Context, request GetApiWaterPumpPump2RequestObject) (GetApiWaterPumpPump2ResponseObject, error)
@@ -3444,6 +3580,58 @@ func (sh *strictHandler) PostApiAstanaLrtBuilding1(ctx echo.Context) error {
 		return err
 	} else if validResponse, ok := response.(PostApiAstanaLrtBuilding1ResponseObject); ok {
 		return validResponse.VisitPostApiAstanaLrtBuilding1Response(ctx.Response())
+	} else if response != nil {
+		return fmt.Errorf("unexpected response type: %T", response)
+	}
+	return nil
+}
+
+// GetApiAstanaLrtLrtTrack operation middleware
+func (sh *strictHandler) GetApiAstanaLrtLrtTrack(ctx echo.Context) error {
+	var request GetApiAstanaLrtLrtTrackRequestObject
+
+	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
+		return sh.ssi.GetApiAstanaLrtLrtTrack(ctx.Request().Context(), request.(GetApiAstanaLrtLrtTrackRequestObject))
+	}
+	for _, middleware := range sh.middlewares {
+		handler = middleware(handler, "GetApiAstanaLrtLrtTrack")
+	}
+
+	response, err := handler(ctx, request)
+
+	if err != nil {
+		return err
+	} else if validResponse, ok := response.(GetApiAstanaLrtLrtTrackResponseObject); ok {
+		return validResponse.VisitGetApiAstanaLrtLrtTrackResponse(ctx.Response())
+	} else if response != nil {
+		return fmt.Errorf("unexpected response type: %T", response)
+	}
+	return nil
+}
+
+// PostApiAstanaLrtLrtTrack operation middleware
+func (sh *strictHandler) PostApiAstanaLrtLrtTrack(ctx echo.Context) error {
+	var request PostApiAstanaLrtLrtTrackRequestObject
+
+	var body PostApiAstanaLrtLrtTrackJSONRequestBody
+	if err := ctx.Bind(&body); err != nil {
+		return err
+	}
+	request.Body = &body
+
+	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
+		return sh.ssi.PostApiAstanaLrtLrtTrack(ctx.Request().Context(), request.(PostApiAstanaLrtLrtTrackRequestObject))
+	}
+	for _, middleware := range sh.middlewares {
+		handler = middleware(handler, "PostApiAstanaLrtLrtTrack")
+	}
+
+	response, err := handler(ctx, request)
+
+	if err != nil {
+		return err
+	} else if validResponse, ok := response.(PostApiAstanaLrtLrtTrackResponseObject); ok {
+		return validResponse.VisitPostApiAstanaLrtLrtTrackResponse(ctx.Response())
 	} else if response != nil {
 		return fmt.Errorf("unexpected response type: %T", response)
 	}
@@ -5582,6 +5770,58 @@ func (sh *strictHandler) PostApiWaterPumpBuilding1(ctx echo.Context) error {
 	return nil
 }
 
+// GetApiWaterPumpPump1 operation middleware
+func (sh *strictHandler) GetApiWaterPumpPump1(ctx echo.Context) error {
+	var request GetApiWaterPumpPump1RequestObject
+
+	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
+		return sh.ssi.GetApiWaterPumpPump1(ctx.Request().Context(), request.(GetApiWaterPumpPump1RequestObject))
+	}
+	for _, middleware := range sh.middlewares {
+		handler = middleware(handler, "GetApiWaterPumpPump1")
+	}
+
+	response, err := handler(ctx, request)
+
+	if err != nil {
+		return err
+	} else if validResponse, ok := response.(GetApiWaterPumpPump1ResponseObject); ok {
+		return validResponse.VisitGetApiWaterPumpPump1Response(ctx.Response())
+	} else if response != nil {
+		return fmt.Errorf("unexpected response type: %T", response)
+	}
+	return nil
+}
+
+// PostApiWaterPumpPump1 operation middleware
+func (sh *strictHandler) PostApiWaterPumpPump1(ctx echo.Context) error {
+	var request PostApiWaterPumpPump1RequestObject
+
+	var body PostApiWaterPumpPump1JSONRequestBody
+	if err := ctx.Bind(&body); err != nil {
+		return err
+	}
+	request.Body = &body
+
+	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
+		return sh.ssi.PostApiWaterPumpPump1(ctx.Request().Context(), request.(PostApiWaterPumpPump1RequestObject))
+	}
+	for _, middleware := range sh.middlewares {
+		handler = middleware(handler, "PostApiWaterPumpPump1")
+	}
+
+	response, err := handler(ctx, request)
+
+	if err != nil {
+		return err
+	} else if validResponse, ok := response.(PostApiWaterPumpPump1ResponseObject); ok {
+		return validResponse.VisitPostApiWaterPumpPump1Response(ctx.Response())
+	} else if response != nil {
+		return fmt.Errorf("unexpected response type: %T", response)
+	}
+	return nil
+}
+
 // GetApiWaterPumpPump2 operation middleware
 func (sh *strictHandler) GetApiWaterPumpPump2(ctx echo.Context) error {
 	var request GetApiWaterPumpPump2RequestObject
@@ -5897,42 +6137,44 @@ func (sh *strictHandler) PostApiWaterPumpRgbR(ctx echo.Context) error {
 // Base64 encoded, gzipped, json marshaled Swagger object
 var swaggerSpec = []string{
 
-	"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",
+	"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",
+	"AAA=",
 }
 
 // GetSwagger returns the content of the embedded swagger specification file

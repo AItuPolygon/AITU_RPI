@@ -2,89 +2,13 @@ tasks:
   astana_lrt:
     addr: 0x11
     elements:
-      streetlights1:
-        class: discrete
-        register: 0x10
-        description: Основное здание
-      building1:
-        class: discrete
-        register: 0x11
-        description: Освещение улиц
-      lrt_track:
-        class: discrete
-        register: 0x12
-        description: Движение поезда ЛРТ
-      tl1:
-        class: tl
-        register: 0x31
-        description: Светофор - 1
-      tl0:
-        class: tl
-        register: 0x30
-        description: Светофор - 1
-      rgb_r:
-        class: discrete
-        register: 0x00
-        description: Вкл/Выкл красного цвета подсветки
-      rgb_g:
-        class: discrete
-        register: 0x01
-        description: Вкл/Выкл зеленного цвета подсветки
-      rgb_b:
-        class: discrete
-        register: 0x02
-        description: Вкл/Выкл синего цвета подсветки
-      rgb_alert:
-        class: discrete
-        register: 0x80
-        description: Вкл/выкл режима тревоги на подсветке
-
-  water_pump:
-    addr: 0x12
-    elements:
-      pump1:
-        class: range
-        register: 0x20
-        description: Водокачка 1
-      pump2:
-        class: range
-        register: 0x21
-        description: Водокачка 2
-      pump3:
-        class: range
-        register: 0x22
-        description: Водокачка 3
       building1:
         class: discrete
         register: 0x10
         description: Основное здание
-      rgb_r:
-        class: discrete
-        register: 0x00
-        description: Вкл/Выкл красного цвета подсветки
-      rgb_g:
-        class: discrete
-        register: 0x01
-        description: Вкл/Выкл зеленного цвета подсветки
-      rgb_b:
-        class: discrete
-        register: 0x02
-        description: Вкл/Выкл синего цвета подсветки
-      rgb_alert:
-        class: discrete
-        register: 0x80
-        description: Вкл/выкл режима тревоги на подсветке
-
-  sports_complex:
-    addr: 0x13
-    elements:
-      stadium_lights:
-        class: discrete
-        register: 0x11
-        description: Освещение стадиона
       streetlights1:
         class: discrete
-        register: 0x12
+        register: 0x11
         description: Освещение улиц
       tl1:
         class: tl
@@ -206,6 +130,78 @@ tasks:
         class: discrete
         register: 0x17
         description: Доп здание 6
+      rgb_r:
+        class: discrete
+        register: 0x00
+        description: Вкл/Выкл красного цвета подсветки
+      rgb_g:
+        class: discrete
+        register: 0x01
+        description: Вкл/Выкл зеленного цвета подсветки
+      rgb_b:
+        class: discrete
+        register: 0x02
+        description: Вкл/Выкл синего цвета подсветки
+      rgb_alert:
+        class: discrete
+        register: 0x80
+        description: Вкл/выкл режима тревоги на подсветке
+
+  water_pump:
+    addr: 0x12
+    elements:
+      pump1:
+        class: rangeGood
+        register: 0x20
+        description: Водокачка 1
+      pump2:
+        class: range
+        register: 0x21
+        description: Водокачка 2
+      pump3:
+        class: range
+        register: 0x22
+        description: Водокачка 3
+      building1:
+        class: discrete
+        register: 0x10
+        description: Основное здание
+      rgb_r:
+        class: discrete
+        register: 0x00
+        description: Вкл/Выкл красного цвета подсветки
+      rgb_g:
+        class: discrete
+        register: 0x01
+        description: Вкл/Выкл зеленного цвета подсветки
+      rgb_b:
+        class: discrete
+        register: 0x02
+        description: Вкл/Выкл синего цвета подсветки
+      rgb_alert:
+        class: discrete
+        register: 0x80
+        description: Вкл/выкл режима тревоги на подсветке
+
+  sports_complex:
+    addr: 0x13
+    elements:
+      stadium_lights:
+        class: discrete
+        register: 0x11
+        description: Освещение стадиона
+      streetlights1:
+        class: discrete
+        register: 0x12
+        description: Освещение улиц
+      tl1:
+        class: tl
+        register: 0x31
+        description: Светофор - 1
+      tl0:
+        class: tl
+        register: 0x30
+        description: Светофор - 1
       rgb_r:
         class: discrete
         register: 0x00
