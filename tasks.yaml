@@ -154,15 +154,15 @@ tasks:
         class: discrete
         register: 0x10
         description: Основное здание
-      building1:
+      building2:
         class: discrete
         register: 0x11
         description: Основное здание
-      building1:
+      building3:
         class: discrete
         register: 0x12
         description: Основное здание
-      building1:
+      building4:
         class: discrete
         register: 0x13
         description: Основное здание
