@@ -1,5 +1,5 @@
 app:
-  port: 8442
+  port: 8080
   shutdown_timeout: 10s
 
 virtual:
