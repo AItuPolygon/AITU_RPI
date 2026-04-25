@@ -112,7 +112,7 @@ tasks:
         description: Вкл/выкл режима тревоги на подсветке
 
   hospital:
-    addr: 0x14
+    addr: 0x16
     elements:
       building1:
         class: discrete
@@ -152,19 +152,11 @@ tasks:
     elements:
       building1:
         class: discrete
-        register: 0x10
+        register: 0x13
         description: Основное здание
       building2:
         class: discrete
-        register: 0x11
-        description: Основное здание
-      building3:
-        class: discrete
-        register: 0x12
-        description: Основное здание
-      building4:
-        class: discrete
-        register: 0x13
+        register: 0x14
         description: Основное здание
       rgb_r:
         class: discrete
@@ -184,7 +176,7 @@ tasks:
         description: Вкл/выкл режима тревоги на подсветке
 
   government_complex:
-    addr: 0x16
+    addr: 0x14
     elements:
       building1:
         class: discrete
