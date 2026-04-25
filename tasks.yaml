@@ -118,18 +118,34 @@ tasks:
         class: discrete
         register: 0x10
         description: Основное здание
-      fire_alarm:
+      building2:
         class: discrete
         register: 0x11
-        description: Пожарка
-      barrier:
+        description: Доп здание
+      building3:
+        class: discrete
+        register: 0x12
+        description: Доп здание
+      building4:
+        class: discrete
+        register: 0x13
+        description: Доп здание
+      building5:
         class: discrete
         register: 0x14
-        description: Шлагбаум
-      siren:
+        description: Доп здание
+      building6:
         class: discrete
         register: 0x15
-        description: Включение сирены
+        description: Доп здание
+      building7:
+        class: discrete
+        register: 0x16
+        description: Доп здание
+      building8:
+        class: discrete
+        register: 0x17
+        description: Доп здание
       rgb_r:
         class: discrete
         register: 0x00
